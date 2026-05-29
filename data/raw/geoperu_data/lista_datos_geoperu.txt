@@ -1,0 +1,2098 @@
+LISTA DE CATEGORÍAS Y CAPAS - GEO PERÚ
+========================================
+
+CATEGORÍA: Cartografía (117 capas)
+  - Límite Departamental
+  - Límite Provincial
+  - Límite Distrital
+  - Centro Poblado
+  - Centro Poblado (ámbito geográfico)
+  - Centro Poblado (población censada)
+  - Población Dispersa
+  - Centros Poblados (Escala 1:100 000)
+  - Centros Poblados (Escala 1:500 000)
+  - Hidrografía - Río área (Escala 1:100 000)
+  - Hidrografía - Lagos y Lagunas (Escala 1:100 000)
+  - Hidrografía - Rio Navegable (Escala 1:500 000)
+  - Hidrografía - Río línea (Escala 1:100 000)
+  - Hidrografía - Lagos y Lagunas (Escala 1:500 000)
+  - Hidrografía - Islas (Escala 1:500 000)
+  - Hidrografía - Ríos y Quebradas (Escala 1:500 000)
+  - Hidrografía - Rocas Flor Agua  (Escala 1:500 000)
+  - Capital de Departamento (Escala 1:500 000)
+  - Capital de Departamento
+  - Capital de Departamento (Escala 1:100 000)
+  - Capital de Provincia (Escala 1:100 000)
+  - Capital de Distrito (Escala 1:100 000)
+  - Capital de Provincia (Escala 1:500 000)
+  - Capital de Distrito (Escala 1:500 000)
+  - Capital de Provincia
+  - Capital de Distrito
+  - Accesibilidad entre Capitales
+  - Menos de 151 Habitantes
+  - De 151 a 1,000 Habitantes
+  - De 1,001 a 2,500 Habitantes
+  - De 2,501 a 5,000 Habitantes
+  - De 5,001 a 500,000 Habitantes
+  - Más de 500,000 Habitantes
+  - Fisiografía - Curva de nivel  (Escala 1:100 000)
+  - Toponimia - Abra (Escala 1:500 000)
+  - Toponimia - Cordillera (Escala 1:500 000)
+  - Fisiografía - Cota  (Escala 1:100 000)
+  - Fisiografía - Curvas de Nivel (Escala 1:500 000)
+  - Fisiografía - Cota (Escala 1:500 000)
+  - Fisiografía - Fisiografía (Escala 1:500 000)
+  - Fisiografía - Señal Geodésica (Escala 1:500 000)
+  - Toponimia - Volcán (Escala 1:500 000)
+  - Toponimia - Nevado (Escala 1:500 000)
+  - Toponimia - Cerro (Escala 1:500 000)
+  - Límites Cartointerpretables
+  - Macro Sistema
+  - IGN - Área Urbana (Escala 1:500 000)
+  - IGN - Casco Urbano (Escala 1:100 000)
+  - Sistema Urbano
+  - Subsistema Urbano
+  - Metrópoli Nacional
+  - Metrópoli Regional
+  - Ciudad Mayor Principal
+  - Ciudad Mayor
+  - Ciudad Intermedia Principal
+  - Ciudad Intermedia
+  - Ciudad Menor Principal
+  - Ciudad Menor
+  - Villa
+  - Puno
+  - Nasca
+  - ORTOFOTO_EMAPASANMARTIN_PICOTA_SECTOR4
+  - ORTOFOTO_EMAPASANMARTIN_PICOTA_SECTOR5
+  - ORTOFOTO_EMAPASANMARTIN_PICOTA_SECTOR6
+  - ORTOFOTO_EMAPAVIGS
+  - ORTOFOTO_EMAPACOP_CAMPOVERDE
+  - Frontera Perú - Brasil
+  - Ilo
+  - Huaraz
+  - Carhuaz
+  - Cañete
+  - ORTOFOTO_EMAPASANMARTIN_PICOTA_SECTOR3
+  - ORTOFOTO_EMAPASANMARTIN_PICOTA_SECTOR1
+  - Caral
+  - Tingo María
+  - MINAM - Vuelos drone
+  - Puente Piedra
+  - ORTOFOTO_EMAPASANMARTIN_PICOTA_SECTOR2
+  - Frontera Perú - Bolivia
+  - Costa Verde
+  - Río Rímac
+  - San Isidro
+  - MINAM Imagen Cuenca Rio Nieva 2010
+  - Arequipa
+  - IGN - Perú Ráster (Escala 1:100 000)
+  - PNCB Imágenes RapidEye 2011
+  - MINAM Zona Minera Madre de Dios 2010
+  - IGN - Perú Ráster (Escala 1:25 000)
+  - Huancayo
+  - Tumbes
+  - Trujillo
+  - Ica
+  - MINAM Imágenes Ikonos-GeoEye 2010
+  - MINAM Imágenes Ikonos-GeoEye 2010-2
+  - IGN - Perú Ráster (Escala 1:50 000)
+  - MINAM Imágenes Hatoyama (referencial)
+  - MINAM Imágenes DEIMOS 2015
+  - MINAM Imágenes Pleiades CONIDA
+  - MINAM Imágenes Ikonos 2009
+  - MINAM Imágenes LANSAT 2015 Amazonia
+  - MINAM Imágenes LANDSAT 2000-2005-2009
+  - MINAM Aerotransportada y LIDAR 2011
+  - MINAM Imágenes RapidEye 2011-2012 Hatoyama
+  - PNCB Imágenes RapidEye 2013-2014
+  - PNCB Imágenes SPOT 2013-2014
+  - MINAM Imágenes Spot CONIDA
+  - MINAM Imágenes PeruSAT1 CONIDA
+  - Límite Provincial - INEI
+  - Límite Distrital - INEI
+  - Límite Departamental - INEI
+  - IGN - Vías de Transportes (Escala 1:500 000)
+  - IGN - Helipuerto (Escala 1:500 000)
+  - IGN - Campo de Aterrizaje (Escala 1:500 000)
+  - IGN - Aeródromo (Escala 1:500 000)
+  - IGN - Muelle (Escala 1:500 000)
+  - IGN - Puerto (Escala 1:500 000)
+  - IGN - Aeropuerto (Escala 1:500 000)
+----------------------------------------
+CATEGORÍA: Incendios forestales (21 capas)
+  - Luya - Color verdadero
+  - Luya - Falso color
+  - Chachapoyas - Color verdadero
+  - Chachapoyas - Falso color
+  - Abancay - Color verdadero
+  - Abancay - Falso color
+  - Pomabamba - Falso color
+  - Corongo - Color verdadero
+  - Huantar - Falso color
+  - Huantar - Color verdadero
+  - Pomabamba - Color verdadero
+  - Recuay - Color verdadero
+  - Corongo - Falso color
+  - Huaraz - Color verdadero
+  - Huaraz - Falso color
+  - Huari - Color verdadero
+  - Huari - Falso color
+  - Cajamarca - Color verdadero
+  - Cajamarca - Falso color
+  - Huamalies - Color verdadero
+  - Huamalies - Falso color
+----------------------------------------
+CATEGORÍA: Infraestructura (88 capas)
+  - Unidades de peaje - 2022
+  - IGN - Edificaciones (Escala 1:100 000)
+  - Túneles
+  - Puentes - 2014
+  - Unidades de peaje - 2023
+  - Aeródromos - 2022
+  - Aeródromos - 2023
+  - Red Ferroviaria - 2022
+  - Estaciones de pesaje 2022
+  - Aeroportuaria
+  - Estaciones ferroviarias
+  - MINEM - Centros de Carga
+  - MINEM - Redes Eléctricas Alta Tensión
+  - MINEM - Redes Eléctricas Media Tensión
+  - Red Ferroviaria - 2025
+  - Centrales Hidroeléctricas
+  - Unidades de peaje - 2025
+  - Estaciones de pesaje
+  - Corredores Logísticos
+  - Corredores Viales Alimentadores
+  - Red Vial Nacional - 2023
+  - Red Vial Nacional - 2025
+  - Red Vial Nacional - 2022
+  - Red Vial Nacional - 2024
+  - Pavimentado - 2025
+  - Asfaltado Económico - 2025
+  - Afirmado - 2025
+  - Sin Afirmar - 2025
+  - Trocha - 2025
+  - Proyectado - 2025
+  - Red Vial Departamental - 2025
+  - Red Vial Departamental - 2022
+  - Red Vial Departamental - 2023
+  - Red Vial Departamental - 2024
+  - Asfaltado - 2025
+  - Asfaltado Económico - 2025
+  - Afirmado - 2025
+  - Sin Afirmar - 2025
+  - Trocha - 2025
+  - Proyectado - 2025
+  - Red Vial Vecinal - 2025
+  - Red Vial Vecinal - 2023
+  - Red Vial Vecinal - 2022
+  - Asfaltado - 2025
+  - Asfaltado Económico - 2025
+  - Afirmado - 2025
+  - Sin Afirmar - 2025
+  - Trocha - 2025
+  - Proyectado - 2025
+  - Ejes de integración
+  - Terminales portuarios y embarcaderos 2023
+  - IGN - Faros (Escala 1:500 000)
+  - Terminales portuarios y embarcaderos 2022
+  - Terminal Portuario
+  - Terminal Pesquero
+  - Embarcadero
+  - Terminales terrestres
+  - Instituciones educativas
+  - Establecimientos de salud
+  - Comisarías
+  - Ciudadanía Digital Per cápita (%)
+  - Puntos Estratégicos Uayki
+  - Movistar
+  - Claro
+  - Entel
+  - Bitel
+  - Todos los operadores cobertura móvil
+  - Todos los operadores Internet Móvil
+  - Manzanas - INEI
+  - Ortofoto de la ciudad de Bagua
+  - Ortofoto de Alta Resolución de la ciudad de Bagua
+  - Ortofoto de la ciudad de Huaral
+  - Ortofoto de la ciudad de Chachapoyas
+  - Ortofoto de la ciudad de Barranca
+  - Ortofoto de la ciudad de Jaén
+  - Ortofoto de la ciudad de San Ignacio
+  - Ortofoto de la ciudad de Moyobamba
+  - Ortofoto de la ciudad de Tocache
+  - Ortofoto de la ciudad de Bagua Grande
+  - Ortofoto de Alta Resolución de la ciudad de Bagua Grande
+  - Nodos de la Red Nacional
+  - Nodos de la Red Regional
+  - Locales Escolares
+  - Establecimientos de Salud
+  - Dependencias Policiales
+  - Centros Poblados - Beneficiarios
+  - Área de prestación de servicios
+  - Proyectos de Inversión - ANIN
+----------------------------------------
+CATEGORÍA: Pobreza (37 capas)
+  - Pobreza Monetaria - Regional 2022
+  - Pobreza Monetaria - Prov 2018
+  - Pobreza Monetaria - Dist 2018
+  - Pobreza Monetaria - Dist 2013
+  - Distritos más pobres
+  - Con al Menos una NBI
+  - Viv. con Caract. Físicas Inadecuadas
+  - Viv. con Hacinamiento
+  - Viv. sin Servicios Higiénicos
+  - Hog. con Niños que no asisten a la Escuela
+  - Hog. con Alta Dependencia Económica
+  - IDH Departamental 2019
+  - IDH Provincial 2019
+  - IDH Distrital 2019
+  - Esperanza de vida al nacer (años)
+  - Población (18 años) con secundaria completa (%)
+  - Años de educación (Población de 25 años y más)
+  - Ingreso familiar per cápita (soles por mes)
+  - Viviendas con Cobertura de Agua - Distritos
+  - Viviendas con Cobertura de Desagüe - Distritos
+  - Accesibilidad entre Centros Poblados
+  - Viviendas con Cobertura de Agua
+  - Viviendas con Cobertura de Desagüe
+  - Viviendas sin Abastecimiento de Agua
+  - Viviendas sin Alumbrado Eléctrico
+  - Viviendas sin Servicios Higiénicos
+  - Viviendas con Piso de Tierra
+  - Hogares que Cocinan con Leña
+  - Hogares sin Internet
+  - Proyectada Departamentos
+  - Proyectada Provincias
+  - Proyectada Distritos
+  - Vul. Inseguridad Alimentaria RFN Dpto.
+  - Vul. Inseguridad Alimentaria RFN Prov.
+  - Vul. Inseguridad Alimentaria RFN Dist.
+  - Vul. Inseguridad Alimentaria - CCPP
+  - Vul. Inseguridad Alimentaria Mza.
+----------------------------------------
+CATEGORÍA: Sectores Gobierno Nacional (180 capas)
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos -Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Proyectos - Regional
+  - Proyectos - Provincial
+  - Proyectos - Distrital
+  - Actividades - Regional
+  - Actividades - Provincial
+  - Actividades - Distrital
+  - Actividades y Proyectos - Regional
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+----------------------------------------
+CATEGORÍA: Programas Sociales (24 capas)
+  - Número de PPSS por distritos
+  - WASI MIKUNA
+  - JUNTOS
+  - CUNA MÁS
+  - CONTIGO
+  - PAIS (TAMBOS)
+  - Tambos Operativos
+  - Plataformas Itinerantes (PIAS) 2025
+  - Plataformas Itinerantes (PIAS) 2024
+  - Plataformas Itinerantes (PIAS) 2023
+  - Centros MAC
+  - MAC Express PIAS
+  - MAC Express TAMBOS
+  - MAC Express Municipalidades
+  - Centros de Acceso Digital (CAD)
+  - Espacios Públicos de Acceso Digital (EPAD)
+  - Agencias
+  - Empresa Transportadora de Valores – ETV
+  - Cantidad de usuarios por distrito
+  - FONCODES
+  - Compras My Perú
+  - Límites de unidades territoriales
+  - Haku CPP
+  - Haku Flag
+----------------------------------------
+CATEGORÍA: Salud (135 capas)
+  - Hospitales
+  - Institutos
+  - Centros de salud
+  - Puestos de salud
+  - Otros
+  - Telemedicina
+  - Menores de 3 años
+  - Menores de 5 años
+  - Gestantes
+  - Menores de 3 años
+  - Menores de 5 años
+  - Biólogos por EESS
+  - Enfermeros por EESS
+  - Ingeniero Sanitario por EESS
+  - Médicos por EESS
+  - Médico Veterinario por EESS
+  - Nutricionistas por EESS
+  - Obstetras por EESS
+  - Odontólogos por EESS
+  - Psicólogos por EESS
+  - Químicos por EESS
+  - Químicos Farmacéuticos por EESS
+  - Técnico Especializado por EESS
+  - Tecnólogo Médico por EESS
+  - Tnlgo. Lab. Clínico y Anat. Pat. por EESS
+  - Tnlgo. Optometría por EESS
+  - Tnlgo. Radiología por EESS
+  - Tnlgo. Terapia Física y Rehab. por EESS
+  - Tnlgo. Terapia de Lenguaje por EESS
+  - Tnlgo. Terapia Ocupacional por EESS
+  - Trabajador Social por EESS
+  - Médicos por distrito
+  - Enfermeros por distrito
+  - Odontólogos (Cirujano Dentista) por distrito
+  - Obstetras por distrito
+  - Psicólogos por distrito
+  - Nutricionistas por distrito
+  - Médico Veterinario por distrito
+  - Biólogo por distrito
+  - Ingeniero Sanitario por distrito
+  - Químicos Farmaceúticos por distrito
+  - Tnlgo. Terapia Física y Rehab. por distrito
+  - Tnlgo. Lab. Clínico y Anat. Pat. por distrito
+  - Tnlgo. Radiología por distrito
+  - Tnlgo. Terapia de Lenguaje por distrito
+  - Tnlgo. Optometría por distrito
+  - Tnlgo. Terapia Ocupacional por distrito
+  - Trabajador Social por distrito
+  - Técnico Especializado por distrito
+  - Químico por distrito
+  - Tecnólogo Médico por distrito
+  - Cambio en tasa de nacidos vivos en mujeres de 10 a 14 años
+  - Cambio en tasa de nacidos vivos en mujeres de 15 a 19 años
+  - Por Cesárea
+  - Espontáneo
+  - Instrumentado
+  - No se conoce
+  - Otros
+  - Mujeres con recién nacido vivo
+  - Mujeres con nivel de instrucción secundario
+  - Mujeres con nivel de instrucción superior
+  - Madres menores de 17 años
+  - Nacidos vivos con bajo peso
+  - Médicos que certifican el nacimiento
+  - Obstetras que certifican el nacimiento
+  - Vacuna anti Difteria, Pertusis y Tetanos (DPT)
+  - Vacuna Antiamarílica (AMA)
+  - Vacuna Antihepatitis Viral B Pediátrico
+  - Vacuna Antineumocócica
+  - Vacuna Antipoliomielítica (APO)
+  - Vacuna Antisarampión. Paperas y Rubeola (SPR)
+  - Vacuna Antituberculosa (BCG)
+  - Vacuna contra Rotavirus
+  - Vacuna DPT-HVB-HIB
+  - Vacuna para tétanos, toxoide diftérico (TDAP)
+  - Defunciones a Noviembre 2025
+  - Defunciones por accidentes de tránsito
+  - Defunciones por homicidio
+  - Defunciones por otro accidente
+  - Defunciones por suicidio
+  - Defunciones personas no identificadas
+  - Afiliados activos del seguro SALUDPOL (Titular)
+  - Afiliados activos del seguro SALUDPOL (Derechohabiente)
+  - Red Prestacional a nivel distrital
+  - Solicitudes de reembolso atendidas (Titular)
+  - Solicitudes de reembolso atendidas (Derechohabiente)
+  - Pacientes mujeres registradas según distrito de residencia - 2025
+  - Pacientes hombres registrados según distrito de residencia - 2025
+  - Pacientes mujeres registradas según distrito de residencia - 2024
+  - Pacientes hombres registrados según distrito de residencia - 2024
+  - Pacientes mujeres registradas según distrito de residencia - 2023
+  - Pacientes hombres registrados según distrito de residencia - 2023
+  - Pacientes mujeres registradas según distrito de residencia - 2022
+  - Pacientes hombres registrados según distrito de residencia - 2022
+  - Pacientes atendidos en el INR por edad - Nivel Departamental 2026
+  - Pacientes atendidos en el INR por edad - Nivel Provincial 2026
+  - Pacientes atendidos en el INR por edad - Nivel Distrital 2026
+  - Pacientes atendidos en el INR por sexo - Nivel Departamental 2026
+  - Pacientes atendidos en el INR por sexo - Nivel Provincial 2026
+  - Pacientes atendidos en el INR por sexo- Nivel Distrital 2026
+  - Paciente atendidos en el INR por mes - Nivel Departamental 2026
+  - Pacientes atendidos en el INR por mes - Nivel Provincial 2026
+  - Pacientes atendidos en el INR por mes - Nivel Distrital 2026
+  - Pacientes atendidos en el INR por edad - Nivel Departamental 2025
+  - Pacientes atendidos en el INR por edad- Nivel Provincial 2025
+  - Pacientes atendidos en el INR por edad- Nivel Distrital 2025
+  - Pacientes atendidos en el INR por sexo - Nivel Departamental 2025
+  - Pacientes atendidos en el INR por sexo - Nivel Provincial 2025
+  - Pacientes atendidos en el INR por sexo - Nivel Distrital 2025
+  - Pacientes atendidos en el INR por mes - Nivel Departamental 2025
+  - Pacientes atendidos en el INR por mes - Nivel Provincial 2025
+  - Pacientes atendidos en el INR por mes - Nivel Distrital 2025
+  - Pacientes atendidos por el INR por edad - Nivel Departamental 2024
+  - Pacientes atendidos en el INR por edad - Nivel Provincial 2024
+  - Pacientes atendidos en el INR por edad - Nivel Distrital 2024
+  - Pacientes atendidos en el INR por sexo - Nivel Departamental 2024
+  - Pacientes atendidos en el INR por sexo - Nivel Provincial 2024
+  - Pacientes atendidos en el INR por sexo - Nivel Distrital 2024
+  - Paciente atendidos en el INR por mes - Nivel Departamental 2024
+  - Paciente atendidos en el INR por mes - Nivel Provincial 2024
+  - Paciente atendidos en el INR por mes - Nivel Distrital 2024
+  - UPSS Consulta externa – Total de atendidos 2024
+  - UPSS Consulta externa – Atenciones por grupo etario 2024
+  - UPSS Consulta externa – Atenciones por sexo 2024
+  - UPSS Hospitalización - Total de egresos 2024
+  - UPSS Hospitalización - Egresos por grupo etario 2024
+  - UPSS Hospitalización - Egresos por sexo 2024
+  - Afiliados activos según sexo
+  - Afiliados activos por grupo de edad
+  - Afiliados activos por régimen de financiamiento
+  - Afiliados por plan de seguro
+  - Anemia < 3 años
+  - Anemia < 5 años
+  - Niños < 1 año con FED
+  - Seguros de salud
+----------------------------------------
+CATEGORÍA: Seguridad Ciudadana (36 capas)
+  - Región policial
+  - División policial
+  - Jurisdicciones Comisarias Básicas
+  - Sectores Comisarias Básicas
+  - Comisarias Básicas
+  - Jurisdicciones de comisaria de familia
+  - Comisarias de familia
+  - Establecimientos Penitenciarios
+  - Establecimientos de Medios Libres
+  - Oficinas Regionales
+  - Sedes Regionales
+  - Mapeo de Lugar de Procedencia de la Población Penitenciaria
+  - Mapeo de Lugar de Procedencia de internos con casos TB (Tuberculosis)
+  - Mapeo de Lugar de Procedencia de los Venezolanos
+  - Comandancias departamentales de bomberos
+  - Compañías de bomberos
+  - Centros Juveniles de Diagnóstico y Rehabilitación (CJDR)
+  - Servicio de Orientación al Adolescente (SOA)
+  - Infracciones por distrito según CJDR
+  - Infracciones por distrito según SOA
+  - Proyectos - Provincial
+  - Actividades - Provincial
+  - Actividades y Proyectos - Provincial
+  - Actividades y Proyectos - Distrital
+  - Actividades - Distrital
+  - Proyectos - Distrital
+  - Denuncias
+  - Puestos fronterizos
+  - Barrio Seguro
+  - Delitos contra la Seguridad Pública
+  - Delitos contra la Vida, el Cuerpo y la Salud
+  - Delitos contra el Patrimonio
+  - Delitos contra La Libertad
+  - Delitos contra La Familia
+  - Delitos contra la Administración Pública
+  - Delitos Informáticos (Ley 30096)
+----------------------------------------
+CATEGORÍA: Educación (93 capas)
+  - I.E. Básica Alternativa - CEBA
+  - I.E. Básica Especial - CEBE
+  - I.E. Superior Pedagógica - ISP
+  - I.E. Superior Tecnológica - IST
+  - I.E. Superior Artística - ESFA
+  - I.E. Técnico Productiva - CETPRO
+  - I.E. Ocupacional
+  - Programas no escolarizados de educación inicial (PRONOEI)
+  - Educación Básica Regular Inicial
+  - Educación Básica Regular Primaria
+  - Educación Básica Regular Secundaria
+  - Educación Básica Especial - EBE
+  - Educación Básica Alternativa - EBA
+  - Educación Técnico Productiva - CETPRO
+  - Educación Superior no universitaria - ES
+  - Lectura - Regional
+  - Lectura - Regional
+  - Matemática - Regional
+  - Lectura - Regional
+  - Matemática - Regional
+  - Lectura - Regional
+  - Matemática - Regional
+  - Ciencia y Tecnología - Regional
+  - Lectura - Regional
+  - Matemática - Regional
+  - Lectura - Regional
+  - Matemática - Regional
+  - Lectura - Regional
+  - Matemática - Regional
+  - Lectura - Regional
+  - Matemática - Regional
+  - Ciencia y Tecnología - Regional
+  - Lectura - Regional
+  - Matemática - Regional
+  - Ciencia y Tecnología - Regional
+  - Lectura - Provincial
+  - Matemática - Provincial
+  - Ciencia y Tecnología - Provincial
+  - Lectura - Distrital
+  - Matemática - Distrital
+  - Ciencia y Tecnología - Distrital
+  - Compresión Lectora - Distrito
+  - Matemática - Distrito
+  - Ciencias Sociales - Distrito
+  - Ciencia y Tecnología - Distrito
+  - Compresión Lectora - Distrito
+  - Matemática - Distrito
+  - Comprensión Lectora - Región
+  - Comprensión Lectora - Distrito
+  - Matemática - Región
+  - Matemática - Distrito
+  - Locales Educativos
+  - Locales de Instancias de Gestión Educativa Descentralizadas (DRE o UGEL)
+  - Sedes de PRONABEC
+  - Becas otorgadas año 2012
+  - Becas otorgadas año 2013
+  - Becas otorgadas año 2014
+  - Becas otorgadas año 2015
+  - Becas otorgadas año 2016
+  - Becas otorgadas año 2017
+  - Becas otorgadas año 2018
+  - Becas otorgadas año 2019
+  - Becas otorgadas año 2020
+  - Becas otorgadas año 2021
+  - Becas otorgadas año 2022
+  - Becas otorgadas año 2023
+  - Becas otorgadas año 2024
+  - Becas otorgadas año 2025
+  - Sedes del SENCICO
+  - Escuelas Bicentenario
+  - Universidad Nacional de Música
+  - UNATEFSIL
+  - UNIFSLB
+  - Universidad Nacional Intercultural de la Amazonía
+  - Universidad Nacional José María Arguedas
+  - Sede Administrativa
+  - Sede Académica
+  - Sede de Investigación
+  - Locales Institucionales
+  - Dependencias universitarias
+  - Estudiantes matriculados por distrito de residencia
+  - Sede Administrativa
+  - Sede de Educación
+  - Sede Administrativa
+  - Campus Universitario
+  - Filiales
+  - Sede Administrativa
+  - Sede Cultural
+  - Sede de Educación
+  - Sede de Residencia
+  - Local escolar
+  - Comprensión lectora 2do primaria
+  - Comprensión lectora 2do secundaria
+----------------------------------------
+CATEGORÍA: Económico (107 capas)
+  - Pesquería Artesanal
+  - IV Censo Nacional Económico 2008
+  - IGN - Centro Minero (Escala 1:500 000)
+  - IGN - Oleoducto (Escala 1:500 000)
+  - IGN - Línea de Gasoducto (Escala 1:500 000)
+  - Catastro Minero (WMS)
+  - Hidrocarburos (Lotes de contrato)
+  - Oleoducto Nor-Peruano
+  - Gasoducto (act. 2023)
+  - Áreas de Derechos Acuícolas
+  - Formulario de Reserva
+  - Solicitud de Formulario de Reserva
+  - Áreas en Trámite de Derecho Acuícola
+  - Áreas Disponibles
+  - Áreas Habilitadas
+  - Solicitud de Habilitación Acuática
+  - Centro de Procesamiento Pesquero Artesanal
+  - Centro de acuicultura
+  - Centro de Educación Técnico
+  - Infraestructura Pesquera Artesanal
+  - Muelle Pesquero Artesanal
+  - Transmisión Eléctrica
+  - Generación Eléctrica
+  - Distribución Eléctrica
+  - Concesión Eléctrica del SFVD
+  - Sistema Fotovoltaico domiciliario
+  - Unidades Mineras en Producción
+  - Cartera de Proyectos de Exploración Minera
+  - Cartera de Proyectos de Inversión Minera
+  - Líneas de transmisión
+  - Redes media tensión - Sistemas eléctricos
+  - Centros de generación
+  - Centros de transformación (P.E)
+  - Oficina principal
+  - Centro de atención al cliente
+  - Subestación de transmisión
+  - Oficinas de atención al cliente
+  - Unidad de negocios
+  - Centros de Servicios al Contribuyente - Lima y Callao
+  - Centros de Servicios al Contribuyente - Provincias
+  - Tributos Aduaneros Recaudados
+  - Tributos Internos Recaudados
+  - MAC
+  - Educación Alimentaria y Nutricional (PESCAEduca) - 2025
+  - Educación Alimentaria y Nutricional (Cocinando con Pescado) - 2025
+  - Educación Alimentaria y Nutricional (PESCANutrición) - 2025
+  - Educación Alimentaria y Nutricional (PESCActívate) - 2025
+  - Promoción de Consumos de Productos Hidrobiológicos - 2025
+  - Fomento de la Producción Pesquera para el Consumo Humano Directo - 2025
+  - Educación Alimentaria y Nutricional (PESCAEduca) - 2024
+  - Educación Alimentaria y Nutricional (Cocinando con Pescado) - 2024
+  - Educación Alimentaria y Nutricional (PESCANutrición) - 2024
+  - Promoción de Consumos de Productos Hidrobiológicos - 2024
+  - Fomento de la Producción Pesquera para el Consumo Humano Directo - 2024
+  - Educación Alimentaria y Nutricional (PESCAEduca) - 2023
+  - Educación Alimentaria y Nutricional (Cocinando con Pescado) - 2023
+  - Educación Alimentaria y Nutricional (PESCANutrición) - 2023
+  - Promoción de Consumos de Productos Hidrobiológicos - 2023
+  - Fomento de la Producción Pesquera para el Consumo Humano Directo - 2023
+  - Educación Alimentaria y Nutricional (PESCAEduca) - 2022
+  - Educación Alimentaria y Nutricional (Cocinando con Pescado) - 2022
+  - Educación Alimentaria y Nutricional (PESCANutrición) - 2022
+  - Promoción de Consumos de Productos Hidrobiológicos - 2022
+  - Fomento de la Producción Pesquera para el Consumo Humano Directo - 2022
+  - Infraestructuras habilitadas por SANIPES
+  - Oficinas Desconcentradas de SANIPES
+  - Subestación de distribución eléctrica
+  - Redes de media tensión - Tramos
+  - Redes de media tensión - Estructuras
+  - Redes de baja tensión - Tramos
+  - Redes de baja tensión - Estructuras
+  - Red de alumbrado público - Tramos
+  - Red de alumbrado público - Equipos
+  - Suministros eléctricos - Acometida
+  - Suministros eléctricos - Suministro
+  - Redes distribución de gas natural
+  - Tubería de conexión gas natural
+  - Válvulas de gas natural
+  - Centros de atención
+  - Centros de cobranza
+  - IDH 2019
+  - Número de hogares
+  - Densidad poblacional
+  - Ingreso familiar
+  - % de analfabetismo
+  - % de población con acceso a TV
+  - Proyectos de sector transporte
+  - Proyectos de sector de energía
+  - Proyectos de sector energía y recursos minerales
+  - Proyectos de comercio
+  - Proyectos de industria comercio y servicios
+  - Proyectos de turismo
+  - Proyectos de vivienda y desarrollo urbano
+  - Proyectos del sector de educación
+  - Proyectos de educación y cultura
+  - Proyectos de cultura y deporte
+  - Proyectos de sector salud
+  - Proyectos de salud y saneamiento
+  - Proyectos de saneamiento
+  - Proyectos de protección social
+  - Proyectos de sector ambiente
+  - Proyectos de sector agrario
+  - Proyectos de defensa y seguridad nacional
+  - Proyectos de orden público y seguridad
+  - Proyectos de sector justicia
+  - Proyectos de administración y planeamiento
+  - Planeamiento gestión de reserva de contingencia
+----------------------------------------
+CATEGORÍA: Trabajo (40 capas)
+  - Capacitación laboral (Oct - Dic 2025)
+  - Certificación de competencias laborales (Oct - Dic 2025)
+  - Moodle (Oct - Dic 2025)
+  - Capacitación y asistencia técnica para el autoempleo productivo (Oct - Dic 2025)
+  - Capacitación laboral (Jul - Set 2025)
+  - Certificación de competencias laborales (Jul - Set 2025)
+  - Moodle (Jul - Set 2025)
+  - Capacitación y asistencia técnica para el autoempleo productivo (Jul - Set 2025)
+  - Capacitación laboral (Abril - Junio 2025)
+  - Certificación de competencias laborales (Abril - Junio 2025)
+  - Moodle (Abril - Junio 2025)
+  - Capacitación y asistencia técnica para el autoempleo productivo (Abril - Junio 2025)
+  - Capacitación laboral (Enero - Marzo 2025)
+  - Moodle (Enero - Marzo 2025)
+  - Capacitación y asistencia técnica para el autoempleo productivo (Enero - Marzo 2025)
+  - Capacitación laboral (Oct - Dic 2024)
+  - Certificación de competencias laborales (Oct - Dic 2024)
+  - Moodle (Oct - Dic 2024)
+  - Promoción del autoempleo productivo (Oct - Dic 2024)
+  - Capacitación laboral (Jul - Set 2024)
+  - Certificación de competencias laborales (Jul - Set 2024)
+  - Moodle (Jul - Set 2024)
+  - Promoción del autoempleo productivo (Jul - Set 2024)
+  - Capacitación laboral (Abril - Junio 2024)
+  - Moodle (Enero - Marzo 2024)
+  - Certificación de competencias laborales (Abril - Junio 2024)
+  - Moodle (Abril - Junio 2024)
+  - Promoción del autoempleo (Abril - Junio 2024)
+  - Certificación de competencias laborales (Enero - Marzo 2024)
+  - Capacitación laboral (Nov - Dic 2023)
+  - Certificación de competencias laborales (Nov - Dic 2023)
+  - Moodle (Nov - Dic 2023)
+  - Promoción del autoempleo (Nov - Dic 203)
+  - Empleos temporales a Febrero 2026
+  - Empleos temporales a Diciembre del 2025
+  - Empleos temporales Dic. 2024
+  - Empleos temporales - 2023
+  - Empleos temporales - 2022
+  - Empleos temporales - 2021
+  - Empleos temporales - 2020
+----------------------------------------
+CATEGORÍA: Financiero (47 capas)
+  - Agencias del BN
+  - Cajeros automáticos (ATM)
+  - Agentes del BN
+  - Agentes Full Carga
+  - Agentes KasNet
+  - Entidades contratantes
+  - Datos de la convocatoria o invitación - Adjudicado (2026)
+  - Datos de la convocatoria o invitación - Adjudicado (2025)
+  - Datos de la convocatoria o invitación - Adjudicado (2024)
+  - Datos de la convocatoria o invitación - Adjudicado (2023)
+  - Datos de la convocatoria o invitación - Consentido (2026)
+  - Datos de la convocatoria o invitación - Consentido (2025)
+  - Datos de la convocatoria o invitación - Consentido (2024)
+  - Datos de la convocatoria o invitación - Consentido (2023)
+  - Datos de la convocatoria o invitación - Contratado (2026)
+  - Datos de la convocatoria o invitación - Contratado (2025)
+  - Datos de la convocatoria o invitación - Contratado (2024)
+  - Datos de la convocatoria o invitación - Contratado (2023)
+  - Nuevo Crédito MIVIVIENDA (NCMV)
+  - Financiamiento Complementario Techo Propio (FCTP)
+  - Créditos Mivivienda con BBP Sostenible
+  - Modalidad Construcción en Sitio Propio (CSP)
+  - Modalidad CSP Reconstrucción (CSP-r)
+  - Modalidad Adquisición de Vivienda Nueva (AVN)
+  - Modalidad AVN Reconstrucción (AVN-r)
+  - MAC Express
+  - Centros MAC - ONP
+  - Centros de Atención
+  - Autoservicio
+  - Puntos de Atención
+  - Afiliados del Sistema Nacional de Pensiones (SNP)
+  - Pensionistas del Sistema Nacional de Pensiones (SNP)
+  - Oficinas del Sistema Financiero
+  - Cajeros Automáticos del Sistema Financiero (ATM)
+  - Cajeros Corresponsales del Sistema Financiero (POS)
+  - Establecimientos de operaciones básicas (EOB)
+  - Porcentaje de adultos con cuenta en el sistema financiero
+  - Porcentaje de mujeres adultas con cuenta en el sistema financiero
+  - Porcentaje de hombres adultos con cuenta en el sistema financiero
+  - Porcentaje de adultos con crédito en el sistema financiero
+  - Porcentaje de mujeres adultas con crédito en el sistema financiero
+  - Porcentaje de hombres adultos con crédito en el sistema financiero
+  - Crédito promedio en el sistema financiero – mujeres
+  - Crédito promedio en el sistema financiero – hombres
+  - Afiliados al Sistema Privado de pensiones (%PEA)
+  - Mujeres afiliadas al sistema privado de pensiones (% PEA)
+  - Hombres afiliados al sistema privado de pensiones (% PEA)
+----------------------------------------
+CATEGORÍA: Perú Compras (2 capas)
+  - Estadísticas por catálogo - 2023
+  - Estadísticas por catálogo - 2023
+----------------------------------------
+CATEGORÍA: Agrario (66 capas)
+  - MIDAGRI - Territorio Demarcado
+  - MIDAGRI - Predio rústico
+  - MIDAGRI - Deslinde Territorial
+  - Sistema Nacional de Vigilancia para Moscas de la Fruta
+  - Comportamiento Nivel Freático Avenida 2022 - Proyecto Especial Chavimochic
+  - Comportamiento Nivel Freático Estiaje 2022 - Proyecto Especial Chavimochic
+  - Comportamiento Nivel Freático Avenida 2023 - Proyecto Especial Chavimochic
+  - Comportamiento Nivel Freático Avenida 2024 - Proyecto Especial Chavimochic
+  - Comportamiento Nivel Freático Estiaje 2024 - Proyecto Especial Chavimochic
+  - Red de Monitoreo del Agua Subterránea Avenida 2022 - Proyecto Especial Chavimochic
+  - Red de Monitoreo del Agua Subterránea Estiaje 2022 - Proyecto Especial Chavimochic
+  - Red de Monitoreo del Agua Subterránea Avenida 2023 - Proyecto Especial Chavimochic
+  - Red de Monitoreo del Agua Subterránea Avenida 2024 - Proyecto Especial Chavimochic
+  - Red de Monitoreo del Agua Subterránea Estiaje 2024 - Proyecto Especial Chavimochic
+  - Comportamiento de la Salinidad del Agua Subterránea Avenida 2022 - Proyecto Especial Chavimochic
+  - Comportamiento de la Salinidad del Agua Subterránea Estiaje 2022 - Proyecto Especial Chavimochic
+  - Comportamiento de la Salinidad del Agua Subterránea Avenida 2023 - Proyecto Especial Chavimochic
+  - Comportamiento de la Salinidad del Agua Subterránea Avenida 2024 - Proyecto Especial Chavimochic
+  - Comportamiento de la Salinidad del Agua Subterránea Estiaje 2024 - Proyecto Especial Chavimochic
+  - Red de Monitoreo de la Calidad del Agua Subterránea Descenso 2022 - Proyecto Especial Chavimochic
+  - Red de Monitoreo de la Calidad del Agua Subterránea Estiaje 2022 - Proyecto Especial Chavimochic
+  - Red de Monitoreo de la Calidad del Agua Subterránea Incremento 2022 - Proyecto Especial Chavimochic
+  - Red de Monitoreo de la Calidad del Agua Subterránea Descenso 2023 - Proyecto Especial Chavimochic
+  - Red de Monitoreo de la Calidad del Agua Subterránea Estiaje 2023 - Proyecto Especial Chavimochic
+  - Red de Monitoreo de la Calidad del Agua Subterránea Incremento 2023 - Proyecto Especial Chavimochic
+  - Red de Monitoreo de la Calidad del Agua Subterránea Descenso 2024 - Proyecto Especial Chavimochic
+  - Red de Monitoreo de la Calidad del Agua Subterránea Estiaje 2024 - Proyecto Especial Chavimochic
+  - Red de Monitoreo de la Calidad del Agua Subterránea Incremento 2024 - Proyecto Especial Chavimochic
+  - Monitoreo de la Calidad del Agua Drenada 2022 - Proyecto Especial Chavimochic
+  - Monitoreo de la Calidad del Agua Drenada 2023 - Proyecto Especial Chavimochic
+  - Monitoreo de la Calidad del Agua Drenada 2024 - Proyecto Especial Chavimochic
+  - Monitoreo de la Calidad del Agua Superficial 2022 - Proyecto Especial Chavimochic
+  - Monitoreo de la Calidad del Agua Superficial 2023 - Proyecto Especial Chavimochic
+  - Monitoreo de la Calidad del Agua Superficial 2024 - Proyecto Especial Chavimochic
+  - TACL - Cultivos Permanentes
+  - Productores - Distrito
+  - Productores - SEA
+  - Productores - Distrito
+  - Productores - SEA
+  - Productores - Distrito
+  - Productores - SEA
+  - Productores - Distrito
+  - Productores - SEA
+  - CUM Detallado 1:10000
+  - CUM Reconocimiento 1:20000
+  - CUM Reconocimiento 1:25000
+  - CUM Reconocimiento 1:30000
+  - CUM Reconocimiento 1:35000
+  - CUM Reconocimiento 1:50000
+  - CUM Reconocimiento 1:100000
+  - CUM Semidetallado 1:2000
+  - CUM Semidetallado 1:10000
+  - CUM Semidetallado 1:12000
+  - CUM Semidetallado 1:20000
+  - CUM Semidetallado 1:25000
+  - CUM Semidetallado 1:45000
+  - CUM Semidetallado 1:50000
+  - Densidad de cultivo de hoja de coca - Año 2018
+  - Densidad de cultivo de hoja de coca - Año 2019
+  - Densidad de cultivo de hoja de coca - Año 2020
+  - Densidad de cultivo de hoja de coca - Año 2021
+  - Densidad de cultivo de hoja de coca - Año 2022
+  - Densidad de cultivo de hoja de coca - Año 2023
+  - Densidad de cultivo de hoja de coca - Año 2024
+  - Zonas de monitoreo de cultivos de hoja de coca
+  - Zonas estratégicas de intervención - ZEI
+----------------------------------------
+CATEGORÍA: Turismo (4 capas)
+  - Unidad Ejecutora de Inversión en Comercio Exterior y Turismo – UICET
+  - Inventario Turístico
+  - Puntos de atención IPERÚ
+  - Oficinas Regionales PROMPERÚ
+----------------------------------------
+CATEGORÍA: Conflictos Sociales (143 capas)
+  - Alertas preventivas
+  - Compromisos abiertos en espacios de diálogo
+  - Mesas de diálogo monitoreados
+  - Casos al 02 de enero del 2026
+  - Casos al 28 de diciembre del 205
+  - Casos al 22 de diciembre del 2025
+  - Casos al 15 de diciembre del 2025
+  - Casos al 10 de diciembre del 2025
+  - Casos al 05 de diciembre del 2025
+  - Casos al 01 de diciembre del 2025
+  - Casos al 24 de noviembre del 2025
+  - Casos al 17 de noviembre del 2025
+  - Casos al 10 de noviembre del 2025
+  - Casos al 03 de noviembre del 2025
+  - Casos al 27 de octubre del 2025
+  - Casos al 20 de octubre del 2025
+  - Casos al 13 de octubre del 2025
+  - Casos al 05 de octubre del 2025
+  - Casos al 29 de setiembre del 2025
+  - Casos al 22 de setiembre del 2025
+  - Casos al 15 de setiembre del 2025
+  - Casos al 08 de setiembre del 2025
+  - Casos al 01 de setiembre del 2025
+  - Casos al 25 de agosto del 2025
+  - Casos al 18 de agosto del 2025
+  - Casos al 11 de agosto del 2025
+  - Casos al 04 de agosto del 2025
+  - Casos al 30 de julio del 2025
+  - Casos al 21 de julio del 2025
+  - Casos al 14 de julio del 2025
+  - Casos al 07 de julio del 2025
+  - Casos al 30 de junio del 2025
+  - Casos al 22 de junio del 2025
+  - Casos al 16 de junio del 2025
+  - Casos al 09 de junio del 2025
+  - Casos al 02 de junio del 2025
+  - Casos al 26 de mayo del 2025
+  - Casos al 19 de mayo del 2025
+  - Casos al 12 de mayo del 2025
+  - Casos al 05 de mayo del 2025
+  - Casos al 28 de abril del 2025
+  - Casos al 21 de abril del 2025
+  - Casos al 14 de abril del 2025
+  - Casos al 07 de abril del 2025
+  - Casos al 31 de marzo del 2025
+  - Casos al 24 de marzo del 2025
+  - Casos al 17 de marzo del 2025
+  - Casos al 10 de marzo del 2025
+  - Casos al 03 de marzo del 2025
+  - Casos al 24 de febrero del 2025
+  - Casos al 17 de febrero del 2025
+  - Casos al 10 de febrero del 2025
+  - Casos al 03 de febrero del 2025
+  - Casos al 27 de enero del 2025
+  - Casos al 20 de enero del 2025
+  - Casos al 13 de enero del 2025
+  - Casos al 06 de enero del 2025
+  - Casos al 16 de diciembre del 2024
+  - Casos al 10 de diciembre del 2024
+  - Casos al 25 de noviembre del 2024
+  - Casos al 18 de noviembre del 2024
+  - Casos al 11 de noviembre del 2024
+  - Casos al 04 de noviembre del 2024
+  - Casos al 28 de octubre del 2024
+  - Casos al 21 de octubre del 2024
+  - Casos al 14 de octubre del 2024
+  - Casos al 07 de octubre del 2024
+  - Casos al 29 de setiembre del 2024
+  - Casos al 22 de setiembre del 2024
+  - Casos al 15 de setiembre del 2024
+  - Casos al 08 de setiembre del 2024
+  - Casos al 01 de setiembre del 2024
+  - Casos al 25 de agosto del 2024
+  - Casos al 18 de agosto del 2024
+  - Casos al 11 de agosto del 2024
+  - Casos al 04 de agosto del 2024
+  - Casos al 28 de julio del 2024
+  - Casos al 21 de julio del 2024
+  - Casos al 14 de julio del 2024
+  - Casos al 07 de julio del 2024
+  - Casos al 30 de junio del 2024
+  - Casos al 21 de junio del 2024
+  - Casos al 14 de junio del 2024
+  - Casos al 07 de junio del 2024
+  - Casos al 31 de mayo del 2024
+  - Casos al 24 de mayo del 2024
+  - Casos al 17 de mayo del 2024
+  - Casos al 10 de mayo del 2024
+  - Casos al 03 de mayo del 2024
+  - Casos al 26 de abril del 2024
+  - Casos al 19 de abril del 2024
+  - Casos al 12 de abril del 2024
+  - Casos al 05 de abril del 2024
+  - Casos al 31 de marzo del 2024
+  - Casos al 24 de marzo del 2024
+  - Casos al 17 de marzo del 2024
+  - Casos al 10 de marzo del 2024
+  - Casos al 03 de marzo del 2024
+  - Casos al 25 de febrero del 2024
+  - Casos al 18 de febrero del 2024
+  - Casos al 11 de febrero del 2024
+  - Casos al 04 de febrero del 2024
+  - Casos al 26 de enero del 2024
+  - Casos al 19 de enero del 2024
+  - Casos al 12 de enero del 2024
+  - Casos al 05 de enero del 2024
+  - Agrario
+  - Bienes y servicios
+  - Delimitación Territorial
+  - Educación
+  - Gobernabilidad
+  - Hídrico
+  - Hidrocarburos
+  - Infraestructura
+  - Laboral
+  - Minería
+  - Minería ilegal
+  - Otros
+  - Agrario
+  - Bienes y Servicios
+  - Gobernabilidad
+  - Hídrico
+  - hidrocarburos
+  - Infraestructura
+  - Minería
+  - Minería ilegal
+  - Otros
+  - Agrarios
+  - Demarcacion Territorial
+  - Hídricos
+  - Hidrocarburos Socioambiental
+  - Industria Socioambiental
+  - Infraestructura Socioambiental
+  - Invasión de Terrenos
+  - Laborales Gremiales
+  - Minería Laboral
+  - Minería Ilegal Informal
+  - Transportes
+  - Otros
+  - Gestión de Recursos Públicos
+  - Minería Socioambiental
+  - Ámbito VRAEM
+  - Plan binacional
+----------------------------------------
+CATEGORÍA: Cultural (6 capas)
+  - Museos
+  - Monumentos arqueológicos prehispánicos
+  - Industrias Culturales
+  - Reservas Indígenas (PIACI)
+  - IGN Cultural - Restos Arqueológicos (Escala 1:500 000)
+  - Comunidades Nativas y Campesinas
+----------------------------------------
+CATEGORÍA: Ambiental (512 capas)
+  - Regiones Naturales
+  - Zonas de agrobiodiversidad
+  - SSEE Regulación de riesgos naturales para recuperar
+  - SSEE Regulación Hídrica para recuperar
+  - SSEE Control erosión para recuperar
+  - Degradación al 2021
+  - Clasificación climática (WMS)
+  - Temperatura mínima anual (°C)
+  - Temperatura máxima anual (°C)
+  - Condiciones Favorables para la Ocurrencia de Incendios
+  - Registro histórico de incendios en la cobertura vegetal
+  - Degradación de ecosistemas 2022
+  - Ecosistemas
+  - Cobertura Vegetal
+  - Sitios RAMSAR
+  - Infraestructura sanitaria
+  - Bosque y pérdida de bosques al 2023
+  - Pérdida de Bosque 2001 al 2023
+  - Servicios genéticos y bioseguridad (Concentración de Diversidad)
+  - Erosión Hídrica del Suelo del año 2014
+  - Número de Eventos de Nevadas Promedio Mensual de Diciembre
+  - Anomalía de Temperatura Máxima Mensual
+  - Caracterización de Temperatura Máxima - Anual
+  - Caracterización de Temperatura Mínima - Anual
+  - Pronóstico Climático de Precipitación Trimestral
+  - Red de Estaciones
+  - Vigilancia de Incendios
+  - Vigilancia Meteorológica de Incendios FWI
+  - Proyección de Disponibilidad Hídrica 2020
+  - Proyección de Disponibilidad Hídrica 2030
+  - Anomalía de Precipitación 03 Década del mes
+  - Anomalía de Precipitación Mensual
+  - Anomalía de Temperatura Máxima 03 Década del mes
+  - Anomalía de Temperatura Mínima 03 Década del mes
+  - Anomalía de Temperatura Mínima Mensual
+  - Atlas de Energia Solar Anual
+  - Clasificación Climática
+  - Niño 2017 - Precipitación DEF
+  - Niño 82 - 83 - Precipitación DEF
+  - Niño 97 - 98 - Precipitación DEF
+  - Variable de Evapotranspiración 03 Década del mes
+  - Variable de Índice de Humedad 03 Década del mes
+  - Percentil 10 - Tmin Extrema - Junio
+  - Percentil 10 - Tmin Extrema - Julio
+  - Percentil 10 - Tmin Extrema - Agosto
+  - Percentil 5 - Tmin Extrema - Mayo
+  - Percentil 5 - Tmin Extrema - Junio
+  - Percentil 5 - Tmin Extrema - Julio
+  - Percentil 5 - Tmin Extrema - Agosto
+  - Percentil 1 - Tmin Extrema - Mayo
+  - Percentil 1 - Tmin Extrema - Junio
+  - Percentil 1 - Tmin Extrema - Julio
+  - Percentil 1 - Tmin Extrema - Agosto
+  - Descenso Tmin - Mayo
+  - Descenso Tmin - Junio
+  - Descenso Tmin - Julio
+  - Descenso Tmin - Agosto
+  - Duración Olas de Calor - Verano
+  - Duración Olas de Calor - Otoño
+  - Duración Olas de Calor - Invierno
+  - Duración Olas de Calor - Primavera
+  - Frecuencia Olas de Calor - Verano
+  - Frecuencia Olas de Calor - Otoño
+  - Frecuencia Olas de Calor - Invierno
+  - Frecuencia Olas de Calor - Primavera
+  - Eventos Olas de Calor - Verano
+  - Eventos Olas de Calor - Otoño
+  - Eventos Olas de Calor - Invierno
+  - Eventos Olas de Calor - Primavera
+  - Puno Años Secos - Antes de 1960 (1940)
+  - Puno Años Secos - Antes de 1960 (1941)
+  - Puno Años Secos - Antes de 1960 (1956)
+  - Puno Años Secos - Después de 1960 (1966)
+  - Puno Años Secos - Después de 1960 (1983)
+  - Puno Años Secos - Después de 1960 (1990)
+  - Puno Años Secos - Después de 1960 (1992)
+  - Puno Tendencia Sequías 1964 - 2019
+  - Puno Periodo Retorno Sequías - 2019 - Retorno SPI (Moderado)
+  - Puno Periodo Retorno Sequías - 2019 - Retorno SPI (Severa)
+  - Puno Periodo Retorno Sequías - 2019 - Retorno SPI (Extrema)
+  - Niño 82 - 83 - Precipitación EFM
+  - Niño 82 - 83 - Precipitación FMA
+  - Niño 97 - 98 - Precipitación EFM
+  - Niño 97 - 98 - Precipitación FMA
+  - Niño 2017 - Precipitación EFM
+  - Niño 2017 - Precipitación FMA
+  - Niño 2023 - Precipitación EFM
+  - Niño 2023 - Precipitación FMA
+  - Niño 2024 - Precipitación DEF
+  - Niño 2024 - Precipitación EFM
+  - Pronóstico Climático de Temperatura Mínima Trimestral.
+  - Pronóstico Climático de Temperatura Máxima Trimestral.
+  - índice de Radiación UV - 48 Hrs
+  - índice de Radiación UV - 72 Hrs
+  - Predicción Numérica - Modelo Pp 24 Hrs.
+  - Predicción Numérica - Modelo Pp 48 Hrs.
+  - Predicción Numérica - Modelo Pp 72 Hrs.
+  - Anomalía de Precipitación 01 Década del mes.
+  - Anomalía de Temperatura Mínima 01 Década del mes.
+  - Anomalía de Temperatura Máxima 01 Década del mes.
+  - Variable de Evapotranspiración 01 Década del mes.
+  - Variable de Índice de Humedad 01 Década del mes.
+  - Caracterización de Precipitación - Mes de Enero.
+  - Caracterización de Precipitación - Mes de Febrero.
+  - Caracterización de Precipitación - Mes de Marzo.
+  - Caracterización de Precipitación - Mes de Abril.
+  - Caracterización de Precipitación - Mes de Mayo.
+  - Caracterización de Precipitación - Mes de Junio.
+  - Caracterización de Precipitación - Mes de Julio.
+  - Caracterización de Precipitación - Mes de Agosto.
+  - Caracterización de Precipitación - Mes de Septiembre.
+  - Caracterización de Precipitación - Mes de Octubre.
+  - Caracterización de Precipitación - Mes de Noviembre.
+  - Caracterización de Precipitación - Mes de Diciembre.
+  - Caracterización de Precipitación - Anual.
+  - Caracterización de Precipitación - Estación de Verano.
+  - Caracterización de Precipitación - Estación de Otoño.
+  - Caracterización de Precipitación - Estación de Invierno.
+  - Caracterización de Precipitación - Estación de Primavera.
+  - Caracterización de Temperatura Mínima - Mes de Enero.
+  - Caracterización de Temperatura Mínima - Mes de Febrero.
+  - Caracterización de Temperatura Mínima - Mes de Marzo.
+  - Caracterización de Temperatura Mínima - Mes de Abril.
+  - Caracterización de Temperatura Mínima - Mes de Mayo.
+  - Caracterización de Temperatura Mínima - Mes de Junio.
+  - Caracterización de Temperatura Mínima - Mes de Julio.
+  - Caracterización de Temperatura Mínima - Mes de Agosto.
+  - Caracterización de Temperatura Mínima - Mes de Septiembre.
+  - Caracterización de Temperatura Mínima - Mes de Octubre.
+  - Caracterización de Precipitación - Mes de Noviembre.
+  - Caracterización de Precipitación - Mes de Diciembre.
+  - Caracterización de Temperatura Mínima - Estación de Verano.
+  - Caracterización de Temperatura Mínima - Estación de Otoño.
+  - Caracterización de Temperatura Mínima - Estación de Invierno.
+  - Caracterización de Temperatura Mínima - Estación de Primavera.
+  - Caracterización de Temperatura Máxima - Mes de Enero.
+  - Caracterización de Temperatura Máxima - Mes de Febrero.
+  - Caracterización de Temperatura Máxima - Mes de Marzo.
+  - Caracterización de Temperatura Máxima - Mes de Abril.
+  - Caracterización de Temperatura Máxima - Mes de Mayo.
+  - Caracterización de Temperatura Máxima - Mes de Junio.
+  - Caracterización de Temperatura Máxima - Mes de Julio.
+  - Caracterización de Temperatura Máxima - Mes de Agosto.
+  - Caracterización de Temperatura Máxima - Mes de Septiembre.
+  - Caracterización de Temperatura Máxima - Mes de Octubre.
+  - Caracterización de Temperatura Máxima - Mes de Noviembre.
+  - Caracterización de Temperatura Máxima - Mes de Diciembre.
+  - Caracterización de Temperatura Máxima - Estación de Verano.
+  - Caracterización de Temperatura Máxima - Estación de Otoño.
+  - Caracterización de Temperatura Máxima - Estación de Invierno.
+  - Caracterización de Temperatura Máxima - Estación de Primavera.
+  - Mapa de Zonas de Vida.
+  - Caracterización de Precipitación del Departamento de Lima - Mes de Enero.
+  - Caracterización de Precipitación del Departamento de Lima - Mes de Febrero
+  - Caracterización de Precipitación del Departamento de Lima - Mes de Marzo.
+  - Caracterización de Precipitación del Departamento de Lima - Mes de Abril.
+  - Caracterización de Precipitación del Departamento de Lima - Mes de Mayo
+  - Caracterización de Precipitación del Departamento de Lima - Mes de Junio.
+  - Caracterización de Precipitación del Departamento de Lima - Mes de Julio.
+  - Caracterización de Precipitación del Departamento de Lima - Mes de Agosto.
+  - Caracterización de Precipitación del Departamento de Lima - Mes de Septiembre.
+  - Caracterización de Precipitación del Departamento de Lima - Mes de Octubre.
+  - Caracterización de Precipitación del Departamento de Lima - Mes de Noviembre.
+  - Caracterización de Precipitación del Departamento de Lima - Mes de Diciembre.
+  - Caracterización de Precipitación del Departamento de Lima - Anual.
+  - Caracterización de Precipitación del Departamento de Lima - Estación de Verano.
+  - Caracterización de Precipitación del Departamento de Lima - Estación de Otoño.
+  - Caracterización de Precipitación del Departamento de Lima - Estación de Invierno.
+  - Caracterización de Precipitación del Departamento de Lima - Estación de Primavera.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Mes de Enero.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Mes de Febrero.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Mes de Marzo.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Mes de Abril.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Mes de Mayo.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Mes de Junio.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Mes de Julio.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Mes de Agosto.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Mes de Septiembre.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Mes de Octubre.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Mes de Noviembre.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Mes de Diciembre.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Anual.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Estación de Verano.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Estación de Otoño.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Estación de Invierno.
+  - Caracterización de Temperatura Mínima del Departamento de Lima - Estación de Primavera.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Mes de Enero.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Mes de Febrero.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Mes de Marzo.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Mes de Abril.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Mes de Mayo.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Mes de Junio.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Mes de Julio.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Mes de Agosto.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Mes de Septiembre.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Mes de Octubre.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Mes de Noviembre.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Mes de Diciembre.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Anual.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Estación de Verano.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Estación de Otoño.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Estación de Invierno.
+  - Caracterización de Temperatura Máxima del Departamento de Lima - Estación de Primavera.
+  - Caracterización de Precipitación del Departamento de San Martín - Mes de Enero.
+  - Caracterización de Precipitación del Departamento de San Martín - Mes de Febrero.
+  - Caracterización de Precipitación del Departamento de San Martín - Mes de Marzo.
+  - Caracterización de Precipitación del Departamento de San Martín - Mes de Abril.
+  - Caracterización de Precipitación del Departamento de San Martín - Mes de Mayo.
+  - Caracterización de Precipitación del Departamento de San Martín - Mes de Junio.
+  - Caracterización de Precipitación del Departamento de San Martín - Mes de Julio.
+  - Caracterización de Precipitación del Departamento de San Martín - Mes de Agosto.
+  - Caracterización de Precipitación del Departamento de San Martín - Mes de Septiembre.
+  - Caracterización de Precipitación del Departamento de San Martín - Mes de Octubre.
+  - Caracterización de Precipitación del Departamento de San Martín - Mes de Noviembre.
+  - Caracterización de Precipitación del Departamento de San Martín - Mes de Diciembre.
+  - Caracterización de Precipitación del Departamento de San Martín - Anual.
+  - Caracterización de Precipitación del Departamento de San Martín - Estación de Verano.
+  - Caracterización de Precipitación del Departamento de San Martín - Estación de Otoño.
+  - Caracterización de Precipitación del Departamento de San Martín - Estación de Invierno.
+  - Caracterización de Precipitación del Departamento de San Martín - Estación de Primavera.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Mes de Enero.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Mes de Febrero.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Mes de Marzo.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Mes de Abril.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Mes de Mayo.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Mes de Junio.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Mes de Julio.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Mes de Agosto.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Mes de Septiembre.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Mes de Octubre.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Mes de Noviembre.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Mes de Diciembre.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Anual.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Estación de Verano.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Estación de Otoño.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Estación de Invierno.
+  - Caracterización de Temperatura Mínima del Departamento de San Martín - Estación de Primavera.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Mes de Enero.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Mes de Febrero.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Mes de Marzo.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Mes de Abril.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Mes de Mayo.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Mes de Junio.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Mes de Julio.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Mes de Agosto.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Mes de Septiembre.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Mes de Octubre.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Mes de Noviembre.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Mes de Diciembre.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Anual.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Estación de Verano.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Estación de Otoño.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Estación de Invierno.
+  - Caracterización de Temperatura Máxima del Departamento de San Martín - Estación de Primavera.
+  - Caracterización del Inicio de Lluvias del Departamento de Puno.
+  - Caracterización del Fin de Lluvias del Departamento de Puno.
+  - Caracterización de la Duración de Lluvias del Departamento de Puno.
+  - Tendencia de Lluvia, Inicio 1964-65 a 2018-19 del Departamento de Puno.
+  - Tendencia de Lluvia, Fin 1964-65 a 2018-19 del Departamento de Puno.
+  - Tendencia de Lluvia, Duración 1964-65 a 2018-19 del Departamento de Puno.
+  - Tendencia Lluvia, de Inicio 1989-90 a 2018-19 del Departamento de Puno.
+  - Tendencia de Lluvia, Fin 1989-90 a 2018-19 del Departamento de Puno.
+  - Tendencia de Lluvia, Duración 1989-90 a 2018-19 del Departamento de Puno.
+  - Disponibilidad Hídrica 2020.
+  - Disponibilidad Hídrica 2030.
+  - Tendencia de Temperatura Mínima Mensual de Enero.
+  - Tendencia de Temperatura Mínima Mensual de Febrero.
+  - Tendencia de Temperatura Mínima Mensual de Marzo.
+  - Tendencia de Temperatura Mínima Mensual de Abril.
+  - Tendencia de Temperatura Mínima Mensual de Mayo.
+  - Tendencia de Temperatura Mínima Mensual de Junio.
+  - Tendencia de Temperatura Mínima Mensual de Julio.
+  - Tendencia de Temperatura Mínima Mensual de Agosto.
+  - Tendencia de Temperatura Mínima Mensual de Septiembre.
+  - Tendencia de Temperatura Mínima Mensual de Noviembre.
+  - Tendencia de Temperatura Mínima Mensual de Diciembre.
+  - Tendencia de Temperatura Mínima Anual.
+  - Tendencia de Temperatura Media Mensual de Enero.
+  - Tendencia de Temperatura Media Mensual de Febrero.
+  - Tendencia de Temperatura Media Mensual de Marzo.
+  - Tendencia de Temperatura Media Mensual de Abril.
+  - Tendencia de Temperatura Media Mensual de Mayo.
+  - Tendencia de Temperatura Media Mensual de Junio.
+  - Tendencia de Temperatura Media Mensual de Julio.
+  - Tendencia de Temperatura Media Mensual de Agosto.
+  - Tendencia de Temperatura Media Mensual de Septiembre.
+  - Tendencia de Temperatura Media Mensual de Octubre.
+  - Tendencia de Temperatura Media Mensual de Noviembre.
+  - Tendencia de Temperatura Media Mensual de Diciembre.
+  - Tendencia de Temperatura Media Anual.
+  - Tendencia de Temperatura Máxima Mensual de Enero.
+  - Tendencia de Temperatura Máxima Mensual de Febrero.
+  - Tendencia de Temperatura Máxima Mensual de Marzo.
+  - Tendencia de Temperatura Máxima Mensual de Abril.
+  - Tendencia de Temperatura Máxima Mensual de Mayo.
+  - Tendencia de Temperatura Máxima Mensual de Junio.
+  - Tendencia de Temperatura Máxima Mensual de Julio.
+  - Tendencia de Temperatura Máxima Mensual de Agosto.
+  - Tendencia de Temperatura Máxima Mensual de Septiembre.
+  - Tendencia de Temperatura Máxima Mensual de Octubre.
+  - Tendencia de Temperatura Máxima Mensual de Noviembre.
+  - Tendencia de Temperatura Máxima Mensual de Diciembre.
+  - Tendencia de Temperatura Máxima Anual.
+  - Anomalía de Precipitación 02 Década del mes.
+  - Anomalía de Temperatura Mínima 02 Década del mes.
+  - Anomalía de Temperatura Máxima 02 Década del mes.
+  - Variable de Evapotranspiración 02 Década del mes.
+  - Variable de Índice de Humedad 02 Década del mes.
+  - Cambio de Precipitación 2050 Anual.
+  - Cambio de Precipitación 2050 Verano.
+  - Cambio de Precipitación 2050 Otoño.
+  - Cambio de Precipitación 2050 Invierno.
+  - Cambio de Precipitación 2050 Primavera.
+  - Cambio de Temperatura Mínima 2050 Anual.
+  - Cambio de Temperatura Mínima 2050 Verano.
+  - Cambio de Temperatura Mínima 2050 Otoño.
+  - Cambio de Temperatura Mínima 2050 Invierno.
+  - Cambio de Temperatura Mínima 2050 Primavera.
+  - Cambio de Temperatura Máxima 2050 Anual.
+  - Cambio de Temperatura Máxima 2050 Verano.
+  - Cambio de Temperatura Máxima 2050 Otoño.
+  - Cambio de Temperatura Máxima 2050 Invierno.
+  - Cambio de Temperatura Máxima 2050 Primavera.
+  - Erosión Hídrica del Suelo del año 2010.
+  - Erosión Hídrica del Suelo del año 2011.
+  - Erosión Hídrica del Suelo del año 2012.
+  - Erosión Hídrica del Suelo del año 2013.
+  - Atlas de Energía Solar del mes de Enero.
+  - Atlas de Energía Solar del mes de Febrero.
+  - Atlas de Energía Solar del mes de Marzo.
+  - Atlas de Energía Solar del mes de Abril.
+  - Atlas de Energía Solar del mes de Mayo.
+  - Atlas de Energía Solar del mes de Junio.
+  - Atlas de Energía Solar del mes de Julio.
+  - Atlas de Energía Solar del mes de Agosto.
+  - Atlas de Energía Solar del mes de Septiembre.
+  - Atlas de Energía Solar del mes de Octubre.
+  - Atlas de Energía Solar del mes de Noviembre.
+  - Atlas de Energía Solar del mes de Diciembre.
+  - Número de Eventos de Nevadas Promedio Mensual de Enero.
+  - Número de Eventos de Nevadas Promedio Mensual de Febrero.
+  - Número de Eventos de Nevadas Promedio Mensual de Marzo.
+  - Número de Eventos de Nevadas Promedio Mensual de Abril.
+  - Número de Eventos de Nevadas Promedio Mensual de Mayo.
+  - Número de Eventos de Nevadas Promedio Mensual de Junio.
+  - Número de Eventos de Nevadas Promedio Mensual de Julio.
+  - Número de Eventos de Nevadas Promedio Mensual de Agosto.
+  - Número de Eventos de Nevadas Promedio Mensual de Septiembre.
+  - Número de Eventos de Nevadas Promedio Mensual de Octubre.
+  - Número de Eventos de Nevadas Promedio Mensual de Noviembre.
+  - Riesgo de cultivo de Arroz
+  - Riesgo de cultivo de Maíz
+  - Riesgo de cultivo de Papa
+  - Riesgo de cultivo de Cacao
+  - Riesgo de cultivo de Café
+  - Riesgo de cultivo de Pasto
+  - Riesgo de cultivo de Quinua
+  - Riesgo de cultivo de Palto
+  - Riesgo de cultivo de Frijol
+  - Zonificación ACP
+  - Zonificación ACR
+  - ANP de Administración Nacional Definitiva (WMS)
+  - Zonificación ANP
+  - ANP de Administración Nacional Transitoria (WMS)
+  - Área de Conservación Regional (WMS)
+  - Área de Conservación Privada (WMS)
+  - Percentil 10 - Tmin Extrema - Mayo
+  - Frecuencia de Heladas Anual
+  - Frecuencia de Heladas del mes de Enero
+  - Frecuencia de Heladas del mes de Febrero
+  - Frecuencia de Heladas del mes de Marzo
+  - Frecuencia de Heladas del mes de Abril
+  - Frecuencia de Heladas del mes de Mayo
+  - Frecuencia de Heladas del mes de Junio
+  - Frecuencia de Heladas del mes de Julio
+  - Frecuencia de Heladas del mes de Agosto
+  - Frecuencia de Heladas del mes de Septiembre
+  - Frecuencia de Heladas del mes de Octubre
+  - Frecuencia de Heladas del mes de Noviembre
+  - Frecuencia de Heladas del mes de Diciembre
+  - Certificaciones ambientales registradas en el SENACE
+  - Zonas de Amortiguamiento - ANP
+  - Pasivo ambiental minero Aladino VI
+  - Pasivo ambiental minero Caridad
+  - Pasivo ambiental minero Huacrish
+  - Pasivo ambiental minero La Florida I
+  - Pasivo ambiental minero Pushaquilca
+  - Pasivo ambiental minero San Antonio de Esquilache
+  - Pasivo ambiental minero Santa Rosa 2
+  - Pasivo ambiental minero Santa Teresita
+  - Lotes Explotación
+  - Lotes Exploración
+  - Oleoducto Nor Peruano
+  - Grifos y EESS. Gasocentros
+  - Unidades fiscalizables - Agricultura (polígono)
+  - Unidades fiscalizables - Agricultura (punto)
+  - Unidades fiscalizables - Centrales termoeléctricas existentes
+  - Unidades fiscalizables - Centrales termoeléctricas proyectadas
+  - Unidades fiscalizables - Centrales hidroeléctricas existente
+  - Unidades fiscalizables - Centrales hidroeléctricas proyectada
+  - Unidades fiscalizables - Recurso energético renovable (punto)
+  - Unidades fiscalizables - Recurso energético renovable (polígono)
+  - Unidades fiscalizables - Generación sistemas eléctricos aislados
+  - Unidades fiscalizables - Concesiones de generación eléctrica
+  - Unidades fiscalizables - Concesiones de distribución eléctrica
+  - Unidades fiscalizables - Línea de transmisión existente
+  - Unidades fiscalizables - Línea de transmisión proyectada
+  - Unidades fiscalizables - Subestación de distribución
+  - Unidades fiscalizables - Subestación de transmision existente
+  - Unidades fiscalizables - Plantas industriales (polígono)
+  - Unidades fiscalizables - Plantas industriales (punto)
+  - Unidades fiscalizables - Plantas distribución de hidrocarburos
+  - Unidades fiscalizables - Plantas almacenam. de hidrocarburos
+  - Unidades fiscalizables - Plantas envasadora de hidrocarburos
+  - Unidades fiscalizables - Plantas procesamiento de hidrocarburos
+  - Unidades fiscalizables - Lotes de hidrocarburos líquidos
+  - Unidad fiscalizable - Ductos de transporte de hidrocarburos líquidos
+  - Unidades fiscalizables - Unid.menores hidrocarburos (punto)
+  - Unidades fiscalizables - Unid. menores hidrocarburos (polígono)
+  - Unidad fiscalizable - Red de distribución Calidda
+  - Unidad fiscalizable - Red de distribución Contugas
+  - Unidades fiscalizables - Plantas almacenamiento de gas natural
+  - Unidades fiscalizables - Plantas de procesamiento de gas natural
+  - Unidades fiscalizables - Lotes de gas natural
+  - Unidades fiscalizables - Sistema de ductos de transporte de gas
+  - Unidades fiscalizables - Minería
+  - Unidades fiscalizables - Depósitos concentrados
+  - Componentes fiscalizables - Depósito de relave mineros
+  - Unidades fiscalizables - Derechos acuícolas (punto)
+  - Unidades fiscalizables - Derechos acuícolas (polígono)
+  - Unidades fiscalizables - Industrias pesqueras
+  - Unidades fiscalizables - Áreas degrad. por RRSS no municipales
+  - Unidades fiscalizables - Áreas degradadas por RRSS municipales
+  - Unidades fiscalizables - Infraestructuras de RRSS (polígono)
+  - Unidades fiscalizables - Infraestructuras de RRSS (punto)
+  - Unidades fiscalizables - Plan de manejo de RRSS municipales
+  - Unidades fiscalizables - Educación (polígono)
+  - Unidades fiscalizables - Consultoras ambientales (línea)
+  - Unidades fiscalizables - Consultoras ambientales (polígono)
+  - Red de vigilancia ambiental de la calidad del aire
+  - Reporta Residuos - Alertas de residuos sólidos
+  - Inventario nacional de áreas degradadas por RRSS municipales
+  - Inventario de áreas degradadas por RRSS no municipales
+  - Inventario nacional de áreas de infraestructura de RRSS
+  - Conflictos socioambientales - Mesas de diálogo
+  - Conflictos socioambientales - Áreas de influencia
+  - Denuncias ambientales registradas
+  - Bosques de Producción Permanente (WMS)
+  - Bosques Protectores (WMS)
+  - Bosques Locales (WMS)
+  - Permisos (WMS)
+  - Cesiones en Uso (WMS)
+  - Autorizaciones PFDM en AVNB (WMS)
+  - Autorización de cambio de uso actual de las tierras a fines agropecuarios (WMS)
+  - Bosques Locales (Título Habilitante) (WMS)
+  - Unidad de Aprovechamiento (WMS)
+  - Concesiones Forestales (WMS)
+  - Zonificación Forestal (WMS)
+  - Ecosistemas Frágiles (WMS)
+  - Focos de Calor (WMS)
+  - Alertas de incendio forestal (WMS)
+  - Concesiones forestales (WMS)
+  - Planes de manejo supervisados (WMS)
+  - Inventario Nacional de Lagunas de Origen Glaciar 2023
+  - Inventario Nacional de Glaciares 2023
+  - Inventario Nacional de Bofedales 2023
+  - Actividades culturales - 2025
+  - Actividades deportivas - 2025
+  - Escuelas culturales - 2025
+  - Escuelas deportivas - 2025
+  - Convenios e intervenciones interinstitucionales
+  - Cantidad de árboles plantados en los parques zonales y metropolitanos - 2026
+  - Cantidad de árboles plantados en los parques zonales y metropolitanos - 2025
+  - Densidad de potencia a 50 m del suelo
+  - Densidad de potencia a 25 m del suelo
+  - Densidad de potencia a 10 m del suelo
+  - Velocidad media del viento a 125 m del suelo
+  - Velocidad media del viento a 100 m del suelo
+  - Velocidad media del viento a 75 m del suelo
+  - Velocidad media del viento a 50 m del suelo
+  - Velocidad media del viento a 25 m del suelo
+  - Humedad Relativa
+  - T° media anual del aire a 100 m del suelo
+  - Isoterma
+  - Velocidad media del viento a 10 m del suelo
+  - Densidad del aire anual a 100 m del suelo
+  - Presión del aire
+  - Densidad de potencia a 125 m del suelo
+  - Densidad de potencia a 75 m del suelo
+  - Velocidad media del viento a 150 m del suelo
+  - Velocidad media del viento a 75 m del suelo
+  - Densidad de potencia a 150 m del suelo
+  - Densidad de potencia a 100 m del suelo
+  - Clases de Rugosidad
+  - Isobara
+  - Presión del aire a 100 m del suelo
+  - Isostera
+  - Densidad del aire
+  - Temperatura del aire
+  - Isohuma
+  - Humedad Relativa del aire a 100 m del suelo
+  - Potencial Técnico
+  - Concesiones Hidroeléctricas
+  - Sub Estaciones de Transmisión
+  - Líneas de Transmisión Existentes
+  - Proyectos del Portafolio
+  - Líneas Transmisión Proyectadas
+  - Zonas Arqueológicas
+  - Límite de Cuencas
+  - Sub Estaciones de Generación
+  - Áreas Protegidas
+  - Proyectos Prioritarios
+----------------------------------------
+CATEGORÍA: Institucional (59 capas)
+  - Pensionistas de las Fuerzas Armadas - Ejército Peruano
+  - Pensionistas de las Fuerzas Armadas - Fuerza Aérea del Perú
+  - Pensionistas de las Fuerzas Armadas - Marina de Guerra del Perú
+  - Pensionistas de la Policía Nacional del Perú
+  - Locales de la PGE
+  - Distritos Fiscales
+  - Población Electoral Total
+  - Población electoral de 18 a 30 años
+  - Población electoral de 30 a 59 años
+  - Población electoral de 60 años a más
+  - Centros de Investigación Autorizados
+  - Investigadores del RENACYT por edad - distrito (Reglamento 2021)
+  - Investigadores del RENACYT por género- distrito (Reglamento 2021)
+  - Investigadores del RENACYT por nivel - distrito (Reglamento 2021)
+  - Comités y Sub Comités Técnicos de Normalización
+  - Organismos de Evaluación de Acreditados (OEC)
+  - Distritos de Frontera
+  - Entidades Públicas (E.P.) con CAP Provisional
+  - E.P. con asistencia técnica MCC y CAP
+  - E.P. con asistencia técnica en MCC
+  - E.P. con asistencia técnica en CAP
+  - E.P. con dotación, MPP Y CPE aprobados
+  - E.P. con dotación y MPP aprobados
+  - E.P. con dotación aprobada
+  - Nacional
+  - Regional
+  - Local
+  - Convenios Colectivos - Nacional
+  - Convenios Colectivos - Regional
+  - Convenios Colectivos - Local
+  - Seguimiento a Seguridad y Salud en el Trabajo - Nacional
+  - Seguimiento a Seguridad y Salud en el Trabajo - Regional
+  - Seguimiento a Seguridad y Salud en el Trabajo - Local
+  - Laboratorios de la Academia
+  - Laboratorios del Sector Privado
+  - Laboratorios del Sector Público
+  - Laboratorios de la Sociedad Civil
+  - Programa Niñas Digitales - Total
+  - Programa Niñas Digitales - Edición 1
+  - Programa Niñas Digitales - Edición 3
+  - Programa Niñas Digitales - Edición 4
+  - Programa Niñas Digitales - Edición 5
+  - Programa Niñas Digitales - ORACLE
+  - Programa Niñas Digitales - Perú EDUCA
+  - Infraestructuras Deportivas del IPD
+  - Sedes
+  - Infraestructura deportiva - Sedes legado
+  - Centros de atención INABIF
+  - Reporte INABIF en acción - 2025
+  - Reporte Atenciones CAR - 2025
+  - Reporte Atenciones NNA CEDIF - 2025
+  - Reporte Atenciones PAM CEDIF
+  - Reporte Familia ACERCANDONOS
+  - Reporte Servicio Educadores de Calle - 2025
+  - Reporte Padrón Asistencia Económica por Orfandad - 2025
+  - Reporte Servicio de Promoción de Familias Igualitarias y Libres de Violencia -2025
+  - Centros de Operaciones SIMA-PERÚ
+  - Oficinas
+  - Predios estatales
+----------------------------------------
+CATEGORÍA: Discapacidad (37 capas)
+  - Instituciones Educativas Fiscalizadas (2023)
+  - Al medio físico según entidades, puntos de intervención y regiones (2023)
+  - En el transporte, tránsito y seguridad vial según regiones y entidades (2023)
+  - En la comunicación, según regiones y entidades (2023)
+  - En las TICs, según regiones y entidades (2023)
+  - En los Gobiernos Regionales
+  - En las Municipalidades Provinciales
+  - En las Municipalidades Distritales
+  - En los Gobiernos Regionales
+  - En las Municipalidades Provinciales
+  - En las Municipalidades Distritales
+  - En Otras Entidades Públicas
+  - Por sexo
+  - Por grupo de edad
+  - Por tipo de deficiencia en la discapacidad física
+  - Por tipo de deficiencia en la discapacidad sensorial
+  - Por tipo de deficiencia en la discapacidad intelectual
+  - Por tipo de deficiencia en la discapacidad mental
+  - Por nivel de gravedad leve
+  - Por nivel de gravedad moderado
+  - Por nivel de gravedad severo
+  - Por nivel de gravedad no especificado
+  - % Población por sexo (2017)
+  - % Población con discapacidad por tipo de dificultad o limitación permanente (2017)
+  - % Población que participa en organizaciones sociales por año (2014 al 2023)
+  - % Población de 14 años a más, por condición de PEA y no PEA (2023)
+  - % Población de 14 años a más, ocupada (2014 al 2023)
+  - % Población de 14 años a más ocupada, por sectores económicos (2023)
+  - % Población que no se atendieron en un centro de salud (2014 al 2023)
+  - % Población por tenencia de seguro de salud (2014 al 2023)
+  - Promedio de años de estudio de la población de 15 años a más (2014 al 2023)
+  - Población de 3 años a más, por nivel educativo alcanzado (2017)
+  - % Población de 6 años a más que accede y usa internet (2014 al 2023)
+  - % Población en situación de pobreza monetaria (2014 al 2023)
+  - % Población en situación de pobreza monetaria extrema (2014 al 2023)
+  - % Población que tiene electricidad en su vivienda (2014 al 2023)
+  - % Población que tiene acceso a agua potable (2014 al 2023)
+----------------------------------------
+CATEGORÍA: Indicador Urbano (23 capas)
+  - Zonas Urbanas
+  - Mujer
+  - Sin Seguro de Salud
+  - No Sabe Escribir/Leer
+  - Sin Alumbrado Eléctrico
+  - Sin Abastecimiento de Agua
+  - Con Piso de Tierra
+  - Con una Habitación
+  - Material de la Vivienda
+  - Energía o Combustible para Cocinar
+  - Calles
+  - Áreas Verdes
+  - Capital Humano
+  - PEA
+  - Ingreso per cápita del Hogar
+  - Con al menos una NBI
+  - Viv. con caract. físicas inadecuadas
+  - Viv. sin servicios higiénicos
+  - Hog. con niños que no asisten a la escuela
+  - Viv. con hacinamiento
+  - Hog. con alta dependencia económica
+  - Viviendas en Cerros - Distritos
+  - Viviendas en Cerros - Manzanas
+----------------------------------------
+CATEGORÍA: Violencia de Género (31 capas)
+  - Casos de Feminicidio
+  - Violencia Económica o Patrimonial (2025)
+  - Violencia Económica o Patrimonial (2024)
+  - Violencia Económica o Patrimonial (2023)
+  - Violencia física (2025)
+  - Violencia física (2024)
+  - Violencia física (2023)
+  - Violencia Psicológica (2025)
+  - Violencia Psicológica (2024)
+  - Violencia Psicológica (2023)
+  - Violencia Sexual (2025)
+  - Violencia Sexual (2024)
+  - Violencia Sexual (2023)
+  - Casos atendidos total CEM (2025)
+  - Casos atendidos total CEM (2024)
+  - Casos atendidos total CEM (2023)
+  - CEM en Comisarías (2025)
+  - CEM en Comisarías (2024)
+  - CEM en Comisarías (2023)
+  - CEM Regulares (2025)
+  - CEM Regulares (2024)
+  - CEM Regulares (2023)
+  - CEM en Centro de salud (2025)
+  - CEM en Centro de salud (2024)
+  - CEM en Centro de salud (2023)
+  - Proyectos provincial
+  - Actividades provincial
+  - Actividades y Proyectos provincial
+  - Proyectos distrital
+  - Actividades distrital
+  - Actividades y Proyectos distrital
+----------------------------------------
+CATEGORÍA: Riesgos (59 capas)
+  - INGEMMET - Fallas (Escala 1:100 000)
+  - INGEMMET - Pliegues (Escala 1:100 000)
+  - INGEMMET - Contacto (Escala 1:100 000)
+  - INDECI - Emergencias
+  - INGEMMET - Dique (Escala 1:50 000)
+  - INGEMMET - Geoformas (Escala 1:50 000)
+  - INGEMMET - Fallas (Escala 1:50 000)
+  - INGEMMET - Estructura Volcánica punto (Escala 1:50 000)
+  - INGEMMET - Punto de observación (Escala 1:50 000)
+  - INGEMMET - Buzamiento (Escala 1:100 000)
+  - INGEMMET - Secciones Geológicas (Escala 1:100 000)
+  - INGEMMET - Hojas (Escala 1:100 000)
+  - INGEMMET - Litología (Escala 1:50 000)
+  - INGEMMET - Estructura Volcánica (Escala 1:50 000)
+  - Mapa de Vulnerabilidad Física del Perú
+  - INGEMMET - Geología (Escala 1:100 000)
+  - INGEMMET - Pliegues (Escala 1:50 000)
+  - Mapa Geológico del Perú
+  - Catálogo Sísmico Histórico de 1471 a 1959
+  - Mapa de Capacidad Portante
+  - Sismos reportados del año en curso
+  - Último Sismo
+  - Anomalías de NDVI (%) [últimos 30 días]
+  - Monitoreo de NDVI
+  - Estudios sobre Comportamiento Dinámico de Suelos-Mapa de Geomorfología
+  - Estudios sobre Comportamiento Dinámico de Suelos-Mapa de Geología
+  - Estudios sobre Comportamiento Dinámico de Suelos-Mapa de Geodinámica
+  - Estudios sobre Comportamiento Dinámico de Suelos-Mapa de Suelos
+  - Estudios sobre Comportamiento Dinámico de Suelos-Mapa de Zonificación Sísmica
+  - Catálogo Sísmico desde 1960
+  - Mapa de sacudimiento teórico
+  - Mapa de sacudimiento real
+  - Volcanes: Nivel de alerta
+  - Estaciones acelerográficas
+  - Riesgos por friaje
+  - Riesgos por heladas
+  - Heladas y friaje sector Educación
+  - Heladas y friaje sector Vivienda
+  - Heladas y friaje sector Agricultura Agrícola
+  - Heladas y friaje sector Agricultura Pecuaria
+  - Heladas y friaje sector MIMP
+  - Heladas y friaje sector Salud
+  - Inundaciones por lluvias fuertes
+  - Inundaciones por lluvias asociadas a eventos El Niño
+  - Movimientos en masa por lluvias fuertes
+  - EPCI Regional
+  - Componente de Planificación
+  - Componente de Organización
+  - Componente de Recursos Humanos
+  - Componente de Recursos Financieros
+  - Componente de Logística
+  - Componente de Comunicaciones
+  - EPCI Provincial
+  - Componente de Planificación
+  - Componente de Organización
+  - Componente de Recursos Humanos
+  - Componente de Recursos Financieros
+  - Componente de Logística
+  - Componente de Comunicaciones
+----------------------------------------
+CATEGORÍA: Cambio Climático - FEN (58 capas)
+  - Aprobados
+  - Propuesta
+  - Sector Mayor
+  - Sector Menor Clase A
+  - Sector Menor Clase B
+  - Sector Menor Clase C
+  - Unidades Hidrográficas
+  - AAA
+  - ALA
+  - Principales Presas
+  - Puntos de Muestreo
+  - Calidad de Agua - ICARHS
+  - Fuentes Contaminantes
+  - Vertimientos
+  - Acuícola
+  - Agrario
+  - De Transporte
+  - Doméstico – Poblacional
+  - Energético
+  - Industrial
+  - Minero
+  - Otros Usos
+  - Pecuario
+  - Pesquero
+  - Poblacional
+  - Recreativo
+  - Turístico
+  - Volúmenes Utilizados
+  - Acred. Disp. Hídrica
+  - Aut. Ejec. Obras
+  - Formalización
+  - Ríos
+  - Lagunas
+  - Acuíferos en veda
+  - Acuíferos
+  - Glaciares
+  - Presas
+  - Reservorios
+  - Túneles
+  - Acueductos
+  - Obras de Arte
+  - Pozos
+  - Bocatomas
+  - Estaciones de Bombeo
+  - Canales de Derivación
+  - Canales Trasvase
+  - Canales de Aducción
+  - Canales Laterales
+  - Drenes
+  - Tomas
+  - Eventos emergencias hídricas
+  - Puntos Críticos
+  - Faja Marginal
+  - Poblaciones Vulnerables por Activación de Quebradas
+  - Almacenes INDECI
+  - Temperatura mínima anual 2030
+  - Precipitación Anual 2030
+  - Temperatura máxima anual 2030
+----------------------------------------
+CATEGORÍA: Gobiernos Regionales (13 capas)
+  - Participación Electoral - Regiones
+  - Presupuesto Regional
+  - Distribución del Canon
+  - Consejo de Coordinación Regional (CCR)
+  - M. R. de los Andes - MRDLA
+  - M. R. de Qhapaq Ñan Nor Amazónico
+  - M. R. Costa Norte
+  - M. R. Macro Región Sur
+  - M. R. Pacífico Centro Amazónica - PACA
+  - M. R. Huancavelica Ica - MANRHI
+  - M. R. Macro Región Nor Oriente del Perú
+  - M. R. Chavín
+  - M. R. Amazónica - MRA
+----------------------------------------
+CATEGORÍA: Gobiernos Locales (63 capas)
+  - Participación Electoral - Provincias
+  - Participación Electoral - Distritos
+  - Telecentros - CEDRO
+  - Autoridades por Género
+  - Acceso a internet
+  - Asistencia técnica - Acond. territorial
+  - Asistencia técnica - Indicadores Gestión Municipal
+  - Capacitación - Gestión Desarrollo Urbano
+  - Capacitación - Gobierno Electrónico Municipal
+  - Capacitación - Indicadores Gestión Municipal
+  - Plan Integral de Gestión Ambiental de Residuos Sólidos (PIGARS)
+  - Acceso a internet
+  - Asistencia técnica - Acond. territorial
+  - Asistencia técnica - Indicadores Gestión Municipal
+  - Capacitación - Gestión Desarrollo Urbano
+  - Capacitación - Gobierno Electrónico Municipal
+  - Capacitación - Indicadores Gestión Municipal
+  - Cantidad de residuos sólidos (basura) en Kg.
+  - Residuos sólidos recolectados - Relleno Sanitario  (%)
+  - Residuos sólidos recolectados - Botadero (%)
+  - Residuos sólidos recolectados - Reciclados (%)
+  - Comité Provincial - Distrital de Seguridad Ciudadana
+  - Plan de Seguridad Ciudadana - Mapa del delito
+  - Plan de Seguridad Ciudadana - Mapa de Riesgo
+  - Plan de Seguridad Ciudadana- Patrullaje integrado con la PNP
+  - Servicio de serenazgo municipal
+  - Cámaras de seguridad y videovigilancia
+  - Directivos y Profesionales
+  - Técnicos y Auxiliares
+  - Plan de Acondicionamiento Territorial (PAT)
+  - Plan de Desarrollo Urbano (PDU)
+  - Plan de Desarrollo Rural (PDR)
+  - Plan de Desarrollo Económico Local (PDEL)
+  - Plan de Desarrollo Municipal Concertado (PDMC)
+  - Plan de Desarrollo de Capacidades (PDC)
+  - Plan Estratégico Institucional (PEI)
+  - Esquema de Ordenamiento Urbano (EOU)
+  - Plan de Acondicionamiento Territorial
+  - Plan de Desarrollo Urbano
+  - Catastro Municipal
+  - Programa del Vaso de Leche
+  - Club de Madres
+  - Comedor Popular
+  - Organizaciones Juveniles
+  - Otras Organizaciones Sociales
+  - Consejo de Coordinación Local (CCL) - Provincial
+  - Consejo de Coordinación Local (CCL) - Distrital
+  - Presupuesto Municipal
+  - Distribución del Canon
+  - Distribución del FONCOMUN
+  - Comedor Popular
+  - Campo o Instalación Deportiva
+  - Local Comunal y Otros
+  - Mercado
+  - Cementerio
+  - Parque
+  - Complejo
+  - Club
+  - Ferias
+  - Centro de Acopio
+  - Centro de Abastos
+  - Comedores Populares
+  - Red Vial de la Provincia de Rioja
+----------------------------------------
+CATEGORÍA: Sociedad Nacional de Minería, Petróleo y Energía (1 capas)
+  - ISA REP
+----------------------------------------
+CATEGORÍA: COVID 19 (7 capas)
+  - Casos Positivos
+  - Fallecidos
+  - Vacunados
+  - Centros de Vacunación
+  - Población Adulto Mayor de 65 años y más
+  - Adultos Mayores Fallecidos
+  - Adultos Mayores Vacunados
+----------------------------------------
+CATEGORÍA: GEO SERVICIOS (20 capas)
+  - Ciudad de Jaén - Cajamarca
+  - Ciudad de Tumbes
+  - Provincia Contralmirante Villar - Tumbes
+  - Provincia de Tumbes
+  - Provincia de Zarumilla - Tumbes
+  - Departamento de Tumbes
+  - Lotes
+  - Vías
+  - Tuberías Secundaria
+  - Tuberías Primaria
+  - Acometidas
+  - Surtidores
+  - Hidrantes
+  - Conexión domiciliaria
+  - Accesorios
+  - Colectores por presión
+  - Colectores Red Secundaria
+  - Colectores Red Primaria
+  - Departamentos
+  - Mapa de Calor
+----------------------------------------
+CATEGORÍA: Instituciones Privadas (3 capas)
+  - Greenfield - IPT
+  - Perimetro site code - IPT
+  - Operaciones del Grupo ISA
+----------------------------------------
+CATEGORÍA: Investigaciones (1 capas)
+  - Servicio de mapa de publicaciones de la Amazonía
+----------------------------------------
