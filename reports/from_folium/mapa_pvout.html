@@ -1,0 +1,3698 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a89e7e7a4a2c18abbc3e1d58d484f0c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4a89e7e7a4a2c18abbc3e1d58d484f0c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4a89e7e7a4a2c18abbc3e1d58d484f0c = L.map(
+                "map_4a89e7e7a4a2c18abbc3e1d58d484f0c",
+                {
+                    center: [-15.9, -72.3],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f5c779acb137dcb0fd66cdb387c4e328 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f5c779acb137dcb0fd66cdb387c4e328.addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+            var circle_marker_4285bd8de244f37b47443e146b3de6bf = L.circleMarker(
+                [-15.4325, -74.617222],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_60a432edd4b92cc74ff69b62308debcd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_cebbff3e0dbf4b6e7a3eca66dcc394fd = $(`<div id="html_cebbff3e0dbf4b6e7a3eca66dcc394fd" style="width: 100.0%; height: 100.0%;"><b>ACARI</b><br>PVOUT: 1729.1 kWh/kWp/año<br>PCs por panel: 4.23<br>Lat: -15.4325, Lon: -74.6172</div>`)[0];
+                popup_60a432edd4b92cc74ff69b62308debcd.setContent(html_cebbff3e0dbf4b6e7a3eca66dcc394fd);
+            
+        
+
+        circle_marker_4285bd8de244f37b47443e146b3de6bf.bindPopup(popup_60a432edd4b92cc74ff69b62308debcd)
+        ;
+
+        
+    
+    
+            circle_marker_4285bd8de244f37b47443e146b3de6bf.bindTooltip(
+                `<div>
+                     ACARI: 1729.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f9d2aec2caf8045d67ca545a28da78c7 = L.circleMarker(
+                [-15.661111, -71.701667],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_a663b32e604edc665cc992c89eb35062 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6b886d9ebb123de4116eefac6cfa896a = $(`<div id="html_6b886d9ebb123de4116eefac6cfa896a" style="width: 100.0%; height: 100.0%;"><b>ACHOMA</b><br>PVOUT: 2016.8 kWh/kWp/año<br>PCs por panel: 4.93<br>Lat: -15.6611, Lon: -71.7017</div>`)[0];
+                popup_a663b32e604edc665cc992c89eb35062.setContent(html_6b886d9ebb123de4116eefac6cfa896a);
+            
+        
+
+        circle_marker_f9d2aec2caf8045d67ca545a28da78c7.bindPopup(popup_a663b32e604edc665cc992c89eb35062)
+        ;
+
+        
+    
+    
+            circle_marker_f9d2aec2caf8045d67ca545a28da78c7.bindTooltip(
+                `<div>
+                     ACHOMA: 2016.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_11bb0890a59deaf0e0a10515b97970a1 = L.circleMarker(
+                [-15.134167, -72.764722],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_a70f60809d7f35d83f235edffb54b5c9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9bb72f7433e6f6d48d7f1374ecaf726d = $(`<div id="html_9bb72f7433e6f6d48d7f1374ecaf726d" style="width: 100.0%; height: 100.0%;"><b>ALCA</b><br>PVOUT: 1777.6 kWh/kWp/año<br>PCs por panel: 4.35<br>Lat: -15.1342, Lon: -72.7647</div>`)[0];
+                popup_a70f60809d7f35d83f235edffb54b5c9.setContent(html_9bb72f7433e6f6d48d7f1374ecaf726d);
+            
+        
+
+        circle_marker_11bb0890a59deaf0e0a10515b97970a1.bindPopup(popup_a70f60809d7f35d83f235edffb54b5c9)
+        ;
+
+        
+    
+    
+            circle_marker_11bb0890a59deaf0e0a10515b97970a1.bindTooltip(
+                `<div>
+                     ALCA: 1777.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4a4c543867537128307a23588039d95b = L.circleMarker(
+                [-16.370556, -71.527222],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_45b1035b31116167ad69e71082df4a1c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_def1a776232fe6af5a7f821174f537c7 = $(`<div id="html_def1a776232fe6af5a7f821174f537c7" style="width: 100.0%; height: 100.0%;"><b>ALTO SELVA ALEGRE</b><br>PVOUT: 2026.3 kWh/kWp/año<br>PCs por panel: 4.95<br>Lat: -16.3706, Lon: -71.5272</div>`)[0];
+                popup_45b1035b31116167ad69e71082df4a1c.setContent(html_def1a776232fe6af5a7f821174f537c7);
+            
+        
+
+        circle_marker_4a4c543867537128307a23588039d95b.bindPopup(popup_45b1035b31116167ad69e71082df4a1c)
+        ;
+
+        
+    
+    
+            circle_marker_4a4c543867537128307a23588039d95b.bindTooltip(
+                `<div>
+                     ALTO SELVA ALEGRE: 2026.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_464839c30852d840f4bfa6ad80c4fcb2 = L.circleMarker(
+                [-15.4975, -72.355],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_d95e7724b4be7074f9c52c02f1abd94d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_02819aaec10f0fe0c18a0761d27bc862 = $(`<div id="html_02819aaec10f0fe0c18a0761d27bc862" style="width: 100.0%; height: 100.0%;"><b>ANDAGUA</b><br>PVOUT: 2040.2 kWh/kWp/año<br>PCs por panel: 4.99<br>Lat: -15.4975, Lon: -72.3550</div>`)[0];
+                popup_d95e7724b4be7074f9c52c02f1abd94d.setContent(html_02819aaec10f0fe0c18a0761d27bc862);
+            
+        
+
+        circle_marker_464839c30852d840f4bfa6ad80c4fcb2.bindPopup(popup_d95e7724b4be7074f9c52c02f1abd94d)
+        ;
+
+        
+    
+    
+            circle_marker_464839c30852d840f4bfa6ad80c4fcb2.bindTooltip(
+                `<div>
+                     ANDAGUA: 2040.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_84235a023566e0c5b22f20d3e4f101ab = L.circleMarker(
+                [-15.796111, -72.859722],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_cfdab1b7c26b7fa202c008c2ffeb11de = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_57842632d8fcce012e1ef87970618e36 = $(`<div id="html_57842632d8fcce012e1ef87970618e36" style="width: 100.0%; height: 100.0%;"><b>ANDARAY</b><br>PVOUT: 2042.9 kWh/kWp/año<br>PCs por panel: 4.99<br>Lat: -15.7961, Lon: -72.8597</div>`)[0];
+                popup_cfdab1b7c26b7fa202c008c2ffeb11de.setContent(html_57842632d8fcce012e1ef87970618e36);
+            
+        
+
+        circle_marker_84235a023566e0c5b22f20d3e4f101ab.bindPopup(popup_cfdab1b7c26b7fa202c008c2ffeb11de)
+        ;
+
+        
+    
+    
+            circle_marker_84235a023566e0c5b22f20d3e4f101ab.bindTooltip(
+                `<div>
+                     ANDARAY: 2042.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8070da05b08eca271cf775986a1be98e = L.circleMarker(
+                [-16.076111, -72.4925],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_e67846f939a9ae226ecf3e5a5a621bfa = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5f26311a489e9505cbf59db5e45b0d04 = $(`<div id="html_5f26311a489e9505cbf59db5e45b0d04" style="width: 100.0%; height: 100.0%;"><b>APLAO</b><br>PVOUT: 1847.4 kWh/kWp/año<br>PCs por panel: 4.52<br>Lat: -16.0761, Lon: -72.4925</div>`)[0];
+                popup_e67846f939a9ae226ecf3e5a5a621bfa.setContent(html_5f26311a489e9505cbf59db5e45b0d04);
+            
+        
+
+        circle_marker_8070da05b08eca271cf775986a1be98e.bindPopup(popup_e67846f939a9ae226ecf3e5a5a621bfa)
+        ;
+
+        
+    
+    
+            circle_marker_8070da05b08eca271cf775986a1be98e.bindTooltip(
+                `<div>
+                     APLAO: 1847.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dbbe3ebc89949768572952ec117bba1a = L.circleMarker(
+                [-16.400833, -71.537778],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_7eb58ec8454951a4849b677a718f4de0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d855577b12a519989a67fc52e5c7ecf7 = $(`<div id="html_d855577b12a519989a67fc52e5c7ecf7" style="width: 100.0%; height: 100.0%;"><b>AREQUIPA</b><br>PVOUT: 2030.6 kWh/kWp/año<br>PCs por panel: 4.96<br>Lat: -16.4008, Lon: -71.5378</div>`)[0];
+                popup_7eb58ec8454951a4849b677a718f4de0.setContent(html_d855577b12a519989a67fc52e5c7ecf7);
+            
+        
+
+        circle_marker_dbbe3ebc89949768572952ec117bba1a.bindPopup(popup_7eb58ec8454951a4849b677a718f4de0)
+        ;
+
+        
+    
+    
+            circle_marker_dbbe3ebc89949768572952ec117bba1a.bindTooltip(
+                `<div>
+                     AREQUIPA: 2030.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_674b309b2c53c930953054dda9b7417c = L.circleMarker(
+                [-16.208889, -73.625833],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_1323114b5dd4eae82c343b20cb031313 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_979b598a1d7edee03c3f15854ace1387 = $(`<div id="html_979b598a1d7edee03c3f15854ace1387" style="width: 100.0%; height: 100.0%;"><b>ATICO</b><br>PVOUT: 1684.0 kWh/kWp/año<br>PCs por panel: 4.12<br>Lat: -16.2089, Lon: -73.6258</div>`)[0];
+                popup_1323114b5dd4eae82c343b20cb031313.setContent(html_979b598a1d7edee03c3f15854ace1387);
+            
+        
+
+        circle_marker_674b309b2c53c930953054dda9b7417c.bindPopup(popup_1323114b5dd4eae82c343b20cb031313)
+        ;
+
+        
+    
+    
+            circle_marker_674b309b2c53c930953054dda9b7417c.bindTooltip(
+                `<div>
+                     ATICO: 1684.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_33c635fadcf24b214583ee40350c11fa = L.circleMarker(
+                [-15.795556, -74.365833],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_c20026f919670bc0568ea4bf8f1fdfd0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_60101d446066cae272a52e519e874825 = $(`<div id="html_60101d446066cae272a52e519e874825" style="width: 100.0%; height: 100.0%;"><b>ATIQUIPA</b><br>PVOUT: 1612.1 kWh/kWp/año<br>PCs por panel: 3.94<br>Lat: -15.7956, Lon: -74.3658</div>`)[0];
+                popup_c20026f919670bc0568ea4bf8f1fdfd0.setContent(html_60101d446066cae272a52e519e874825);
+            
+        
+
+        circle_marker_33c635fadcf24b214583ee40350c11fa.bindPopup(popup_c20026f919670bc0568ea4bf8f1fdfd0)
+        ;
+
+        
+    
+    
+            circle_marker_33c635fadcf24b214583ee40350c11fa.bindTooltip(
+                `<div>
+                     ATIQUIPA: 1612.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c3f84a64ba4aefe1f5fe0b07a576d15a = L.circleMarker(
+                [-15.683611, -72.274444],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_7c10d44b48e3b2b7b329a21d4d0a4f02 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3e2507e87a8b803efe5300ea2ff8ff07 = $(`<div id="html_3e2507e87a8b803efe5300ea2ff8ff07" style="width: 100.0%; height: 100.0%;"><b>AYO</b><br>PVOUT: 1951.4 kWh/kWp/año<br>PCs por panel: 4.77<br>Lat: -15.6836, Lon: -72.2744</div>`)[0];
+                popup_7c10d44b48e3b2b7b329a21d4d0a4f02.setContent(html_3e2507e87a8b803efe5300ea2ff8ff07);
+            
+        
+
+        circle_marker_c3f84a64ba4aefe1f5fe0b07a576d15a.bindPopup(popup_7c10d44b48e3b2b7b329a21d4d0a4f02)
+        ;
+
+        
+    
+    
+            circle_marker_c3f84a64ba4aefe1f5fe0b07a576d15a.bindTooltip(
+                `<div>
+                     AYO: 1951.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2463dc9b4241cb09b3bd1ec8758b66fe = L.circleMarker(
+                [-15.451944, -74.662222],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_adc827705bb5b0ec3551316d121616b8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_20f5be84b99dbfb704183f6a854e2c12 = $(`<div id="html_20f5be84b99dbfb704183f6a854e2c12" style="width: 100.0%; height: 100.0%;"><b>BELLA UNION</b><br>PVOUT: 1728.0 kWh/kWp/año<br>PCs por panel: 4.22<br>Lat: -15.4519, Lon: -74.6622</div>`)[0];
+                popup_adc827705bb5b0ec3551316d121616b8.setContent(html_20f5be84b99dbfb704183f6a854e2c12);
+            
+        
+
+        circle_marker_2463dc9b4241cb09b3bd1ec8758b66fe.bindPopup(popup_adc827705bb5b0ec3551316d121616b8)
+        ;
+
+        
+    
+    
+            circle_marker_2463dc9b4241cb09b3bd1ec8758b66fe.bindTooltip(
+                `<div>
+                     BELLA UNION: 1728.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df156d03d3f13a87c6f15299ba81cfdd = L.circleMarker(
+                [-15.621389, -71.979722],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_bb3a6dfa07a037ee05323e8472970e46 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ad7d23c76ee65b72ceb4808d1b3b1019 = $(`<div id="html_ad7d23c76ee65b72ceb4808d1b3b1019" style="width: 100.0%; height: 100.0%;"><b>CABANACONDE</b><br>PVOUT: 1999.4 kWh/kWp/año<br>PCs por panel: 4.89<br>Lat: -15.6214, Lon: -71.9797</div>`)[0];
+                popup_bb3a6dfa07a037ee05323e8472970e46.setContent(html_ad7d23c76ee65b72ceb4808d1b3b1019);
+            
+        
+
+        circle_marker_df156d03d3f13a87c6f15299ba81cfdd.bindPopup(popup_bb3a6dfa07a037ee05323e8472970e46)
+        ;
+
+        
+    
+    
+            circle_marker_df156d03d3f13a87c6f15299ba81cfdd.bindTooltip(
+                `<div>
+                     CABANACONDE: 1999.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f9816a9b0ae02f42bf1bae9de914c43c = L.circleMarker(
+                [-15.504167, -73.481667],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_34689d2fee6e2ad7ece7da28df44b845 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_24e56c563b90276d9f4ed8d3a40860da = $(`<div id="html_24e56c563b90276d9f4ed8d3a40860da" style="width: 100.0%; height: 100.0%;"><b>CAHUACHO</b><br>PVOUT: 2058.0 kWh/kWp/año<br>PCs por panel: 5.03<br>Lat: -15.5042, Lon: -73.4817</div>`)[0];
+                popup_34689d2fee6e2ad7ece7da28df44b845.setContent(html_24e56c563b90276d9f4ed8d3a40860da);
+            
+        
+
+        circle_marker_f9816a9b0ae02f42bf1bae9de914c43c.bindPopup(popup_34689d2fee6e2ad7ece7da28df44b845)
+        ;
+
+        
+    
+    
+            circle_marker_f9816a9b0ae02f42bf1bae9de914c43c.bindTooltip(
+                `<div>
+                     CAHUACHO: 2058.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_03e95a4f604d6782daf6c4aaec668021 = L.circleMarker(
+                [-15.506667, -71.448333],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_d1418d807f4ba0cb55bb9ec117856e20 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a0a1575f7a64ebf373223f78b44b9bc9 = $(`<div id="html_a0a1575f7a64ebf373223f78b44b9bc9" style="width: 100.0%; height: 100.0%;"><b>CALLALLI</b><br>PVOUT: 1998.5 kWh/kWp/año<br>PCs por panel: 4.89<br>Lat: -15.5067, Lon: -71.4483</div>`)[0];
+                popup_d1418d807f4ba0cb55bb9ec117856e20.setContent(html_a0a1575f7a64ebf373223f78b44b9bc9);
+            
+        
+
+        circle_marker_03e95a4f604d6782daf6c4aaec668021.bindPopup(popup_d1418d807f4ba0cb55bb9ec117856e20)
+        ;
+
+        
+    
+    
+            circle_marker_03e95a4f604d6782daf6c4aaec668021.bindTooltip(
+                `<div>
+                     CALLALLI: 1998.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3bb0527a23bdf6755f7e4f15de25852d = L.circleMarker(
+                [-16.623611, -72.711389],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_a980605ea38ac945db4ee0a10f774537 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_73aa60109690c0db97121224b1a4c099 = $(`<div id="html_73aa60109690c0db97121224b1a4c099" style="width: 100.0%; height: 100.0%;"><b>CAMANA</b><br>PVOUT: 1637.5 kWh/kWp/año<br>PCs por panel: 4.00<br>Lat: -16.6236, Lon: -72.7114</div>`)[0];
+                popup_a980605ea38ac945db4ee0a10f774537.setContent(html_73aa60109690c0db97121224b1a4c099);
+            
+        
+
+        circle_marker_3bb0527a23bdf6755f7e4f15de25852d.bindPopup(popup_a980605ea38ac945db4ee0a10f774537)
+        ;
+
+        
+    
+    
+            circle_marker_3bb0527a23bdf6755f7e4f15de25852d.bindTooltip(
+                `<div>
+                     CAMANA: 1637.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_373fc7e82c60eadc6754f709408dedfb = L.circleMarker(
+                [-15.772778, -73.368056],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_6ed0645ea27cf36faa5f69aba5ea3340 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5100cd1d016227fbfb9bab4a8c897e42 = $(`<div id="html_5100cd1d016227fbfb9bab4a8c897e42" style="width: 100.0%; height: 100.0%;"><b>CARAVELI</b><br>PVOUT: 2029.9 kWh/kWp/año<br>PCs por panel: 4.96<br>Lat: -15.7728, Lon: -73.3681</div>`)[0];
+                popup_6ed0645ea27cf36faa5f69aba5ea3340.setContent(html_5100cd1d016227fbfb9bab4a8c897e42);
+            
+        
+
+        circle_marker_373fc7e82c60eadc6754f709408dedfb.bindPopup(popup_6ed0645ea27cf36faa5f69aba5ea3340)
+        ;
+
+        
+    
+    
+            circle_marker_373fc7e82c60eadc6754f709408dedfb.bindTooltip(
+                `<div>
+                     CARAVELI: 2029.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_73508d24d10f94b9b88d2196e3e4e4e9 = L.circleMarker(
+                [-14.673056, -72.023056],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_ff0a746b1173b5744dd318c17c128132 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_56d12de4e4cfe1383dd688aaeaaec1fa = $(`<div id="html_56d12de4e4cfe1383dd688aaeaaec1fa" style="width: 100.0%; height: 100.0%;"><b>CAYARANI</b><br>PVOUT: 1954.3 kWh/kWp/año<br>PCs por panel: 4.78<br>Lat: -14.6731, Lon: -72.0231</div>`)[0];
+                popup_ff0a746b1173b5744dd318c17c128132.setContent(html_56d12de4e4cfe1383dd688aaeaaec1fa);
+            
+        
+
+        circle_marker_73508d24d10f94b9b88d2196e3e4e4e9.bindPopup(popup_ff0a746b1173b5744dd318c17c128132)
+        ;
+
+        
+    
+    
+            circle_marker_73508d24d10f94b9b88d2196e3e4e4e9.bindTooltip(
+                `<div>
+                     CAYARANI: 1954.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4a1f3aec46b69276a2e1628691f6205d = L.circleMarker(
+                [-15.187222, -71.7725],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_3c3a8e7faad486a16ef6c71be3da9ecf = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bccf0200c3443c43134a2a97e83210b4 = $(`<div id="html_bccf0200c3443c43134a2a97e83210b4" style="width: 100.0%; height: 100.0%;"><b>CAYLLOMA</b><br>PVOUT: 1983.4 kWh/kWp/año<br>PCs por panel: 4.85<br>Lat: -15.1872, Lon: -71.7725</div>`)[0];
+                popup_3c3a8e7faad486a16ef6c71be3da9ecf.setContent(html_bccf0200c3443c43134a2a97e83210b4);
+            
+        
+
+        circle_marker_4a1f3aec46b69276a2e1628691f6205d.bindPopup(popup_3c3a8e7faad486a16ef6c71be3da9ecf)
+        ;
+
+        
+    
+    
+            circle_marker_4a1f3aec46b69276a2e1628691f6205d.bindTooltip(
+                `<div>
+                     CAYLLOMA: 1983.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_430b6107c6894681d93ed403d773d174 = L.circleMarker(
+                [-16.388056, -71.549167],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_e2823d81fc11549b03703d0d8842f48c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6d9dbe3da221c4d9fdd4e8a5a03f5a6c = $(`<div id="html_6d9dbe3da221c4d9fdd4e8a5a03f5a6c" style="width: 100.0%; height: 100.0%;"><b>CAYMA</b><br>PVOUT: 2030.9 kWh/kWp/año<br>PCs por panel: 4.96<br>Lat: -16.3881, Lon: -71.5492</div>`)[0];
+                popup_e2823d81fc11549b03703d0d8842f48c.setContent(html_6d9dbe3da221c4d9fdd4e8a5a03f5a6c);
+            
+        
+
+        circle_marker_430b6107c6894681d93ed403d773d174.bindPopup(popup_e2823d81fc11549b03703d0d8842f48c)
+        ;
+
+        
+    
+    
+            circle_marker_430b6107c6894681d93ed403d773d174.bindTooltip(
+                `<div>
+                     CAYMA: 2030.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d434dcbfe281c28dbdb28fd0defeada7 = L.circleMarker(
+                [-16.375, -71.561111],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_46331003e05d4f26b6fddc9a6c66143c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_91413fd861540a8ccabb711c7af08047 = $(`<div id="html_91413fd861540a8ccabb711c7af08047" style="width: 100.0%; height: 100.0%;"><b>CERRO COLORADO</b><br>PVOUT: 2040.4 kWh/kWp/año<br>PCs por panel: 4.99<br>Lat: -16.3750, Lon: -71.5611</div>`)[0];
+                popup_46331003e05d4f26b6fddc9a6c66143c.setContent(html_91413fd861540a8ccabb711c7af08047);
+            
+        
+
+        circle_marker_d434dcbfe281c28dbdb28fd0defeada7.bindPopup(popup_46331003e05d4f26b6fddc9a6c66143c)
+        ;
+
+        
+    
+    
+            circle_marker_d434dcbfe281c28dbdb28fd0defeada7.bindTooltip(
+                `<div>
+                     CERRO COLORADO: 2040.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d6450c91a0eb40c1f38c832919ba2fa7 = L.circleMarker(
+                [-15.501667, -72.271944],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_6e23aa7d656b4cd671f5389041f57a05 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5934fa0b70d30066801af41e69895a3c = $(`<div id="html_5934fa0b70d30066801af41e69895a3c" style="width: 100.0%; height: 100.0%;"><b>CHACHAS</b><br>PVOUT: 1920.4 kWh/kWp/año<br>PCs por panel: 4.69<br>Lat: -15.5017, Lon: -72.2719</div>`)[0];
+                popup_6e23aa7d656b4cd671f5389041f57a05.setContent(html_5934fa0b70d30066801af41e69895a3c);
+            
+        
+
+        circle_marker_d6450c91a0eb40c1f38c832919ba2fa7.bindPopup(popup_6e23aa7d656b4cd671f5389041f57a05)
+        ;
+
+        
+    
+    
+            circle_marker_d6450c91a0eb40c1f38c832919ba2fa7.bindTooltip(
+                `<div>
+                     CHACHAS: 1920.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_acf3167bb9b3cd83d8782085fb2a6236 = L.circleMarker(
+                [-15.866667, -74.247222],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_fa88a6561b8dd7f877733d94133ac7f3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_03f6cba113a4944a7b477f77b8c47aa2 = $(`<div id="html_03f6cba113a4944a7b477f77b8c47aa2" style="width: 100.0%; height: 100.0%;"><b>CHALA</b><br>PVOUT: 1700.1 kWh/kWp/año<br>PCs por panel: 4.16<br>Lat: -15.8667, Lon: -74.2472</div>`)[0];
+                popup_fa88a6561b8dd7f877733d94133ac7f3.setContent(html_03f6cba113a4944a7b477f77b8c47aa2);
+            
+        
+
+        circle_marker_acf3167bb9b3cd83d8782085fb2a6236.bindPopup(popup_fa88a6561b8dd7f877733d94133ac7f3)
+        ;
+
+        
+    
+    
+            circle_marker_acf3167bb9b3cd83d8782085fb2a6236.bindTooltip(
+                `<div>
+                     CHALA: 1700.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8f413929429a39d181e43698021fb65c = L.circleMarker(
+                [-15.805833, -73.967222],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_a0d6517b45868422037d7d52e565028b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_781c57a03cf884a6723a546b65075421 = $(`<div id="html_781c57a03cf884a6723a546b65075421" style="width: 100.0%; height: 100.0%;"><b>CHAPARRA</b><br>PVOUT: 1924.1 kWh/kWp/año<br>PCs por panel: 4.70<br>Lat: -15.8058, Lon: -73.9672</div>`)[0];
+                popup_a0d6517b45868422037d7d52e565028b.setContent(html_781c57a03cf884a6723a546b65075421);
+            
+        
+
+        circle_marker_8f413929429a39d181e43698021fb65c.bindPopup(popup_a0d6517b45868422037d7d52e565028b)
+        ;
+
+        
+    
+    
+            circle_marker_8f413929429a39d181e43698021fb65c.bindTooltip(
+                `<div>
+                     CHAPARRA: 1924.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c83612ec3ad85fbc6b9133b41ae3d1e4 = L.circleMarker(
+                [-16.470556, -71.489722],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_382131c4a348c9e0dccd1c3a2a32da5c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_154c0a621e2f79cfde80de3319ce3179 = $(`<div id="html_154c0a621e2f79cfde80de3319ce3179" style="width: 100.0%; height: 100.0%;"><b>CHARACATO</b><br>PVOUT: 2046.7 kWh/kWp/año<br>PCs por panel: 5.00<br>Lat: -16.4706, Lon: -71.4897</div>`)[0];
+                popup_382131c4a348c9e0dccd1c3a2a32da5c.setContent(html_154c0a621e2f79cfde80de3319ce3179);
+            
+        
+
+        circle_marker_c83612ec3ad85fbc6b9133b41ae3d1e4.bindPopup(popup_382131c4a348c9e0dccd1c3a2a32da5c)
+        ;
+
+        
+    
+    
+            circle_marker_c83612ec3ad85fbc6b9133b41ae3d1e4.bindTooltip(
+                `<div>
+                     CHARACATO: 2046.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a885ef2355b5a79926781860f20a6f9b = L.circleMarker(
+                [-15.241111, -73.069722],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_111e356d94cd08797456ee9eaa9dd738 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_da24993c706aa3714b9e4a415650ab9d = $(`<div id="html_da24993c706aa3714b9e4a415650ab9d" style="width: 100.0%; height: 100.0%;"><b>CHARCANA</b><br>PVOUT: 1888.8 kWh/kWp/año<br>PCs por panel: 4.62<br>Lat: -15.2411, Lon: -73.0697</div>`)[0];
+                popup_111e356d94cd08797456ee9eaa9dd738.setContent(html_da24993c706aa3714b9e4a415650ab9d);
+            
+        
+
+        circle_marker_a885ef2355b5a79926781860f20a6f9b.bindPopup(popup_111e356d94cd08797456ee9eaa9dd738)
+        ;
+
+        
+    
+    
+            circle_marker_a885ef2355b5a79926781860f20a6f9b.bindTooltip(
+                `<div>
+                     CHARCANA: 1888.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cc0a96db5e55f5efbda11ad34e70fe1e = L.circleMarker(
+                [-15.546944, -72.918333],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_4b09850627198efddb4da5cfa92b579c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_20549e902c0e3d5832e494e73d68a093 = $(`<div id="html_20549e902c0e3d5832e494e73d68a093" style="width: 100.0%; height: 100.0%;"><b>CHICHAS</b><br>PVOUT: 1836.1 kWh/kWp/año<br>PCs por panel: 4.49<br>Lat: -15.5469, Lon: -72.9183</div>`)[0];
+                popup_4b09850627198efddb4da5cfa92b579c.setContent(html_20549e902c0e3d5832e494e73d68a093);
+            
+        
+
+        circle_marker_cc0a96db5e55f5efbda11ad34e70fe1e.bindPopup(popup_4b09850627198efddb4da5cfa92b579c)
+        ;
+
+        
+    
+    
+            circle_marker_cc0a96db5e55f5efbda11ad34e70fe1e.bindTooltip(
+                `<div>
+                     CHICHAS: 1836.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_27a1f43101ce99b16d6eb641ea52e617 = L.circleMarker(
+                [-16.4025, -71.393889],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_ee1c2e2b2d12da9602fcf387eac400d4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_95d88ba3cc6403e239b9a5628fcb04de = $(`<div id="html_95d88ba3cc6403e239b9a5628fcb04de" style="width: 100.0%; height: 100.0%;"><b>CHIGUATA</b><br>PVOUT: 2005.0 kWh/kWp/año<br>PCs por panel: 4.90<br>Lat: -16.4025, Lon: -71.3939</div>`)[0];
+                popup_ee1c2e2b2d12da9602fcf387eac400d4.setContent(html_95d88ba3cc6403e239b9a5628fcb04de);
+            
+        
+
+        circle_marker_27a1f43101ce99b16d6eb641ea52e617.bindPopup(popup_ee1c2e2b2d12da9602fcf387eac400d4)
+        ;
+
+        
+    
+    
+            circle_marker_27a1f43101ce99b16d6eb641ea52e617.bindTooltip(
+                `<div>
+                     CHIGUATA: 2005.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1989827dae52c4a4c701d8f44c5c65c0 = L.circleMarker(
+                [-15.286667, -72.379444],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_276e5e194d4032a0c2ec2aa4c3bbea45 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_64b92cb0d02838366287d4a6471606b1 = $(`<div id="html_64b92cb0d02838366287d4a6471606b1" style="width: 100.0%; height: 100.0%;"><b>CHILCAYMARCA</b><br>PVOUT: 1992.5 kWh/kWp/año<br>PCs por panel: 4.87<br>Lat: -15.2867, Lon: -72.3794</div>`)[0];
+                popup_276e5e194d4032a0c2ec2aa4c3bbea45.setContent(html_64b92cb0d02838366287d4a6471606b1);
+            
+        
+
+        circle_marker_1989827dae52c4a4c701d8f44c5c65c0.bindPopup(popup_276e5e194d4032a0c2ec2aa4c3bbea45)
+        ;
+
+        
+    
+    
+            circle_marker_1989827dae52c4a4c701d8f44c5c65c0.bindTooltip(
+                `<div>
+                     CHILCAYMARCA: 1992.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_82a5ede1e573c20b27706082ecc29838 = L.circleMarker(
+                [-15.64, -71.603333],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_bcdf525e1004374d6b047560dc3cfb3c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d6f4c6d8eb270b9667393ccab659b45e = $(`<div id="html_d6f4c6d8eb270b9667393ccab659b45e" style="width: 100.0%; height: 100.0%;"><b>CHIVAY</b><br>PVOUT: 1988.3 kWh/kWp/año<br>PCs por panel: 4.86<br>Lat: -15.6400, Lon: -71.6033</div>`)[0];
+                popup_bcdf525e1004374d6b047560dc3cfb3c.setContent(html_d6f4c6d8eb270b9667393ccab659b45e);
+            
+        
+
+        circle_marker_82a5ede1e573c20b27706082ecc29838.bindPopup(popup_bcdf525e1004374d6b047560dc3cfb3c)
+        ;
+
+        
+    
+    
+            circle_marker_82a5ede1e573c20b27706082ecc29838.bindTooltip(
+                `<div>
+                     CHIVAY: 1988.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_599f37b0e2b0ab184792a1e73cb7615f = L.circleMarker(
+                [-15.576111, -72.133056],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_92690e8f499c7263a18684f11cb27cb1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ca7036b075895b8a8b60b0364eefb0be = $(`<div id="html_ca7036b075895b8a8b60b0364eefb0be" style="width: 100.0%; height: 100.0%;"><b>CHOCO</b><br>PVOUT: 1794.1 kWh/kWp/año<br>PCs por panel: 4.39<br>Lat: -15.5761, Lon: -72.1331</div>`)[0];
+                popup_92690e8f499c7263a18684f11cb27cb1.setContent(html_ca7036b075895b8a8b60b0364eefb0be);
+            
+        
+
+        circle_marker_599f37b0e2b0ab184792a1e73cb7615f.bindPopup(popup_92690e8f499c7263a18684f11cb27cb1)
+        ;
+
+        
+    
+    
+            circle_marker_599f37b0e2b0ab184792a1e73cb7615f.bindTooltip(
+                `<div>
+                     CHOCO: 1794.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_74f9224aebe3fefd5fefa9c62e586e23 = L.circleMarker(
+                [-15.839722, -72.654167],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_1162216bc1df68f1768f9ed082553543 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f51f87612de505d4cc0ee393751a5190 = $(`<div id="html_f51f87612de505d4cc0ee393751a5190" style="width: 100.0%; height: 100.0%;"><b>CHUQUIBAMBA</b><br>PVOUT: 1990.9 kWh/kWp/año<br>PCs por panel: 4.87<br>Lat: -15.8397, Lon: -72.6542</div>`)[0];
+                popup_1162216bc1df68f1768f9ed082553543.setContent(html_f51f87612de505d4cc0ee393751a5190);
+            
+        
+
+        circle_marker_74f9224aebe3fefd5fefa9c62e586e23.bindPopup(popup_1162216bc1df68f1768f9ed082553543)
+        ;
+
+        
+    
+    
+            circle_marker_74f9224aebe3fefd5fefa9c62e586e23.bindTooltip(
+                `<div>
+                     CHUQUIBAMBA: 1990.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_de9081cbeea52970ee8d508f07b98c0a = L.circleMarker(
+                [-17.094167, -71.771111],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_9e18c7159f48226c47a4f525d178ea23 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5e86fb27d8cfb5e975f7478cd6145754 = $(`<div id="html_5e86fb27d8cfb5e975f7478cd6145754" style="width: 100.0%; height: 100.0%;"><b>COCACHACRA</b><br>PVOUT: 1515.9 kWh/kWp/año<br>PCs por panel: 3.71<br>Lat: -17.0942, Lon: -71.7711</div>`)[0];
+                popup_9e18c7159f48226c47a4f525d178ea23.setContent(html_5e86fb27d8cfb5e975f7478cd6145754);
+            
+        
+
+        circle_marker_de9081cbeea52970ee8d508f07b98c0a.bindPopup(popup_9e18c7159f48226c47a4f525d178ea23)
+        ;
+
+        
+    
+    
+            circle_marker_de9081cbeea52970ee8d508f07b98c0a.bindTooltip(
+                `<div>
+                     COCACHACRA: 1515.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ccc75729a460a27e8bcc7d357b5905a3 = L.circleMarker(
+                [-15.6275, -71.648333],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_94cfbe53c1ad31455b0f6c4c66ae90ab = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a622e8b576a526985124d9a8c882faa7 = $(`<div id="html_a622e8b576a526985124d9a8c882faa7" style="width: 100.0%; height: 100.0%;"><b>COPORAQUE</b><br>PVOUT: 1971.4 kWh/kWp/año<br>PCs por panel: 4.82<br>Lat: -15.6275, Lon: -71.6483</div>`)[0];
+                popup_94cfbe53c1ad31455b0f6c4c66ae90ab.setContent(html_a622e8b576a526985124d9a8c882faa7);
+            
+        
+
+        circle_marker_ccc75729a460a27e8bcc7d357b5905a3.bindPopup(popup_94cfbe53c1ad31455b0f6c4c66ae90ab)
+        ;
+
+        
+    
+    
+            circle_marker_ccc75729a460a27e8bcc7d357b5905a3.bindTooltip(
+                `<div>
+                     COPORAQUE: 1971.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_be7b20a0dcf133b670842b238aca6ac5 = L.circleMarker(
+                [-15.211111, -72.891111],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_8e3b5bc86bcdbdceceaa61f73b1126f1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a8e0bfe71ffb88b9ebf6d7f2675f3760 = $(`<div id="html_a8e0bfe71ffb88b9ebf6d7f2675f3760" style="width: 100.0%; height: 100.0%;"><b>COTAHUASI</b><br>PVOUT: 1892.4 kWh/kWp/año<br>PCs por panel: 4.63<br>Lat: -15.2111, Lon: -72.8911</div>`)[0];
+                popup_8e3b5bc86bcdbdceceaa61f73b1126f1.setContent(html_a8e0bfe71ffb88b9ebf6d7f2675f3760);
+            
+        
+
+        circle_marker_be7b20a0dcf133b670842b238aca6ac5.bindPopup(popup_8e3b5bc86bcdbdceceaa61f73b1126f1)
+        ;
+
+        
+    
+    
+            circle_marker_be7b20a0dcf133b670842b238aca6ac5.bindTooltip(
+                `<div>
+                     COTAHUASI: 1892.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_213d7584135ae13b20007e7188d3ca7c = L.circleMarker(
+                [-17.145, -71.823889],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_8b52854c8d18aa05a1bb7a2ace8824f2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c86d9ef5ad756dd5364ea0ab8d706313 = $(`<div id="html_c86d9ef5ad756dd5364ea0ab8d706313" style="width: 100.0%; height: 100.0%;"><b>DEAN VALDIVIA</b><br>PVOUT: 1528.2 kWh/kWp/año<br>PCs por panel: 3.74<br>Lat: -17.1450, Lon: -71.8239</div>`)[0];
+                popup_8b52854c8d18aa05a1bb7a2ace8824f2.setContent(html_c86d9ef5ad756dd5364ea0ab8d706313);
+            
+        
+
+        circle_marker_213d7584135ae13b20007e7188d3ca7c.bindPopup(popup_8b52854c8d18aa05a1bb7a2ace8824f2)
+        ;
+
+        
+    
+    
+            circle_marker_213d7584135ae13b20007e7188d3ca7c.bindTooltip(
+                `<div>
+                     DEAN VALDIVIA: 1528.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4f0808a864a0c58f5f758817d138ddae = L.circleMarker(
+                [-15.729722, -72.107222],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_726a751ed2ec93629aea494c9c4a5d96 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_37347d941b4bfdb64093afa386482632 = $(`<div id="html_37347d941b4bfdb64093afa386482632" style="width: 100.0%; height: 100.0%;"><b>HUAMBO</b><br>PVOUT: 1950.2 kWh/kWp/año<br>PCs por panel: 4.77<br>Lat: -15.7297, Lon: -72.1072</div>`)[0];
+                popup_726a751ed2ec93629aea494c9c4a5d96.setContent(html_37347d941b4bfdb64093afa386482632);
+            
+        
+
+        circle_marker_4f0808a864a0c58f5f758817d138ddae.bindPopup(popup_726a751ed2ec93629aea494c9c4a5d96)
+        ;
+
+        
+    
+    
+            circle_marker_4f0808a864a0c58f5f758817d138ddae.bindTooltip(
+                `<div>
+                     HUAMBO: 1950.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_18186c48552b5fba007a68861398ecab = L.circleMarker(
+                [-16.031111, -71.873611],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_e44677f453b00958322cdc514cf864f5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7c4f6b815bc59aba5fd947a8cd8cdddc = $(`<div id="html_7c4f6b815bc59aba5fd947a8cd8cdddc" style="width: 100.0%; height: 100.0%;"><b>HUANCA</b><br>PVOUT: 1968.9 kWh/kWp/año<br>PCs por panel: 4.81<br>Lat: -16.0311, Lon: -71.8736</div>`)[0];
+                popup_e44677f453b00958322cdc514cf864f5.setContent(html_7c4f6b815bc59aba5fd947a8cd8cdddc);
+            
+        
+
+        circle_marker_18186c48552b5fba007a68861398ecab.bindPopup(popup_e44677f453b00958322cdc514cf864f5)
+        ;
+
+        
+    
+    
+            circle_marker_18186c48552b5fba007a68861398ecab.bindTooltip(
+                `<div>
+                     HUANCA: 1968.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_24389cab5728615262e3bd5c3d288129 = L.circleMarker(
+                [-16.096944, -72.472222],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_400f1ba2ae4d6d4508ce41c525994ee8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f467f6bed76b5f4526c27065c92f0cfc = $(`<div id="html_f467f6bed76b5f4526c27065c92f0cfc" style="width: 100.0%; height: 100.0%;"><b>HUANCARQUI</b><br>PVOUT: 1926.7 kWh/kWp/año<br>PCs por panel: 4.71<br>Lat: -16.0969, Lon: -72.4722</div>`)[0];
+                popup_400f1ba2ae4d6d4508ce41c525994ee8.setContent(html_f467f6bed76b5f4526c27065c92f0cfc);
+            
+        
+
+        circle_marker_24389cab5728615262e3bd5c3d288129.bindPopup(popup_400f1ba2ae4d6d4508ce41c525994ee8)
+        ;
+
+        
+    
+    
+            circle_marker_24389cab5728615262e3bd5c3d288129.bindTooltip(
+                `<div>
+                     HUANCARQUI: 1926.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_51ba791643ceea74e2f9b06003615ce6 = L.circleMarker(
+                [-15.659167, -74.093611],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_898dec21f498b04ec24d48c4c860c0fe = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bd674da3b60b0bf5b2a3f713bdc3c418 = $(`<div id="html_bd674da3b60b0bf5b2a3f713bdc3c418" style="width: 100.0%; height: 100.0%;"><b>HUANUHUANU</b><br>PVOUT: 1987.9 kWh/kWp/año<br>PCs por panel: 4.86<br>Lat: -15.6592, Lon: -74.0936</div>`)[0];
+                popup_898dec21f498b04ec24d48c4c860c0fe.setContent(html_bd674da3b60b0bf5b2a3f713bdc3c418);
+            
+        
+
+        circle_marker_51ba791643ceea74e2f9b06003615ce6.bindPopup(popup_898dec21f498b04ec24d48c4c860c0fe)
+        ;
+
+        
+    
+    
+            circle_marker_51ba791643ceea74e2f9b06003615ce6.bindTooltip(
+                `<div>
+                     HUANUHUANU: 1987.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ec521c74816a53493819baaf01269a81 = L.circleMarker(
+                [-15.174444, -72.851389],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_24ba765297956e4e2cf84f33a3f36fd5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0307e3c5108ee520a41a25eb38a136de = $(`<div id="html_0307e3c5108ee520a41a25eb38a136de" style="width: 100.0%; height: 100.0%;"><b>HUAYNACOTAS</b><br>PVOUT: 1806.0 kWh/kWp/año<br>PCs por panel: 4.41<br>Lat: -15.1744, Lon: -72.8514</div>`)[0];
+                popup_24ba765297956e4e2cf84f33a3f36fd5.setContent(html_0307e3c5108ee520a41a25eb38a136de);
+            
+        
+
+        circle_marker_ec521c74816a53493819baaf01269a81.bindPopup(popup_24ba765297956e4e2cf84f33a3f36fd5)
+        ;
+
+        
+    
+    
+            circle_marker_ec521c74816a53493819baaf01269a81.bindTooltip(
+                `<div>
+                     HUAYNACOTAS: 1806.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0762a631ab2d87a01cbb74d58ee5370c = L.circleMarker(
+                [-15.650278, -71.689167],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_96ac31d1eef32908e12ebf190468f256 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4245fe42b00bb1acc868b9ae09a69bec = $(`<div id="html_4245fe42b00bb1acc868b9ae09a69bec" style="width: 100.0%; height: 100.0%;"><b>ICHUPAMPA</b><br>PVOUT: 2000.9 kWh/kWp/año<br>PCs por panel: 4.89<br>Lat: -15.6503, Lon: -71.6892</div>`)[0];
+                popup_96ac31d1eef32908e12ebf190468f256.setContent(html_4245fe42b00bb1acc868b9ae09a69bec);
+            
+        
+
+        circle_marker_0762a631ab2d87a01cbb74d58ee5370c.bindPopup(popup_96ac31d1eef32908e12ebf190468f256)
+        ;
+
+        
+    
+    
+            circle_marker_0762a631ab2d87a01cbb74d58ee5370c.bindTooltip(
+                `<div>
+                     ICHUPAMPA: 2000.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_def3a39934a7f843f1607f97072db535 = L.circleMarker(
+                [-15.856389, -72.625],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_3d6e371bd614d794a1d93f15623730b5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_49f55a123ac8a1edee386bf053c787c5 = $(`<div id="html_49f55a123ac8a1edee386bf053c787c5" style="width: 100.0%; height: 100.0%;"><b>IRAY</b><br>PVOUT: 1962.9 kWh/kWp/año<br>PCs por panel: 4.80<br>Lat: -15.8564, Lon: -72.6250</div>`)[0];
+                popup_3d6e371bd614d794a1d93f15623730b5.setContent(html_49f55a123ac8a1edee386bf053c787c5);
+            
+        
+
+        circle_marker_def3a39934a7f843f1607f97072db535.bindPopup(popup_3d6e371bd614d794a1d93f15623730b5)
+        ;
+
+        
+    
+    
+            circle_marker_def3a39934a7f843f1607f97072db535.bindTooltip(
+                `<div>
+                     IRAY: 1962.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1b447e73f220626c908a36e3a8558dce = L.circleMarker(
+                [-17.0, -72.101667],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_6e0539795d7e79937e071b571a3f678e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d72190cb0f8eab5e998163a630c06f6f = $(`<div id="html_d72190cb0f8eab5e998163a630c06f6f" style="width: 100.0%; height: 100.0%;"><b>ISLAY</b><br>PVOUT: 1562.2 kWh/kWp/año<br>PCs por panel: 3.82<br>Lat: -17.0000, Lon: -72.1017</div>`)[0];
+                popup_6e0539795d7e79937e071b571a3f678e.setContent(html_d72190cb0f8eab5e998163a630c06f6f);
+            
+        
+
+        circle_marker_1b447e73f220626c908a36e3a8558dce.bindPopup(popup_6e0539795d7e79937e071b571a3f678e)
+        ;
+
+        
+    
+    
+            circle_marker_1b447e73f220626c908a36e3a8558dce.bindTooltip(
+                `<div>
+                     ISLAY: 1562.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd230b32c9fbc2336b4464417158875c = L.circleMarker(
+                [-16.446667, -71.555556],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_8c30d80ea92a6ef1e14428f8fbfbe0e7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b419ee1fe59fe879d804747571d0fdd9 = $(`<div id="html_b419ee1fe59fe879d804747571d0fdd9" style="width: 100.0%; height: 100.0%;"><b>JACOBO HUNTER</b><br>PVOUT: 2034.2 kWh/kWp/año<br>PCs por panel: 4.97<br>Lat: -16.4467, Lon: -71.5556</div>`)[0];
+                popup_8c30d80ea92a6ef1e14428f8fbfbe0e7.setContent(html_b419ee1fe59fe879d804747571d0fdd9);
+            
+        
+
+        circle_marker_fd230b32c9fbc2336b4464417158875c.bindPopup(popup_8c30d80ea92a6ef1e14428f8fbfbe0e7)
+        ;
+
+        
+    
+    
+            circle_marker_fd230b32c9fbc2336b4464417158875c.bindTooltip(
+                `<div>
+                     JACOBO HUNTER: 2034.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6f4b2e23c9a4a96c64149ec2f45fd3c4 = L.circleMarker(
+                [-15.475278, -74.441389],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_2c031af934a502fe42daab09855012a8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e88322f362170a9fb9793cfa2800ea0c = $(`<div id="html_e88322f362170a9fb9793cfa2800ea0c" style="width: 100.0%; height: 100.0%;"><b>JAQUI</b><br>PVOUT: 1884.2 kWh/kWp/año<br>PCs por panel: 4.61<br>Lat: -15.4753, Lon: -74.4414</div>`)[0];
+                popup_2c031af934a502fe42daab09855012a8.setContent(html_e88322f362170a9fb9793cfa2800ea0c);
+            
+        
+
+        circle_marker_6f4b2e23c9a4a96c64149ec2f45fd3c4.bindPopup(popup_2c031af934a502fe42daab09855012a8)
+        ;
+
+        
+    
+    
+            circle_marker_6f4b2e23c9a4a96c64149ec2f45fd3c4.bindTooltip(
+                `<div>
+                     JAQUI: 1884.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f5d8ab9f2bae6b1e2813b750c4457fcf = L.circleMarker(
+                [-16.434444, -71.5175],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_b20fd5cd51b47b396872b0a41e2cbf03 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0b04cc328a7015ef71f5e4553596797a = $(`<div id="html_0b04cc328a7015ef71f5e4553596797a" style="width: 100.0%; height: 100.0%;"><b>JOSE LUIS BUSTAMANTE Y RIVERO</b><br>PVOUT: 2037.1 kWh/kWp/año<br>PCs por panel: 4.98<br>Lat: -16.4344, Lon: -71.5175</div>`)[0];
+                popup_b20fd5cd51b47b396872b0a41e2cbf03.setContent(html_0b04cc328a7015ef71f5e4553596797a);
+            
+        
+
+        circle_marker_f5d8ab9f2bae6b1e2813b750c4457fcf.bindPopup(popup_b20fd5cd51b47b396872b0a41e2cbf03)
+        ;
+
+        
+    
+    
+            circle_marker_f5d8ab9f2bae6b1e2813b750c4457fcf.bindTooltip(
+                `<div>
+                     JOSE LUIS BUSTAMANTE Y RIVERO: 2037.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5002e89553c2ba2e815ab75a0b10faa6 = L.circleMarker(
+                [-16.603056, -72.7275],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_bbce431e6f212a86bcb06d05d7acf081 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_31a0b8e4e4b65084dce24fd0375ac360 = $(`<div id="html_31a0b8e4e4b65084dce24fd0375ac360" style="width: 100.0%; height: 100.0%;"><b>JOSE MARIA QUIMPER</b><br>PVOUT: 1621.8 kWh/kWp/año<br>PCs por panel: 3.96<br>Lat: -16.6031, Lon: -72.7275</div>`)[0];
+                popup_bbce431e6f212a86bcb06d05d7acf081.setContent(html_31a0b8e4e4b65084dce24fd0375ac360);
+            
+        
+
+        circle_marker_5002e89553c2ba2e815ab75a0b10faa6.bindPopup(popup_bbce431e6f212a86bcb06d05d7acf081)
+        ;
+
+        
+    
+    
+            circle_marker_5002e89553c2ba2e815ab75a0b10faa6.bindTooltip(
+                `<div>
+                     JOSE MARIA QUIMPER: 1621.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1837670aef01307c48a0ee2e88b344f0 = L.circleMarker(
+                [-16.423889, -71.820556],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_1466e9bd58f48a485a02b6431b81c799 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ac9486163788ab0d5c4ca3d9a45caeab = $(`<div id="html_ac9486163788ab0d5c4ca3d9a45caeab" style="width: 100.0%; height: 100.0%;"><b>LA JOYA</b><br>PVOUT: 2026.8 kWh/kWp/año<br>PCs por panel: 4.95<br>Lat: -16.4239, Lon: -71.8206</div>`)[0];
+                popup_1466e9bd58f48a485a02b6431b81c799.setContent(html_ac9486163788ab0d5c4ca3d9a45caeab);
+            
+        
+
+        circle_marker_1837670aef01307c48a0ee2e88b344f0.bindPopup(popup_1466e9bd58f48a485a02b6431b81c799)
+        ;
+
+        
+    
+    
+            circle_marker_1837670aef01307c48a0ee2e88b344f0.bindTooltip(
+                `<div>
+                     LA JOYA: 2026.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1745f4ca1be4b8de9e8627acabbf9c01 = L.circleMarker(
+                [-15.621667, -71.769167],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_1f80fce5fc9309f5ae8361d700c8a4c1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f8597d0fec3df2cb96d562b7b85bfc91 = $(`<div id="html_f8597d0fec3df2cb96d562b7b85bfc91" style="width: 100.0%; height: 100.0%;"><b>LARI</b><br>PVOUT: 1986.9 kWh/kWp/año<br>PCs por panel: 4.86<br>Lat: -15.6217, Lon: -71.7692</div>`)[0];
+                popup_1f80fce5fc9309f5ae8361d700c8a4c1.setContent(html_f8597d0fec3df2cb96d562b7b85bfc91);
+            
+        
+
+        circle_marker_1745f4ca1be4b8de9e8627acabbf9c01.bindPopup(popup_1f80fce5fc9309f5ae8361d700c8a4c1)
+        ;
+
+        
+    
+    
+            circle_marker_1745f4ca1be4b8de9e8627acabbf9c01.bindTooltip(
+                `<div>
+                     LARI: 1986.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_37aff3e4b7eb29e5ae4b5338f5b98be5 = L.circleMarker(
+                [-16.015556, -72.016111],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_8b3f1c08b7195bca1394d207b59f24b8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_575a83bb36425807d902fe9271e98f94 = $(`<div id="html_575a83bb36425807d902fe9271e98f94" style="width: 100.0%; height: 100.0%;"><b>LLUTA</b><br>PVOUT: 2032.5 kWh/kWp/año<br>PCs por panel: 4.97<br>Lat: -16.0156, Lon: -72.0161</div>`)[0];
+                popup_8b3f1c08b7195bca1394d207b59f24b8.setContent(html_575a83bb36425807d902fe9271e98f94);
+            
+        
+
+        circle_marker_37aff3e4b7eb29e5ae4b5338f5b98be5.bindPopup(popup_8b3f1c08b7195bca1394d207b59f24b8)
+        ;
+
+        
+    
+    
+            circle_marker_37aff3e4b7eb29e5ae4b5338f5b98be5.bindTooltip(
+                `<div>
+                     LLUTA: 2032.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7b5d8600e2e73b68261de4a0b646b743 = L.circleMarker(
+                [-15.571944, -74.853333],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_3c8c6bdade2a48ac275c89705c15b655 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f11cf2cee51bf5e4836c2f54b03ddd90 = $(`<div id="html_f11cf2cee51bf5e4836c2f54b03ddd90" style="width: 100.0%; height: 100.0%;"><b>LOMAS</b><br>PVOUT: 1775.8 kWh/kWp/año<br>PCs por panel: 4.34<br>Lat: -15.5719, Lon: -74.8533</div>`)[0];
+                popup_3c8c6bdade2a48ac275c89705c15b655.setContent(html_f11cf2cee51bf5e4836c2f54b03ddd90);
+            
+        
+
+        circle_marker_7b5d8600e2e73b68261de4a0b646b743.bindPopup(popup_3c8c6bdade2a48ac275c89705c15b655)
+        ;
+
+        
+    
+    
+            circle_marker_7b5d8600e2e73b68261de4a0b646b743.bindTooltip(
+                `<div>
+                     LOMAS: 1775.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_963c57aceea3623312ba6dd89f921b09 = L.circleMarker(
+                [-15.641667, -71.771111],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_543f479ec9856b0d242db17281335e71 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_048761feed7afdaf3ace7c3adee97b3a = $(`<div id="html_048761feed7afdaf3ace7c3adee97b3a" style="width: 100.0%; height: 100.0%;"><b>MACA</b><br>PVOUT: 1983.2 kWh/kWp/año<br>PCs por panel: 4.85<br>Lat: -15.6417, Lon: -71.7711</div>`)[0];
+                popup_543f479ec9856b0d242db17281335e71.setContent(html_048761feed7afdaf3ace7c3adee97b3a);
+            
+        
+
+        circle_marker_963c57aceea3623312ba6dd89f921b09.bindPopup(popup_543f479ec9856b0d242db17281335e71)
+        ;
+
+        
+    
+    
+            circle_marker_963c57aceea3623312ba6dd89f921b09.bindTooltip(
+                `<div>
+                     MACA: 1983.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_483a41355c3ab568b0d13ed3a948b4ac = L.circleMarker(
+                [-15.648611, -72.505556],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_07ec80448694333192fc7e9183fb575e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_86fbe38e8f3cbaaaee8a46fef71fa5cf = $(`<div id="html_86fbe38e8f3cbaaaee8a46fef71fa5cf" style="width: 100.0%; height: 100.0%;"><b>MACHAGUAY</b><br>PVOUT: 1951.5 kWh/kWp/año<br>PCs por panel: 4.77<br>Lat: -15.6486, Lon: -72.5056</div>`)[0];
+                popup_07ec80448694333192fc7e9183fb575e.setContent(html_86fbe38e8f3cbaaaee8a46fef71fa5cf);
+            
+        
+
+        circle_marker_483a41355c3ab568b0d13ed3a948b4ac.bindPopup(popup_07ec80448694333192fc7e9183fb575e)
+        ;
+
+        
+    
+    
+            circle_marker_483a41355c3ab568b0d13ed3a948b4ac.bindTooltip(
+                `<div>
+                     MACHAGUAY: 1951.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ac84d5a4fe5b623448f1a39835c5bfc1 = L.circleMarker(
+                [-15.608611, -71.810278],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_b9e7efec4a8a0f67756b1bae72abdcce = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c6be33fd79cc1c8d041cb3ed563b9b06 = $(`<div id="html_c6be33fd79cc1c8d041cb3ed563b9b06" style="width: 100.0%; height: 100.0%;"><b>MADRIGAL</b><br>PVOUT: 1984.7 kWh/kWp/año<br>PCs por panel: 4.85<br>Lat: -15.6086, Lon: -71.8103</div>`)[0];
+                popup_b9e7efec4a8a0f67756b1bae72abdcce.setContent(html_c6be33fd79cc1c8d041cb3ed563b9b06);
+            
+        
+
+        circle_marker_ac84d5a4fe5b623448f1a39835c5bfc1.bindPopup(popup_b9e7efec4a8a0f67756b1bae72abdcce)
+        ;
+
+        
+    
+    
+            circle_marker_ac84d5a4fe5b623448f1a39835c5bfc1.bindTooltip(
+                `<div>
+                     MADRIGAL: 1984.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_12862bb881545a7f69a62ac718a93fe0 = L.circleMarker(
+                [-16.358611, -72.190833],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_b91caa1baf596b2b7dd5a0a079c58803 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1667ed0a54ecb2f6bbb8b4b6dfd6d830 = $(`<div id="html_1667ed0a54ecb2f6bbb8b4b6dfd6d830" style="width: 100.0%; height: 100.0%;"><b>MAJES</b><br>PVOUT: 2055.7 kWh/kWp/año<br>PCs por panel: 5.03<br>Lat: -16.3586, Lon: -72.1908</div>`)[0];
+                popup_b91caa1baf596b2b7dd5a0a079c58803.setContent(html_1667ed0a54ecb2f6bbb8b4b6dfd6d830);
+            
+        
+
+        circle_marker_12862bb881545a7f69a62ac718a93fe0.bindPopup(popup_b91caa1baf596b2b7dd5a0a079c58803)
+        ;
+
+        
+    
+    
+            circle_marker_12862bb881545a7f69a62ac718a93fe0.bindTooltip(
+                `<div>
+                     MAJES: 2055.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dc813a1a02f8209dc61e6ba11ac7c51d = L.circleMarker(
+                [-16.405833, -71.511667],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_dbe1ff7f3793f5df37957f074332b668 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_868a99466e1a9223003f8f933e9ba532 = $(`<div id="html_868a99466e1a9223003f8f933e9ba532" style="width: 100.0%; height: 100.0%;"><b>MARIANO MELGAR</b><br>PVOUT: 2032.1 kWh/kWp/año<br>PCs por panel: 4.97<br>Lat: -16.4058, Lon: -71.5117</div>`)[0];
+                popup_dbe1ff7f3793f5df37957f074332b668.setContent(html_868a99466e1a9223003f8f933e9ba532);
+            
+        
+
+        circle_marker_dc813a1a02f8209dc61e6ba11ac7c51d.bindPopup(popup_dbe1ff7f3793f5df37957f074332b668)
+        ;
+
+        
+    
+    
+            circle_marker_dc813a1a02f8209dc61e6ba11ac7c51d.bindTooltip(
+                `<div>
+                     MARIANO MELGAR: 2032.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_94669e191d786eaa5564092089938fea = L.circleMarker(
+                [-16.030278, -73.1625],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_0652a8c8a1bc866117375927bc2b14f5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3725eb1f1ea1c16e334271ccec8c7b64 = $(`<div id="html_3725eb1f1ea1c16e334271ccec8c7b64" style="width: 100.0%; height: 100.0%;"><b>MARIANO NICOLAS VALCARCEL</b><br>PVOUT: 1863.9 kWh/kWp/año<br>PCs por panel: 4.56<br>Lat: -16.0303, Lon: -73.1625</div>`)[0];
+                popup_0652a8c8a1bc866117375927bc2b14f5.setContent(html_3725eb1f1ea1c16e334271ccec8c7b64);
+            
+        
+
+        circle_marker_94669e191d786eaa5564092089938fea.bindPopup(popup_0652a8c8a1bc866117375927bc2b14f5)
+        ;
+
+        
+    
+    
+            circle_marker_94669e191d786eaa5564092089938fea.bindTooltip(
+                `<div>
+                     MARIANO NICOLAS VALCARCEL: 1863.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6187e5a0870c63c59bd730cfd7df31c5 = L.circleMarker(
+                [-16.618333, -72.736111],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_394b0310fceaf5cd12eee7849a512e5e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2ef49f0c8f11bcc4fa9b45ee4463a3e6 = $(`<div id="html_2ef49f0c8f11bcc4fa9b45ee4463a3e6" style="width: 100.0%; height: 100.0%;"><b>MARISCAL CACERES</b><br>PVOUT: 1637.2 kWh/kWp/año<br>PCs por panel: 4.00<br>Lat: -16.6183, Lon: -72.7361</div>`)[0];
+                popup_394b0310fceaf5cd12eee7849a512e5e.setContent(html_2ef49f0c8f11bcc4fa9b45ee4463a3e6);
+            
+        
+
+        circle_marker_6187e5a0870c63c59bd730cfd7df31c5.bindPopup(popup_394b0310fceaf5cd12eee7849a512e5e)
+        ;
+
+        
+    
+    
+            circle_marker_6187e5a0870c63c59bd730cfd7df31c5.bindTooltip(
+                `<div>
+                     MARISCAL CACERES: 1637.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df2ca0ce5fb7f8299ce8144a7694e3e5 = L.circleMarker(
+                [-17.102778, -71.908611],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_57cf148e703d0c3b09512de2b9d898dc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e6d7c800b8905ea6ddf595fa7b748d21 = $(`<div id="html_e6d7c800b8905ea6ddf595fa7b748d21" style="width: 100.0%; height: 100.0%;"><b>MEJIA</b><br>PVOUT: 1480.6 kWh/kWp/año<br>PCs por panel: 3.62<br>Lat: -17.1028, Lon: -71.9086</div>`)[0];
+                popup_57cf148e703d0c3b09512de2b9d898dc.setContent(html_e6d7c800b8905ea6ddf595fa7b748d21);
+            
+        
+
+        circle_marker_df2ca0ce5fb7f8299ce8144a7694e3e5.bindPopup(popup_57cf148e703d0c3b09512de2b9d898dc)
+        ;
+
+        
+    
+    
+            circle_marker_df2ca0ce5fb7f8299ce8144a7694e3e5.bindTooltip(
+                `<div>
+                     MEJIA: 1480.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5ae8325074422066f34734d5e76545da = L.circleMarker(
+                [-16.395, -71.521111],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_72414a5cbf5928f52df7092145ee5de4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f5001448807ce8f6910d434091837252 = $(`<div id="html_f5001448807ce8f6910d434091837252" style="width: 100.0%; height: 100.0%;"><b>MIRAFLORES</b><br>PVOUT: 2032.1 kWh/kWp/año<br>PCs por panel: 4.97<br>Lat: -16.3950, Lon: -71.5211</div>`)[0];
+                popup_72414a5cbf5928f52df7092145ee5de4.setContent(html_f5001448807ce8f6910d434091837252);
+            
+        
+
+        circle_marker_5ae8325074422066f34734d5e76545da.bindPopup(popup_72414a5cbf5928f52df7092145ee5de4)
+        ;
+
+        
+    
+    
+            circle_marker_5ae8325074422066f34734d5e76545da.bindTooltip(
+                `<div>
+                     MIRAFLORES: 2032.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f7d056d76a716cd2e06dfaf6231e433 = L.circleMarker(
+                [-16.488333, -71.468611],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_ee281bcfdf7d1e8b178c2efc5a4523f2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fd968cfa2dfdfea969becfac7a755c34 = $(`<div id="html_fd968cfa2dfdfea969becfac7a755c34" style="width: 100.0%; height: 100.0%;"><b>MOLLEBAYA</b><br>PVOUT: 2042.1 kWh/kWp/año<br>PCs por panel: 4.99<br>Lat: -16.4883, Lon: -71.4686</div>`)[0];
+                popup_ee281bcfdf7d1e8b178c2efc5a4523f2.setContent(html_fd968cfa2dfdfea969becfac7a755c34);
+            
+        
+
+        circle_marker_0f7d056d76a716cd2e06dfaf6231e433.bindPopup(popup_ee281bcfdf7d1e8b178c2efc5a4523f2)
+        ;
+
+        
+    
+    
+            circle_marker_0f7d056d76a716cd2e06dfaf6231e433.bindTooltip(
+                `<div>
+                     MOLLEBAYA: 2042.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c3ce32848911b1263452a38aa8733c01 = L.circleMarker(
+                [-17.025, -72.018056],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_fb3011d208f8a58a76a6642ed2e536a6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0dc08bf475757dcaf567c5d2cfcb14f6 = $(`<div id="html_0dc08bf475757dcaf567c5d2cfcb14f6" style="width: 100.0%; height: 100.0%;"><b>MOLLENDO</b><br>PVOUT: 1511.6 kWh/kWp/año<br>PCs por panel: 3.70<br>Lat: -17.0250, Lon: -72.0181</div>`)[0];
+                popup_fb3011d208f8a58a76a6642ed2e536a6.setContent(html_0dc08bf475757dcaf567c5d2cfcb14f6);
+            
+        
+
+        circle_marker_c3ce32848911b1263452a38aa8733c01.bindPopup(popup_fb3011d208f8a58a76a6642ed2e536a6)
+        ;
+
+        
+    
+    
+            circle_marker_c3ce32848911b1263452a38aa8733c01.bindTooltip(
+                `<div>
+                     MOLLENDO: 1511.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5a09b02d0aeeb19d29becbc2a043ba44 = L.circleMarker(
+                [-16.571667, -72.714722],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_17f1efc201e47129c49897101077cbbb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c2c3bc1206c6b542b646121f15f1da08 = $(`<div id="html_c2c3bc1206c6b542b646121f15f1da08" style="width: 100.0%; height: 100.0%;"><b>NICOLAS DE PIEROLA</b><br>PVOUT: 1605.2 kWh/kWp/año<br>PCs por panel: 3.92<br>Lat: -16.5717, Lon: -72.7147</div>`)[0];
+                popup_17f1efc201e47129c49897101077cbbb.setContent(html_c2c3bc1206c6b542b646121f15f1da08);
+            
+        
+
+        circle_marker_5a09b02d0aeeb19d29becbc2a043ba44.bindPopup(popup_17f1efc201e47129c49897101077cbbb)
+        ;
+
+        
+    
+    
+            circle_marker_5a09b02d0aeeb19d29becbc2a043ba44.bindTooltip(
+                `<div>
+                     NICOLAS DE PIEROLA: 1605.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1fbfddab3bc2993946193f9d26ba10e6 = L.circleMarker(
+                [-16.432778, -73.108056],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_1936c3051f582b90b9bc13b7dd3540db = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_80591a368260e8ac247427e37a33162e = $(`<div id="html_80591a368260e8ac247427e37a33162e" style="width: 100.0%; height: 100.0%;"><b>OCOÑA</b><br>PVOUT: 1680.2 kWh/kWp/año<br>PCs por panel: 4.11<br>Lat: -16.4328, Lon: -73.1081</div>`)[0];
+                popup_1936c3051f582b90b9bc13b7dd3540db.setContent(html_80591a368260e8ac247427e37a33162e);
+            
+        
+
+        circle_marker_1fbfddab3bc2993946193f9d26ba10e6.bindPopup(popup_1936c3051f582b90b9bc13b7dd3540db)
+        ;
+
+        
+    
+    
+            circle_marker_1fbfddab3bc2993946193f9d26ba10e6.bindTooltip(
+                `<div>
+                     OCOÑA: 1680.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1dd33a6ff3aed5280f7c054de5b93891 = L.circleMarker(
+                [-15.266111, -72.343056],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_0309edff323b4261aa12de6490c1b73d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_dd1687a95fb96dad73a2912fa3ca87cc = $(`<div id="html_dd1687a95fb96dad73a2912fa3ca87cc" style="width: 100.0%; height: 100.0%;"><b>ORCOPAMPA</b><br>PVOUT: 2004.0 kWh/kWp/año<br>PCs por panel: 4.90<br>Lat: -15.2661, Lon: -72.3431</div>`)[0];
+                popup_0309edff323b4261aa12de6490c1b73d.setContent(html_dd1687a95fb96dad73a2912fa3ca87cc);
+            
+        
+
+        circle_marker_1dd33a6ff3aed5280f7c054de5b93891.bindPopup(popup_0309edff323b4261aa12de6490c1b73d)
+        ;
+
+        
+    
+    
+            circle_marker_1dd33a6ff3aed5280f7c054de5b93891.bindTooltip(
+                `<div>
+                     ORCOPAMPA: 2004.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_209f1daa7472922e17b7fe9032edfe67 = L.circleMarker(
+                [-15.713056, -72.572778],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_ca8950ce30b16a952708b33f1a825bb1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b92c688fb82ae113f7035e9bc8630213 = $(`<div id="html_b92c688fb82ae113f7035e9bc8630213" style="width: 100.0%; height: 100.0%;"><b>PAMPACOLCA</b><br>PVOUT: 1953.4 kWh/kWp/año<br>PCs por panel: 4.78<br>Lat: -15.7131, Lon: -72.5728</div>`)[0];
+                popup_ca8950ce30b16a952708b33f1a825bb1.setContent(html_b92c688fb82ae113f7035e9bc8630213);
+            
+        
+
+        circle_marker_209f1daa7472922e17b7fe9032edfe67.bindPopup(popup_ca8950ce30b16a952708b33f1a825bb1)
+        ;
+
+        
+    
+    
+            circle_marker_209f1daa7472922e17b7fe9032edfe67.bindTooltip(
+                `<div>
+                     PAMPACOLCA: 1953.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f221970ff36de6e3a423c24f6a7b6cd9 = L.circleMarker(
+                [-15.185, -72.907222],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_236ca704b7284b5aa26d7e46fcb04aa9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4e1b44e219ec69d9eb51cb16bd82c4ff = $(`<div id="html_4e1b44e219ec69d9eb51cb16bd82c4ff" style="width: 100.0%; height: 100.0%;"><b>PAMPAMARCA</b><br>PVOUT: 1831.8 kWh/kWp/año<br>PCs por panel: 4.48<br>Lat: -15.1850, Lon: -72.9072</div>`)[0];
+                popup_236ca704b7284b5aa26d7e46fcb04aa9.setContent(html_4e1b44e219ec69d9eb51cb16bd82c4ff);
+            
+        
+
+        circle_marker_f221970ff36de6e3a423c24f6a7b6cd9.bindPopup(popup_236ca704b7284b5aa26d7e46fcb04aa9)
+        ;
+
+        
+    
+    
+            circle_marker_f221970ff36de6e3a423c24f6a7b6cd9.bindTooltip(
+                `<div>
+                     PAMPAMARCA: 1831.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_31ddbda684b5ca079f829c02f3b08d1f = L.circleMarker(
+                [-16.423333, -71.508333],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_c62f7ed1f19c7b13be38ec55e6343900 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f1565a7a6a31a90ca920407a0788b97a = $(`<div id="html_f1565a7a6a31a90ca920407a0788b97a" style="width: 100.0%; height: 100.0%;"><b>PAUCARPATA</b><br>PVOUT: 2037.5 kWh/kWp/año<br>PCs por panel: 4.98<br>Lat: -16.4233, Lon: -71.5083</div>`)[0];
+                popup_c62f7ed1f19c7b13be38ec55e6343900.setContent(html_f1565a7a6a31a90ca920407a0788b97a);
+            
+        
+
+        circle_marker_31ddbda684b5ca079f829c02f3b08d1f.bindPopup(popup_c62f7ed1f19c7b13be38ec55e6343900)
+        ;
+
+        
+    
+    
+            circle_marker_31ddbda684b5ca079f829c02f3b08d1f.bindTooltip(
+                `<div>
+                     PAUCARPATA: 2037.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_67a3cfcb22ab0efe585e1a5dbe197ead = L.circleMarker(
+                [-16.517222, -71.3925],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_f282b938d30b8a2bb9fa1a4396d86d96 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fa13ebba2785e08759e398328130e84a = $(`<div id="html_fa13ebba2785e08759e398328130e84a" style="width: 100.0%; height: 100.0%;"><b>POCSI</b><br>PVOUT: 2053.7 kWh/kWp/año<br>PCs por panel: 5.02<br>Lat: -16.5172, Lon: -71.3925</div>`)[0];
+                popup_f282b938d30b8a2bb9fa1a4396d86d96.setContent(html_fa13ebba2785e08759e398328130e84a);
+            
+        
+
+        circle_marker_67a3cfcb22ab0efe585e1a5dbe197ead.bindPopup(popup_f282b938d30b8a2bb9fa1a4396d86d96)
+        ;
+
+        
+    
+    
+            circle_marker_67a3cfcb22ab0efe585e1a5dbe197ead.bindTooltip(
+                `<div>
+                     POCSI: 2053.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7989c22982c2d3e9a10475ef3bb94d82 = L.circleMarker(
+                [-16.560556, -71.374722],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_e2af4c93d4181bcf0fb07ec7f005204a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ef3063c287ce5d8358c57e3d23718af6 = $(`<div id="html_ef3063c287ce5d8358c57e3d23718af6" style="width: 100.0%; height: 100.0%;"><b>POLOBAYA</b><br>PVOUT: 2032.3 kWh/kWp/año<br>PCs por panel: 4.97<br>Lat: -16.5606, Lon: -71.3747</div>`)[0];
+                popup_e2af4c93d4181bcf0fb07ec7f005204a.setContent(html_ef3063c287ce5d8358c57e3d23718af6);
+            
+        
+
+        circle_marker_7989c22982c2d3e9a10475ef3bb94d82.bindPopup(popup_e2af4c93d4181bcf0fb07ec7f005204a)
+        ;
+
+        
+    
+    
+            circle_marker_7989c22982c2d3e9a10475ef3bb94d82.bindTooltip(
+                `<div>
+                     POLOBAYA: 2032.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_72c144478ab8c0c837107bf78f4c8129 = L.circleMarker(
+                [-17.172778, -71.792778],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_66281d0e0ef546b104f0eac853307446 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_23cc50c139450c099acf7fefdb67cfb6 = $(`<div id="html_23cc50c139450c099acf7fefdb67cfb6" style="width: 100.0%; height: 100.0%;"><b>PUNTA DE BOMBON</b><br>PVOUT: 1556.3 kWh/kWp/año<br>PCs por panel: 3.80<br>Lat: -17.1728, Lon: -71.7928</div>`)[0];
+                popup_66281d0e0ef546b104f0eac853307446.setContent(html_23cc50c139450c099acf7fefdb67cfb6);
+            
+        
+
+        circle_marker_72c144478ab8c0c837107bf78f4c8129.bindPopup(popup_66281d0e0ef546b104f0eac853307446)
+        ;
+
+        
+    
+    
+            circle_marker_72c144478ab8c0c837107bf78f4c8129.bindTooltip(
+                `<div>
+                     PUNTA DE BOMBON: 1556.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_92f681fa4a3a127998f3e69ef791ad4b = L.circleMarker(
+                [-15.058889, -72.690833],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_7ccd7cf4064ab71ae67a10fed3df818e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_53044920098ebfb822bf5bf632529b74 = $(`<div id="html_53044920098ebfb822bf5bf632529b74" style="width: 100.0%; height: 100.0%;"><b>PUYCA</b><br>PVOUT: 1895.7 kWh/kWp/año<br>PCs por panel: 4.63<br>Lat: -15.0589, Lon: -72.6908</div>`)[0];
+                popup_7ccd7cf4064ab71ae67a10fed3df818e.setContent(html_53044920098ebfb822bf5bf632529b74);
+            
+        
+
+        circle_marker_92f681fa4a3a127998f3e69ef791ad4b.bindPopup(popup_7ccd7cf4064ab71ae67a10fed3df818e)
+        ;
+
+        
+    
+    
+            circle_marker_92f681fa4a3a127998f3e69ef791ad4b.bindTooltip(
+                `<div>
+                     PUYCA: 1895.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_456465b6b26adf536b1872c8007b556b = L.circleMarker(
+                [-15.275833, -73.023333],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_82514e61e1119b191202107df39460a3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1d195eaa9a4e96e43e3d92450a4f522a = $(`<div id="html_1d195eaa9a4e96e43e3d92450a4f522a" style="width: 100.0%; height: 100.0%;"><b>QUECHUALLA</b><br>PVOUT: 1810.9 kWh/kWp/año<br>PCs por panel: 4.43<br>Lat: -15.2758, Lon: -73.0233</div>`)[0];
+                popup_82514e61e1119b191202107df39460a3.setContent(html_1d195eaa9a4e96e43e3d92450a4f522a);
+            
+        
+
+        circle_marker_456465b6b26adf536b1872c8007b556b.bindPopup(popup_82514e61e1119b191202107df39460a3)
+        ;
+
+        
+    
+    
+            circle_marker_456465b6b26adf536b1872c8007b556b.bindTooltip(
+                `<div>
+                     QUECHUALLA: 1810.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b953b63a5f8db97c318cc7a79b923f05 = L.circleMarker(
+                [-16.558611, -71.454444],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_c3e2c5d564128b22cccc5cf97a3c8395 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c146b3a6aee1679fa2b089b2ed07fb87 = $(`<div id="html_c146b3a6aee1679fa2b089b2ed07fb87" style="width: 100.0%; height: 100.0%;"><b>QUEQUEÑA</b><br>PVOUT: 2020.8 kWh/kWp/año<br>PCs por panel: 4.94<br>Lat: -16.5586, Lon: -71.4544</div>`)[0];
+                popup_c3e2c5d564128b22cccc5cf97a3c8395.setContent(html_c146b3a6aee1679fa2b089b2ed07fb87);
+            
+        
+
+        circle_marker_b953b63a5f8db97c318cc7a79b923f05.bindPopup(popup_c3e2c5d564128b22cccc5cf97a3c8395)
+        ;
+
+        
+    
+    
+            circle_marker_b953b63a5f8db97c318cc7a79b923f05.bindTooltip(
+                `<div>
+                     QUEQUEÑA: 2020.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_67a01ec97b6a5b196c41c974c4a76d80 = L.circleMarker(
+                [-15.625278, -73.797778],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_fd840de7688e29aedf2e779455763864 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d2a5f6ee5cec634f0ecc1e4b9aa0fd33 = $(`<div id="html_d2a5f6ee5cec634f0ecc1e4b9aa0fd33" style="width: 100.0%; height: 100.0%;"><b>QUICACHA</b><br>PVOUT: 1961.7 kWh/kWp/año<br>PCs por panel: 4.80<br>Lat: -15.6253, Lon: -73.7978</div>`)[0];
+                popup_fd840de7688e29aedf2e779455763864.setContent(html_d2a5f6ee5cec634f0ecc1e4b9aa0fd33);
+            
+        
+
+        circle_marker_67a01ec97b6a5b196c41c974c4a76d80.bindPopup(popup_fd840de7688e29aedf2e779455763864)
+        ;
+
+        
+    
+    
+            circle_marker_67a01ec97b6a5b196c41c974c4a76d80.bindTooltip(
+                `<div>
+                     QUICACHA: 1961.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d25048f30f58fd42f95cdde0c4530ae = L.circleMarker(
+                [-16.716389, -72.4275],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_403b2c7f611ce06b83823b188cf2cad8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ddb43c7dc9e1c4cce43adca807c4979d = $(`<div id="html_ddb43c7dc9e1c4cce43adca807c4979d" style="width: 100.0%; height: 100.0%;"><b>QUILCA</b><br>PVOUT: 1610.9 kWh/kWp/año<br>PCs por panel: 3.94<br>Lat: -16.7164, Lon: -72.4275</div>`)[0];
+                popup_403b2c7f611ce06b83823b188cf2cad8.setContent(html_ddb43c7dc9e1c4cce43adca807c4979d);
+            
+        
+
+        circle_marker_2d25048f30f58fd42f95cdde0c4530ae.bindPopup(popup_403b2c7f611ce06b83823b188cf2cad8)
+        ;
+
+        
+    
+    
+            circle_marker_2d25048f30f58fd42f95cdde0c4530ae.bindTooltip(
+                `<div>
+                     QUILCA: 1610.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_96519e75d420891aed5efac9092f4c37 = L.circleMarker(
+                [-15.941111, -73.130833],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_44a4018e1f42ba96b7f2b6d468407418 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7830804d0cbb3ac6f3a2910ef5c177b5 = $(`<div id="html_7830804d0cbb3ac6f3a2910ef5c177b5" style="width: 100.0%; height: 100.0%;"><b>RIO GRANDE</b><br>PVOUT: 1871.6 kWh/kWp/año<br>PCs por panel: 4.58<br>Lat: -15.9411, Lon: -73.1308</div>`)[0];
+                popup_44a4018e1f42ba96b7f2b6d468407418.setContent(html_7830804d0cbb3ac6f3a2910ef5c177b5);
+            
+        
+
+        circle_marker_96519e75d420891aed5efac9092f4c37.bindPopup(popup_44a4018e1f42ba96b7f2b6d468407418)
+        ;
+
+        
+    
+    
+            circle_marker_96519e75d420891aed5efac9092f4c37.bindTooltip(
+                `<div>
+                     RIO GRANDE: 1871.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b2f4476ac561d4ca906da680e12001b1 = L.circleMarker(
+                [-16.456111, -71.495],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_4216ce42eb0d3a8e23939d2fd15e509d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f7f6ebe2f75358ea8df5587d2380c730 = $(`<div id="html_f7f6ebe2f75358ea8df5587d2380c730" style="width: 100.0%; height: 100.0%;"><b>SABANDIA</b><br>PVOUT: 2035.6 kWh/kWp/año<br>PCs por panel: 4.98<br>Lat: -16.4561, Lon: -71.4950</div>`)[0];
+                popup_4216ce42eb0d3a8e23939d2fd15e509d.setContent(html_f7f6ebe2f75358ea8df5587d2380c730);
+            
+        
+
+        circle_marker_b2f4476ac561d4ca906da680e12001b1.bindPopup(popup_4216ce42eb0d3a8e23939d2fd15e509d)
+        ;
+
+        
+    
+    
+            circle_marker_b2f4476ac561d4ca906da680e12001b1.bindTooltip(
+                `<div>
+                     SABANDIA: 2035.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_45533bdde4e8008a6a8b32a959e8fdf2 = L.circleMarker(
+                [-16.428611, -71.567778],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_8d1eced5909f8f6dc91b0f170157cc74 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5dc01ac1359ccd31ff09793ddd5a297a = $(`<div id="html_5dc01ac1359ccd31ff09793ddd5a297a" style="width: 100.0%; height: 100.0%;"><b>SACHACA</b><br>PVOUT: 2032.9 kWh/kWp/año<br>PCs por panel: 4.97<br>Lat: -16.4286, Lon: -71.5678</div>`)[0];
+                popup_8d1eced5909f8f6dc91b0f170157cc74.setContent(html_5dc01ac1359ccd31ff09793ddd5a297a);
+            
+        
+
+        circle_marker_45533bdde4e8008a6a8b32a959e8fdf2.bindPopup(popup_8d1eced5909f8f6dc91b0f170157cc74)
+        ;
+
+        
+    
+    
+            circle_marker_45533bdde4e8008a6a8b32a959e8fdf2.bindTooltip(
+                `<div>
+                     SACHACA: 2032.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e6bb64633ac4a1f7f9e57cb8eddbf858 = L.circleMarker(
+                [-15.504167, -72.833333],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_ae588704790d2950eca9e78a4508dcfc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ac0100e8bc341500bcd13bdc447990e1 = $(`<div id="html_ac0100e8bc341500bcd13bdc447990e1" style="width: 100.0%; height: 100.0%;"><b>SALAMANCA</b><br>PVOUT: 1915.8 kWh/kWp/año<br>PCs por panel: 4.68<br>Lat: -15.5042, Lon: -72.8333</div>`)[0];
+                popup_ae588704790d2950eca9e78a4508dcfc.setContent(html_ac0100e8bc341500bcd13bdc447990e1);
+            
+        
+
+        circle_marker_e6bb64633ac4a1f7f9e57cb8eddbf858.bindPopup(popup_ae588704790d2950eca9e78a4508dcfc)
+        ;
+
+        
+    
+    
+            circle_marker_e6bb64633ac4a1f7f9e57cb8eddbf858.bindTooltip(
+                `<div>
+                     SALAMANCA: 1915.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_be784013df0cefc743c779fb47bb877a = L.circleMarker(
+                [-16.615, -72.698889],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_88e93238db2b695cfb5dc23b45e0889c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d31f71e5b16065e1e4171bc34c6b3ef4 = $(`<div id="html_d31f71e5b16065e1e4171bc34c6b3ef4" style="width: 100.0%; height: 100.0%;"><b>SAMUEL PASTOR</b><br>PVOUT: 1654.1 kWh/kWp/año<br>PCs por panel: 4.04<br>Lat: -16.6150, Lon: -72.6989</div>`)[0];
+                popup_88e93238db2b695cfb5dc23b45e0889c.setContent(html_d31f71e5b16065e1e4171bc34c6b3ef4);
+            
+        
+
+        circle_marker_be784013df0cefc743c779fb47bb877a.bindPopup(popup_88e93238db2b695cfb5dc23b45e0889c)
+        ;
+
+        
+    
+    
+            circle_marker_be784013df0cefc743c779fb47bb877a.bindTooltip(
+                `<div>
+                     SAMUEL PASTOR: 1654.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5a1208fd4ca6691561fda0e56ecb3a08 = L.circleMarker(
+                [-15.840278, -71.090278],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_bb41ba0b07ddc27607f59fa1c429920f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_73fa4bd899f210a02b3a088c1ee3c53b = $(`<div id="html_73fa4bd899f210a02b3a088c1ee3c53b" style="width: 100.0%; height: 100.0%;"><b>SAN ANTONIO DE CHUCA</b><br>PVOUT: 2079.0 kWh/kWp/año<br>PCs por panel: 5.08<br>Lat: -15.8403, Lon: -71.0903</div>`)[0];
+                popup_bb41ba0b07ddc27607f59fa1c429920f.setContent(html_73fa4bd899f210a02b3a088c1ee3c53b);
+            
+        
+
+        circle_marker_5a1208fd4ca6691561fda0e56ecb3a08.bindPopup(popup_bb41ba0b07ddc27607f59fa1c429920f)
+        ;
+
+        
+    
+    
+            circle_marker_5a1208fd4ca6691561fda0e56ecb3a08.bindTooltip(
+                `<div>
+                     SAN ANTONIO DE CHUCA: 2079.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aed8373b47884b7d535bb7022b53a9d0 = L.circleMarker(
+                [-16.346111, -72.131389],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_f8827f9767ef9759b353f3c29e0a49d1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1a0b5dfb2795384dc3ce7b5b23bd957c = $(`<div id="html_1a0b5dfb2795384dc3ce7b5b23bd957c" style="width: 100.0%; height: 100.0%;"><b>SAN JUAN DE SIGUAS</b><br>PVOUT: 2024.6 kWh/kWp/año<br>PCs por panel: 4.95<br>Lat: -16.3461, Lon: -72.1314</div>`)[0];
+                popup_f8827f9767ef9759b353f3c29e0a49d1.setContent(html_1a0b5dfb2795384dc3ce7b5b23bd957c);
+            
+        
+
+        circle_marker_aed8373b47884b7d535bb7022b53a9d0.bindPopup(popup_f8827f9767ef9759b353f3c29e0a49d1)
+        ;
+
+        
+    
+    
+            circle_marker_aed8373b47884b7d535bb7022b53a9d0.bindTooltip(
+                `<div>
+                     SAN JUAN DE SIGUAS: 2024.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_90288b08846c65148deb009bb4aecb69 = L.circleMarker(
+                [-16.183889, -71.065556],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_954d2068dde0bbea08cd44db0ab86c9d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a2f0934d1a48e90ce83c409ee8677561 = $(`<div id="html_a2f0934d1a48e90ce83c409ee8677561" style="width: 100.0%; height: 100.0%;"><b>SAN JUAN DE TARUCANI</b><br>PVOUT: 2044.5 kWh/kWp/año<br>PCs por panel: 5.00<br>Lat: -16.1839, Lon: -71.0656</div>`)[0];
+                popup_954d2068dde0bbea08cd44db0ab86c9d.setContent(html_a2f0934d1a48e90ce83c409ee8677561);
+            
+        
+
+        circle_marker_90288b08846c65148deb009bb4aecb69.bindPopup(popup_954d2068dde0bbea08cd44db0ab86c9d)
+        ;
+
+        
+    
+    
+            circle_marker_90288b08846c65148deb009bb4aecb69.bindTooltip(
+                `<div>
+                     SAN JUAN DE TARUCANI: 2044.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_56aee72cde53184d61c1d57fb0beab53 = L.circleMarker(
+                [-16.319722, -72.102778],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_f465069de6bf733874ed9e7b11200400 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_84aa51b83ee26eb6fe03176b8177b3b3 = $(`<div id="html_84aa51b83ee26eb6fe03176b8177b3b3" style="width: 100.0%; height: 100.0%;"><b>SANTA ISABEL DE SIGUAS</b><br>PVOUT: 2022.9 kWh/kWp/año<br>PCs por panel: 4.94<br>Lat: -16.3197, Lon: -72.1028</div>`)[0];
+                popup_f465069de6bf733874ed9e7b11200400.setContent(html_84aa51b83ee26eb6fe03176b8177b3b3);
+            
+        
+
+        circle_marker_56aee72cde53184d61c1d57fb0beab53.bindPopup(popup_f465069de6bf733874ed9e7b11200400)
+        ;
+
+        
+    
+    
+            circle_marker_56aee72cde53184d61c1d57fb0beab53.bindTooltip(
+                `<div>
+                     SANTA ISABEL DE SIGUAS: 2022.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4916ce5d1059e1de2d6e4f795b52ee48 = L.circleMarker(
+                [-16.492778, -72.094444],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_396314dcfe739ec9b86fff397e9f1107 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_09df7abeb99bd501363e52f982b16680 = $(`<div id="html_09df7abeb99bd501363e52f982b16680" style="width: 100.0%; height: 100.0%;"><b>SANTA RITA DE SIGUAS</b><br>PVOUT: 2051.8 kWh/kWp/año<br>PCs por panel: 5.02<br>Lat: -16.4928, Lon: -72.0944</div>`)[0];
+                popup_396314dcfe739ec9b86fff397e9f1107.setContent(html_09df7abeb99bd501363e52f982b16680);
+            
+        
+
+        circle_marker_4916ce5d1059e1de2d6e4f795b52ee48.bindPopup(popup_396314dcfe739ec9b86fff397e9f1107)
+        ;
+
+        
+    
+    
+            circle_marker_4916ce5d1059e1de2d6e4f795b52ee48.bindTooltip(
+                `<div>
+                     SANTA RITA DE SIGUAS: 2051.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd5e2da59d71786c72997abbecca9d70 = L.circleMarker(
+                [-15.321111, -73.221389],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_a54395ae4260ea25501f61e9d32c6aea = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2e3f4a6dff6e96448c16a871e7b4fd02 = $(`<div id="html_2e3f4a6dff6e96448c16a871e7b4fd02" style="width: 100.0%; height: 100.0%;"><b>SAYLA</b><br>PVOUT: 1987.9 kWh/kWp/año<br>PCs por panel: 4.86<br>Lat: -15.3211, Lon: -73.2214</div>`)[0];
+                popup_a54395ae4260ea25501f61e9d32c6aea.setContent(html_2e3f4a6dff6e96448c16a871e7b4fd02);
+            
+        
+
+        circle_marker_dd5e2da59d71786c72997abbecca9d70.bindPopup(popup_a54395ae4260ea25501f61e9d32c6aea)
+        ;
+
+        
+    
+    
+            circle_marker_dd5e2da59d71786c72997abbecca9d70.bindTooltip(
+                `<div>
+                     SAYLA: 1987.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e87520ccc6ce928fbe2a0082b631b19f = L.circleMarker(
+                [-15.485833, -71.458611],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_8e53c1d78d756d1c469ca1a2d1537a4e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_105d7ac06d5ab3561701279a06d3eb0c = $(`<div id="html_105d7ac06d5ab3561701279a06d3eb0c" style="width: 100.0%; height: 100.0%;"><b>SIBAYO</b><br>PVOUT: 1965.6 kWh/kWp/año<br>PCs por panel: 4.80<br>Lat: -15.4858, Lon: -71.4586</div>`)[0];
+                popup_8e53c1d78d756d1c469ca1a2d1537a4e.setContent(html_105d7ac06d5ab3561701279a06d3eb0c);
+            
+        
+
+        circle_marker_e87520ccc6ce928fbe2a0082b631b19f.bindPopup(popup_8e53c1d78d756d1c469ca1a2d1537a4e)
+        ;
+
+        
+    
+    
+            circle_marker_e87520ccc6ce928fbe2a0082b631b19f.bindTooltip(
+                `<div>
+                     SIBAYO: 1965.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9b3df593b38ecc19105fa1d318da0295 = L.circleMarker(
+                [-16.452222, -71.530833],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_e874cb34f82dacec8a72992d663954f9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1577341bff797a4d32caca8a737a2897 = $(`<div id="html_1577341bff797a4d32caca8a737a2897" style="width: 100.0%; height: 100.0%;"><b>SOCABAYA</b><br>PVOUT: 2037.5 kWh/kWp/año<br>PCs por panel: 4.98<br>Lat: -16.4522, Lon: -71.5308</div>`)[0];
+                popup_e874cb34f82dacec8a72992d663954f9.setContent(html_1577341bff797a4d32caca8a737a2897);
+            
+        
+
+        circle_marker_9b3df593b38ecc19105fa1d318da0295.bindPopup(popup_e874cb34f82dacec8a72992d663954f9)
+        ;
+
+        
+    
+    
+            circle_marker_9b3df593b38ecc19105fa1d318da0295.bindTooltip(
+                `<div>
+                     SOCABAYA: 2037.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_701df235f943cdd316343cb725f1fc1e = L.circleMarker(
+                [-15.578889, -71.941389],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_241d9e4ce78b768981c08bcf4aba31af = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e2e9d63841bd8b0fac6d4e33937ee510 = $(`<div id="html_e2e9d63841bd8b0fac6d4e33937ee510" style="width: 100.0%; height: 100.0%;"><b>TAPAY</b><br>PVOUT: 1731.4 kWh/kWp/año<br>PCs por panel: 4.23<br>Lat: -15.5789, Lon: -71.9414</div>`)[0];
+                popup_241d9e4ce78b768981c08bcf4aba31af.setContent(html_e2e9d63841bd8b0fac6d4e33937ee510);
+            
+        
+
+        circle_marker_701df235f943cdd316343cb725f1fc1e.bindPopup(popup_241d9e4ce78b768981c08bcf4aba31af)
+        ;
+
+        
+    
+    
+            circle_marker_701df235f943cdd316343cb725f1fc1e.bindTooltip(
+                `<div>
+                     TAPAY: 1731.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1f0ab3a15de61a4f65fd650d41c21bf2 = L.circleMarker(
+                [-15.355278, -73.231944],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_7c63e77734a9c36d9f86467e7e14fe39 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1ac584570fcee9a6df887d8884e34139 = $(`<div id="html_1ac584570fcee9a6df887d8884e34139" style="width: 100.0%; height: 100.0%;"><b>TAURIA</b><br>PVOUT: 1953.2 kWh/kWp/año<br>PCs por panel: 4.77<br>Lat: -15.3553, Lon: -73.2319</div>`)[0];
+                popup_7c63e77734a9c36d9f86467e7e14fe39.setContent(html_1ac584570fcee9a6df887d8884e34139);
+            
+        
+
+        circle_marker_1f0ab3a15de61a4f65fd650d41c21bf2.bindPopup(popup_7c63e77734a9c36d9f86467e7e14fe39)
+        ;
+
+        
+    
+    
+            circle_marker_1f0ab3a15de61a4f65fd650d41c21bf2.bindTooltip(
+                `<div>
+                     TAURIA: 1953.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eb8957bb089578ec4b10698b2be54cec = L.circleMarker(
+                [-16.448889, -71.590833],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_abba63265ed83ff3d4c6675533697b05 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_640b5450608da0b329aa4ed48e1eb1a4 = $(`<div id="html_640b5450608da0b329aa4ed48e1eb1a4" style="width: 100.0%; height: 100.0%;"><b>TIABAYA</b><br>PVOUT: 2030.3 kWh/kWp/año<br>PCs por panel: 4.96<br>Lat: -16.4489, Lon: -71.5908</div>`)[0];
+                popup_abba63265ed83ff3d4c6675533697b05.setContent(html_640b5450608da0b329aa4ed48e1eb1a4);
+            
+        
+
+        circle_marker_eb8957bb089578ec4b10698b2be54cec.bindPopup(popup_abba63265ed83ff3d4c6675533697b05)
+        ;
+
+        
+    
+    
+            circle_marker_eb8957bb089578ec4b10698b2be54cec.bindTooltip(
+                `<div>
+                     TIABAYA: 2030.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b1697fe0b602e18e9d747c7aeae7a44 = L.circleMarker(
+                [-15.727222, -72.505278],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_36a1395500f1e1b4f5f82394e98fa965 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e9f07d62e6513797c6bfaeb228636883 = $(`<div id="html_e9f07d62e6513797c6bfaeb228636883" style="width: 100.0%; height: 100.0%;"><b>TIPAN</b><br>PVOUT: 1864.2 kWh/kWp/año<br>PCs por panel: 4.56<br>Lat: -15.7272, Lon: -72.5053</div>`)[0];
+                popup_36a1395500f1e1b4f5f82394e98fa965.setContent(html_e9f07d62e6513797c6bfaeb228636883);
+            
+        
+
+        circle_marker_4b1697fe0b602e18e9d747c7aeae7a44.bindPopup(popup_36a1395500f1e1b4f5f82394e98fa965)
+        ;
+
+        
+    
+    
+            circle_marker_4b1697fe0b602e18e9d747c7aeae7a44.bindTooltip(
+                `<div>
+                     TIPAN: 1864.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e56422ee6fdca9d1d88249e7ec0ef116 = L.circleMarker(
+                [-15.346944, -71.449167],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_2b76fc5a5e11b879a3948ec72a83e2e7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_129d8c66fa25956154bb95ceadbccfd7 = $(`<div id="html_129d8c66fa25956154bb95ceadbccfd7" style="width: 100.0%; height: 100.0%;"><b>TISCO</b><br>PVOUT: 1956.7 kWh/kWp/año<br>PCs por panel: 4.78<br>Lat: -15.3469, Lon: -71.4492</div>`)[0];
+                popup_2b76fc5a5e11b879a3948ec72a83e2e7.setContent(html_129d8c66fa25956154bb95ceadbccfd7);
+            
+        
+
+        circle_marker_e56422ee6fdca9d1d88249e7ec0ef116.bindPopup(popup_2b76fc5a5e11b879a3948ec72a83e2e7)
+        ;
+
+        
+    
+    
+            circle_marker_e56422ee6fdca9d1d88249e7ec0ef116.bindTooltip(
+                `<div>
+                     TISCO: 1956.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_09c6b57ba245c02ebe95d8e210d9e959 = L.circleMarker(
+                [-15.172778, -72.829722],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_2bf65e27d7e79fc4d50dedf2331f076e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fea7f0ced47b06f71c2768df85c76c50 = $(`<div id="html_fea7f0ced47b06f71c2768df85c76c50" style="width: 100.0%; height: 100.0%;"><b>TOMEPAMPA</b><br>PVOUT: 1829.4 kWh/kWp/año<br>PCs por panel: 4.47<br>Lat: -15.1728, Lon: -72.8297</div>`)[0];
+                popup_2bf65e27d7e79fc4d50dedf2331f076e.setContent(html_fea7f0ced47b06f71c2768df85c76c50);
+            
+        
+
+        circle_marker_09c6b57ba245c02ebe95d8e210d9e959.bindPopup(popup_2bf65e27d7e79fc4d50dedf2331f076e)
+        ;
+
+        
+    
+    
+            circle_marker_09c6b57ba245c02ebe95d8e210d9e959.bindTooltip(
+                `<div>
+                     TOMEPAMPA: 1829.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a96ed5668b5a06cbc85189bf10e75e61 = L.circleMarker(
+                [-15.264167, -72.9275],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_1bc7c2af93056075401f1cf7dd68df8a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7269b971d3b9757cd9882faf89e2a1c1 = $(`<div id="html_7269b971d3b9757cd9882faf89e2a1c1" style="width: 100.0%; height: 100.0%;"><b>TORO</b><br>PVOUT: 1923.6 kWh/kWp/año<br>PCs por panel: 4.70<br>Lat: -15.2642, Lon: -72.9275</div>`)[0];
+                popup_1bc7c2af93056075401f1cf7dd68df8a.setContent(html_7269b971d3b9757cd9882faf89e2a1c1);
+            
+        
+
+        circle_marker_a96ed5668b5a06cbc85189bf10e75e61.bindPopup(popup_1bc7c2af93056075401f1cf7dd68df8a)
+        ;
+
+        
+    
+    
+            circle_marker_a96ed5668b5a06cbc85189bf10e75e61.bindTooltip(
+                `<div>
+                     TORO: 1923.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5bfdfdbfe41141298f331dda8db8ade7 = L.circleMarker(
+                [-15.5325, -71.551111],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_d5e07f9e58c6180f438064ee13a6e890 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_19a348af03bc6065720c456e451a1343 = $(`<div id="html_19a348af03bc6065720c456e451a1343" style="width: 100.0%; height: 100.0%;"><b>TUTI</b><br>PVOUT: 1965.3 kWh/kWp/año<br>PCs por panel: 4.80<br>Lat: -15.5325, Lon: -71.5511</div>`)[0];
+                popup_d5e07f9e58c6180f438064ee13a6e890.setContent(html_19a348af03bc6065720c456e451a1343);
+            
+        
+
+        circle_marker_5bfdfdbfe41141298f331dda8db8ade7.bindPopup(popup_d5e07f9e58c6180f438064ee13a6e890)
+        ;
+
+        
+    
+    
+            circle_marker_5bfdfdbfe41141298f331dda8db8ade7.bindTooltip(
+                `<div>
+                     TUTI: 1965.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_12bc67d2a197673f397336295bd5a08c = L.circleMarker(
+                [-16.425, -71.672222],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_0f778ecf5a5a69e107f68bfd2c8ac07f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3f2fe2b5d9dd11a3c8afc9b326b84d10 = $(`<div id="html_3f2fe2b5d9dd11a3c8afc9b326b84d10" style="width: 100.0%; height: 100.0%;"><b>UCHUMAYO</b><br>PVOUT: 2057.2 kWh/kWp/año<br>PCs por panel: 5.03<br>Lat: -16.4250, Lon: -71.6722</div>`)[0];
+                popup_0f778ecf5a5a69e107f68bfd2c8ac07f.setContent(html_3f2fe2b5d9dd11a3c8afc9b326b84d10);
+            
+        
+
+        circle_marker_12bc67d2a197673f397336295bd5a08c.bindPopup(popup_0f778ecf5a5a69e107f68bfd2c8ac07f)
+        ;
+
+        
+    
+    
+            circle_marker_12bc67d2a197673f397336295bd5a08c.bindTooltip(
+                `<div>
+                     UCHUMAYO: 2057.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_92c22f766cffb1cb1bb6142ce5fa66b5 = L.circleMarker(
+                [-16.223056, -72.473333],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_effafb6e29264988ec4321579b49ac9c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3ec227d8a63aa430138debd9790c0e88 = $(`<div id="html_3ec227d8a63aa430138debd9790c0e88" style="width: 100.0%; height: 100.0%;"><b>URACA</b><br>PVOUT: 1929.3 kWh/kWp/año<br>PCs por panel: 4.72<br>Lat: -16.2231, Lon: -72.4733</div>`)[0];
+                popup_effafb6e29264988ec4321579b49ac9c.setContent(html_3ec227d8a63aa430138debd9790c0e88);
+            
+        
+
+        circle_marker_92c22f766cffb1cb1bb6142ce5fa66b5.bindPopup(popup_effafb6e29264988ec4321579b49ac9c)
+        ;
+
+        
+    
+    
+            circle_marker_92c22f766cffb1cb1bb6142ce5fa66b5.bindTooltip(
+                `<div>
+                     URACA: 1929.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_194f3a67e033004101c21befab8f5e02 = L.circleMarker(
+                [-15.7275, -72.431667],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_7362f799bd968b57685137fa7dfd1676 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6ea991f479c10ebe76787b5ca4348454 = $(`<div id="html_6ea991f479c10ebe76787b5ca4348454" style="width: 100.0%; height: 100.0%;"><b>UÑON</b><br>PVOUT: 1958.4 kWh/kWp/año<br>PCs por panel: 4.79<br>Lat: -15.7275, Lon: -72.4317</div>`)[0];
+                popup_7362f799bd968b57685137fa7dfd1676.setContent(html_6ea991f479c10ebe76787b5ca4348454);
+            
+        
+
+        circle_marker_194f3a67e033004101c21befab8f5e02.bindPopup(popup_7362f799bd968b57685137fa7dfd1676)
+        ;
+
+        
+    
+    
+            circle_marker_194f3a67e033004101c21befab8f5e02.bindTooltip(
+                `<div>
+                     UÑON: 1958.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f886f6a27a6663734aa5ce11c7110c1b = L.circleMarker(
+                [-15.654722, -72.524722],
+                {"bubblingMouseEvents": true, "color": "#E05C1A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E05C1A", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_19f88235dbb0e480fdf7d087938211c3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e3a00b7ebc36e84b36dbecfb0573b076 = $(`<div id="html_e3a00b7ebc36e84b36dbecfb0573b076" style="width: 100.0%; height: 100.0%;"><b>VIRACO</b><br>PVOUT: 1969.7 kWh/kWp/año<br>PCs por panel: 4.81<br>Lat: -15.6547, Lon: -72.5247</div>`)[0];
+                popup_19f88235dbb0e480fdf7d087938211c3.setContent(html_e3a00b7ebc36e84b36dbecfb0573b076);
+            
+        
+
+        circle_marker_f886f6a27a6663734aa5ce11c7110c1b.bindPopup(popup_19f88235dbb0e480fdf7d087938211c3)
+        ;
+
+        
+    
+    
+            circle_marker_f886f6a27a6663734aa5ce11c7110c1b.bindTooltip(
+                `<div>
+                     VIRACO: 1969.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b4dc14543afb62c1011216e8cfc502ac = L.circleMarker(
+                [-16.465833, -71.938889],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_b1cfe8f7f3e4a7eaec2eaff1b76a95ea = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4474e2ad87b458ff9c38ec42811ed9d9 = $(`<div id="html_4474e2ad87b458ff9c38ec42811ed9d9" style="width: 100.0%; height: 100.0%;"><b>VITOR</b><br>PVOUT: 2010.5 kWh/kWp/año<br>PCs por panel: 4.91<br>Lat: -16.4658, Lon: -71.9389</div>`)[0];
+                popup_b1cfe8f7f3e4a7eaec2eaff1b76a95ea.setContent(html_4474e2ad87b458ff9c38ec42811ed9d9);
+            
+        
+
+        circle_marker_b4dc14543afb62c1011216e8cfc502ac.bindPopup(popup_b1cfe8f7f3e4a7eaec2eaff1b76a95ea)
+        ;
+
+        
+    
+    
+            circle_marker_b4dc14543afb62c1011216e8cfc502ac.bindTooltip(
+                `<div>
+                     VITOR: 2010.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8e19594180eaa81943bef803dc6ed1c2 = L.circleMarker(
+                [-16.395, -71.553889],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_b3f0098fd9d80a9afcfa3310fc15ac54 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ce6083d9ecbca3f21aad44c92673b866 = $(`<div id="html_ce6083d9ecbca3f21aad44c92673b866" style="width: 100.0%; height: 100.0%;"><b>YANAHUARA</b><br>PVOUT: 2034.5 kWh/kWp/año<br>PCs por panel: 4.97<br>Lat: -16.3950, Lon: -71.5539</div>`)[0];
+                popup_b3f0098fd9d80a9afcfa3310fc15ac54.setContent(html_ce6083d9ecbca3f21aad44c92673b866);
+            
+        
+
+        circle_marker_8e19594180eaa81943bef803dc6ed1c2.bindPopup(popup_b3f0098fd9d80a9afcfa3310fc15ac54)
+        ;
+
+        
+    
+    
+            circle_marker_8e19594180eaa81943bef803dc6ed1c2.bindTooltip(
+                `<div>
+                     YANAHUARA: 2034.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_916ec588f82ea9f201ddb66b00a9964f = L.circleMarker(
+                [-15.774722, -72.875833],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_9416ef948ff3a5c9196ac80e1f746247 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d2d49a9ddcf541fb96084da92681c909 = $(`<div id="html_d2d49a9ddcf541fb96084da92681c909" style="width: 100.0%; height: 100.0%;"><b>YANAQUIHUA</b><br>PVOUT: 2016.4 kWh/kWp/año<br>PCs por panel: 4.93<br>Lat: -15.7747, Lon: -72.8758</div>`)[0];
+                popup_9416ef948ff3a5c9196ac80e1f746247.setContent(html_d2d49a9ddcf541fb96084da92681c909);
+            
+        
+
+        circle_marker_916ec588f82ea9f201ddb66b00a9964f.bindPopup(popup_9416ef948ff3a5c9196ac80e1f746247)
+        ;
+
+        
+    
+    
+            circle_marker_916ec588f82ea9f201ddb66b00a9964f.bindTooltip(
+                `<div>
+                     YANAQUIHUA: 2016.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f1b77e514e9a1fe98b9574ea98bc88fe = L.circleMarker(
+                [-15.65, -71.661389],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_d73375002df47f7d72b312b3fd07b1fb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c2ca82db0bf02981986f2a7618933f28 = $(`<div id="html_c2ca82db0bf02981986f2a7618933f28" style="width: 100.0%; height: 100.0%;"><b>YANQUE</b><br>PVOUT: 2010.3 kWh/kWp/año<br>PCs por panel: 4.91<br>Lat: -15.6500, Lon: -71.6614</div>`)[0];
+                popup_d73375002df47f7d72b312b3fd07b1fb.setContent(html_c2ca82db0bf02981986f2a7618933f28);
+            
+        
+
+        circle_marker_f1b77e514e9a1fe98b9574ea98bc88fe.bindPopup(popup_d73375002df47f7d72b312b3fd07b1fb)
+        ;
+
+        
+    
+    
+            circle_marker_f1b77e514e9a1fe98b9574ea98bc88fe.bindTooltip(
+                `<div>
+                     YANQUE: 2010.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c19e52ce3e77d77253ec43b54e007e0f = L.circleMarker(
+                [-16.548056, -71.4775],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_50beb46c17c09937f7bac30a4bd1b222 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d079e1af8fa39d1c7bb9cb6969860005 = $(`<div id="html_d079e1af8fa39d1c7bb9cb6969860005" style="width: 100.0%; height: 100.0%;"><b>YARABAMBA</b><br>PVOUT: 2035.6 kWh/kWp/año<br>PCs por panel: 4.98<br>Lat: -16.5481, Lon: -71.4775</div>`)[0];
+                popup_50beb46c17c09937f7bac30a4bd1b222.setContent(html_d079e1af8fa39d1c7bb9cb6969860005);
+            
+        
+
+        circle_marker_c19e52ce3e77d77253ec43b54e007e0f.bindPopup(popup_50beb46c17c09937f7bac30a4bd1b222)
+        ;
+
+        
+    
+    
+            circle_marker_c19e52ce3e77d77253ec43b54e007e0f.bindTooltip(
+                `<div>
+                     YARABAMBA: 2035.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_68cd8665d29887a0e3aa8e016f9575a3 = L.circleMarker(
+                [-15.660556, -74.526944],
+                {"bubblingMouseEvents": true, "color": "#2C7BB6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C7BB6", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_464faa5b724f94c5a2f9545ec4e846d7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f231c75ffd9f822bf55b7d5d6378e74c = $(`<div id="html_f231c75ffd9f822bf55b7d5d6378e74c" style="width: 100.0%; height: 100.0%;"><b>YAUCA</b><br>PVOUT: 1840.2 kWh/kWp/año<br>PCs por panel: 4.50<br>Lat: -15.6606, Lon: -74.5269</div>`)[0];
+                popup_464faa5b724f94c5a2f9545ec4e846d7.setContent(html_f231c75ffd9f822bf55b7d5d6378e74c);
+            
+        
+
+        circle_marker_68cd8665d29887a0e3aa8e016f9575a3.bindPopup(popup_464faa5b724f94c5a2f9545ec4e846d7)
+        ;
+
+        
+    
+    
+            circle_marker_68cd8665d29887a0e3aa8e016f9575a3.bindTooltip(
+                `<div>
+                     YAUCA: 1840.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d10d708b369ba5b8998288cd7f6ea2fd = L.circleMarker(
+                [-16.245, -71.693056],
+                {"bubblingMouseEvents": true, "color": "#F4A300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A300", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_4a89e7e7a4a2c18abbc3e1d58d484f0c);
+        
+    
+        var popup_cde6ce8d0e9bcb68446e02f4b65598cc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4ae4819203dc654386efc90c7435921c = $(`<div id="html_4ae4819203dc654386efc90c7435921c" style="width: 100.0%; height: 100.0%;"><b>YURA</b><br>PVOUT: 2072.9 kWh/kWp/año<br>PCs por panel: 5.07<br>Lat: -16.2450, Lon: -71.6931</div>`)[0];
+                popup_cde6ce8d0e9bcb68446e02f4b65598cc.setContent(html_4ae4819203dc654386efc90c7435921c);
+            
+        
+
+        circle_marker_d10d708b369ba5b8998288cd7f6ea2fd.bindPopup(popup_cde6ce8d0e9bcb68446e02f4b65598cc)
+        ;
+
+        
+    
+    
+            circle_marker_d10d708b369ba5b8998288cd7f6ea2fd.bindTooltip(
+                `<div>
+                     YURA: 2072.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
