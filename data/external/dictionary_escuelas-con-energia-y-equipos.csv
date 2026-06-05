@@ -1,0 +1,12 @@
+VARIABLE,NOMBRE,DESCRIPCION
+COD_MOD,Código Modular,"Identificador único de siete caracteres para cada servicio educativo."
+CEN_EDU,Nombre del Centro Educativo,"Nombre oficial de la institución educativa o PRONOEI."
+DISTRITO,Distrito,"Nombre del distrito donde se localiza físicamente la institución."
+LOCALIDAD,Localidad,"Nombre de la localidad específica donde se ubica el centro educativo."
+AREA_CENSO,Área Censal,"Identifica si la institución se encuentra en un área urbana o rural."
+GES_DEP,Gestión y Dependencia,"Indica si la institución es pública o privada. Es un criterio relevante para la priorización de proyectos de inversión pública."
+NIV_MOD,Nivel Educativo,"Indica el nivel del servicio educativo (ej. Cuna, Jardín, Primaria, Secundaria)."
+P124B_NO,Razón de no afiliación al SÍSEVE,"Motivo por el cual la institución educativa no se encuentra afiliada al sistema SÍSEVE. El valor 1 corresponde a falta de internet."
+TOTAL_ALUMNOS,Total de Alumnos,"Matrícula total de la institución educativa. Se calcula sumando las columnas D01 a D14 de la tabla Matricula_01.dbf."
+TOTAL_EQUIPOS_D01,Total de Equipos Tecnológicos,"Cantidad total de equipos tecnológicos disponibles en la institución (televisores, computadoras, laptops y tablets). Corresponde a la columna D01 de la tabla Equipamiento.dbf."
+EQUIPOS_OPERATIVOS_D02,Equipos Operativos,"Cantidad de equipos tecnológicos que se encuentran en funcionamiento. Corresponde a la columna D02 de la tabla Equipamiento.dbf."
